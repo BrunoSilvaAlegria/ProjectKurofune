@@ -621,32 +621,184 @@
             "symbol": "scene_10",
             "x": 60,
             "y": 728.3333435058594,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "Capitão",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_11",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "21efee57-d100-4fb6-9364-c4b7283dc461",
+                    "x": 3,
+                    "y": 8
+                }
+            ],
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "command": "EVENT_ACTOR_MOVE_TO",
                     "args": {
                         "actorId": "$self$",
+                        "x": {
+                            "type": "number",
+                            "value": 3
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 12
+                        },
+                        "moveType": "horizontal",
+                        "useCollisions": false,
                         "__collapse": true
                     },
-                    "id": "5cd2798e-7832-4c81-88ed-736521b176b8"
+                    "id": "b1e25fae-1384-4073-b065-6bfd037017a9"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                    "args": {
+                        "actorId": "$self$",
+                        "direction": {
+                            "type": "direction",
+                            "value": "up"
+                        },
+                        "__collapse": true
+                    },
+                    "id": "06e4d843-cba7-46d7-9c59-cde614d81d23"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "$self$",
+                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                        "__collapse": true
+                    },
+                    "id": "9b1346c5-ac86-44a4-ae40-852a78f3fe99"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Capitão, está tudo\nbem consigo?"
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "638d30ec-bcc0-4214-b49d-85d55608e41f"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                    "args": {
+                        "actorId": "21efee57-d100-4fb6-9364-c4b7283dc461",
+                        "direction": {
+                            "type": "direction",
+                            "value": "down"
+                        },
+                        "__collapse": true
+                    },
+                    "id": "1f787056-1fc3-470d-b517-0193c18a24f6"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "21efee57-d100-4fb6-9364-c4b7283dc461",
+                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                        "__collapse": true
+                    },
+                    "id": "efe2455d-c2d1-4c2a-bfdf-573b89447c3a"
                 },
                 {
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 7,
+                        "time": 0.7,
                         "frames": 30,
                         "__collapse": true
                     },
-                    "id": "b9fd08ea-a19a-4b7c-bec2-9f6ee6dcaeae"
+                    "id": "1dc7e474-0c76-47f6-90cf-7359df4529de"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "21efee57-d100-4fb6-9364-c4b7283dc461",
+                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                        "__collapse": true
+                    },
+                    "id": "39e629e4-b9b9-4b51-a18a-2f290216384d"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Capitão: Tenho que\nadmitir. Estou\npreocupado.",
+                            "Capitão: Tudo\nparece demasiado\ncalmo desde Macau.",
+                            "Capitão: \nDisseram-me que os\nataques piratas...",
+                            "Capitão: \nEram normais por\nestes mares."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "e0ad823a-3aa7-4fa5-ab4a-0aedfdc585d7"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Não se preocupe,\npense o porquê de\nestarmos aqui. "
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "c5876ef4-7c06-42bc-8e53-b8a5b927fc35"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "21efee57-d100-4fb6-9364-c4b7283dc461",
+                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                        "__collapse": true
+                    },
+                    "id": "d2997372-4ee0-49d7-9e55-3478bf8636d1"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Capitão:\n...Tens razão,",
+                            "Capitão: Estamos\naqui pelo negócio\ncom os Japoneses.",
+                            "Capitão:\nE para voltarmos a\nPortugal ricos! "
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "70ddc059-07b4-4501-95c0-178e3f1fe9e9"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "21efee57-d100-4fb6-9364-c4b7283dc461",
+                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                        "__collapse": true
+                    },
+                    "id": "0d5f6676-1449-45f5-84cd-8da4f0e6b64c"
                 },
                 {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "8b2399c8-6478-45c7-8fd7-41b705bfb835",
-                        "x": 0,
-                        "y": 0,
+                        "x": 3,
+                        "y": 9,
                         "direction": "",
                         "fadeSpeed": "2",
                         "__collapse": true
@@ -661,19 +813,1166 @@
         },
         {
             "name": "Level 1 - Narrative Boat scene 1/2",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "width": 20,
+            "backgroundId": "e5bb5900-c50c-472d-9d9c-bff22de9ca6d",
+            "width": 32,
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [],
             "spritePaletteIds": [],
-            "collisions": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
             "autoFadeSpeed": 1,
             "id": "8b2399c8-6478-45c7-8fd7-41b705bfb835",
             "symbol": "scene_12",
-            "x": 266.3333282470703,
-            "y": 727.3333435058594,
-            "actors": [],
+            "x": 275.3333282470703,
+            "y": 728.3333435058594,
+            "actors": [
+                {
+                    "name": "Robalo",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_12",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                            "__collapse": true
+                                        },
+                                        "id": "e1994743-0584-4be0-82a3-1b43d64a98f5"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Robalo! Achas que\nainda demoramos\naté Nagasaki?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "9239054b-e416-43cd-8e9f-e00866961deb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Robalo: Estamos\nbem encaminhados, ",
+                                                "Robalo: Devemos de\nchegar antes do\nsol se pôr."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "09f502e8-67c3-4651-a31e-b718bf576e00"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Alguns parecem\npreocupados com\nos piratas."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "bec92de9-8197-4a59-b20d-ad783ef9808a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "0e307161-0e83-4ebc-abd7-65eb236ab223"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Robalo: Se eles\naparecerem lidamos\ncom eles."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "fadf6fdf-9055-477a-91f7-8a6ba4b636ac"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapse": true
+                                        },
+                                        "id": "8fe97f4e-6751-4885-a806-00f0b8a460d1"
+                                    },
+                                    {
+                                        "command": "EVENT_INC_VALUE",
+                                        "args": {
+                                            "variable": "32",
+                                            "__collapse": true
+                                        },
+                                        "id": "01d9acc6-738b-4d71-a447-0a461439d53e"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Robalo: Estamos\nquase a chegar. "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "fe1947b5-51cf-465c-a155-15beb3e198e7"
+                                    }
+                                ]
+                            },
+                            "id": "c812c3bc-6565-4d6f-a10e-268161f43373"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "98542ca8-fac0-47cf-aa1f-cc4c7bfc9db8",
+                    "x": 26,
+                    "y": 12
+                },
+                {
+                    "name": "Cruz",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": true,
+                    "collisionGroup": "",
+                    "symbol": "actor_13",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                            "__collapse": true
+                                        },
+                                        "id": "d5c7deac-1101-41dd-8296-5f5a86c8e934"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Ei Cruz, pareces\nnervoso o que se\npassa?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "884d6267-7006-46da-b182-64a0e6d7481c"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "e914e414-2a97-4e05-82ab-4150765a51d1"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Cruz: Eu...",
+                                                "Cruz: Ouvi\nhistórias de\npiratas por aqui.",
+                                                "Cruz: Espero que\nnão nos encontrem."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "744e6574-e94f-4f63-87ab-5cb4cff66f3b"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
+                                            "__collapse": true
+                                        },
+                                        "id": "ca175c3b-aa86-4ccb-b671-ff29e7309531"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Não precisas de\nficar assim.",
+                                                "Contaram-te isso\nsó para te meter\nmedo."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "a54c153d-d060-4d2f-acd6-8c53943067c4"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapse": true
+                                        },
+                                        "id": "f02a1f37-1414-449e-89eb-14b8922861f3"
+                                    },
+                                    {
+                                        "command": "EVENT_INC_VALUE",
+                                        "args": {
+                                            "variable": "32",
+                                            "__collapse": true
+                                        },
+                                        "id": "c1362cf0-e7d1-45c6-b22a-8c88598a5a41"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Descontrai não nos\nvai acontecer\nnada."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "c91bac7a-696c-4ecd-b621-5d82f24fed3f"
+                                    }
+                                ]
+                            },
+                            "id": "020add86-b17d-43d9-b87f-cb951341ec25"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "32",
+                                "operator": ">=",
+                                "comparator": 4,
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 5,
+                                            "frames": 30,
+                                            "__collapse": true
+                                        },
+                                        "id": "87556ffe-ae3a-4c75-911e-924032a55075"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Vigia:\nBarco à vista!",
+                                                "Vigia: É um navio\npirata! Todos aos\nseus postos! "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "d29f62f8-0f46-4c74-8498-9c7ec0dc2e7f"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                            "__collapse": true
+                                        },
+                                        "id": "63d1ce8a-7c2b-4454-84d4-413e9874c6aa"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "78183249-4add-4532-9717-e81430202a3b",
+                                            "x": 14,
+                                            "y": 12,
+                                            "direction": "up",
+                                            "fadeSpeed": "2",
+                                            "__collapse": true
+                                        },
+                                        "id": "a7a0b8ba-9094-421e-9432-5edbdd070eaf"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "10bc9aea-b521-454d-889c-f1e61a0b2c89"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c3bf3d34-bec3-47fc-93c8-48053e9705b1",
+                    "x": 11,
+                    "y": 14
+                },
+                {
+                    "name": "Vela",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_14",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "702793a2-4d78-4d6e-bd89-2dcc4d20472d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Ei Vela, ouvi\ndizer que nestas\náguas há...",
+                                                "Piratas cruéis que\nsaqueiam barcos\nvindos de Macau."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "40395ec6-acb5-4bf6-b851-f171cba27480"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                            "__collapse": true
+                                        },
+                                        "id": "3a658bb1-1c8f-4a9b-8eef-06e8b9f46319"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Vela: Está calado!\nNão quero pensar\nnisso. "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "a77bcefd-09a7-433c-8786-9e5e8cc4c5b6"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "bbdc3434-f0a1-4d40-b4d8-8fb8b5ba0a22"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Não fiques assim\nestava a brincar.",
+                                                "Não nos vai\nacontecer nada. "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "d61eefd5-609f-403e-8af1-93b9296f9945"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapse": true
+                                        },
+                                        "id": "01167788-01dc-497d-8b50-96aeac018489"
+                                    },
+                                    {
+                                        "command": "EVENT_INC_VALUE",
+                                        "args": {
+                                            "variable": "32",
+                                            "__collapse": true
+                                        },
+                                        "id": "2f864371-64ce-453b-b47b-028c9a121759"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Vela: Sai daqui!\nNão quero falar\ncontigo! "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "6f388553-e63d-4917-b4aa-e4ae0cab0c82"
+                                    }
+                                ]
+                            },
+                            "id": "80209a59-fa8f-458e-a5f7-eda7a09b4045"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "da92cc80-9623-4107-a722-dcf4626adfe6",
+                    "x": 7,
+                    "y": 4
+                },
+                {
+                    "name": "Figo",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_15",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_FALSE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                            "__collapse": true
+                                        },
+                                        "id": "8bfe3ae5-f1f3-47b9-8be0-791344d3fee5"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Figo estas a\npensar em que\ndesta vez? "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "3dd5d661-b1bf-4ffd-abfe-2043b8be3759"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                            "__collapse": true
+                                        },
+                                        "id": "9f1a2bd2-d1e4-4ebb-83a6-da89d903ccfb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Figo: Prefiro\nmanter os meus\npensamentos...",
+                                                "Figo: ...para mim\nmesmo. Agora, se\nme deres licença.."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "87949e78-31df-4f01-9445-944d25adac57"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "player",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "aa414227-5af4-4df5-94a3-212076ee67b1"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Peço desculpa,\nnão te volto a\nincomodar. "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "a3a11148-464a-49ed-8961-b77c4ec5979b"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapse": true
+                                        },
+                                        "id": "58f19b30-4745-48d0-a2de-37ca4791e057"
+                                    },
+                                    {
+                                        "command": "EVENT_INC_VALUE",
+                                        "args": {
+                                            "variable": "32",
+                                            "__collapse": true
+                                        },
+                                        "id": "5fb18be7-29db-41d5-9d8f-c4881b24d268"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "É melhor não o\nincomodar. "
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "7a1f1d95-48cc-4304-b6c3-8c0db1308877"
+                                    }
+                                ]
+                            },
+                            "id": "dcf4eee1-512c-48a2-a5af-856ae7786e71"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "6ad3b9ec-8be5-48d4-b69e-9a10314cb2b0",
+                    "x": 17,
+                    "y": 6
+                }
+            ],
             "triggers": [],
             "script": [
                 {
@@ -759,16 +2058,16 @@
                     "id": "9ab3799e-9ae0-4d6f-950c-4a2db0a81fea"
                 },
                 {
-                    "command": "EVENT_SWITCH_SCENE",
+                    "command": "EVENT_SET_VALUE",
                     "args": {
-                        "sceneId": "78183249-4add-4532-9717-e81430202a3b",
-                        "x": 15,
-                        "y": 11,
-                        "direction": "",
-                        "fadeSpeed": "2",
+                        "variable": "32",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        },
                         "__collapse": true
                     },
-                    "id": "4eaa768f-20fb-4bc7-9e20-ef471fe3e668"
+                    "id": "182567c0-15f1-4c84-b737-9f30d88e6b59"
                 }
             ],
             "playerHit1Script": [],
@@ -788,11 +2087,107 @@
             "autoFadeSpeed": 1,
             "id": "9d27785d-6db5-453e-8a4b-6107b8e3574a",
             "symbol": "scene_13",
-            "x": 1048.3333282470703,
-            "y": 729.6666564941406,
-            "actors": [],
+            "x": 1136.3333282470703,
+            "y": 728.6666564941406,
+            "actors": [
+                {
+                    "name": "Peixe",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_16",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e37995f6-8a4f-4d2d-9848-c0a2b32cbe62",
+                    "x": 15,
+                    "y": 9
+                }
+            ],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_MOVE_TO",
+                    "args": {
+                        "actorId": "$self$",
+                        "x": {
+                            "type": "number",
+                            "value": 10
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 9
+                        },
+                        "moveType": "horizontal",
+                        "useCollisions": true,
+                        "__collapse": true
+                    },
+                    "id": "1c8a946e-ba53-4a8a-9a0a-bee7f80254d7"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Estão todos bem?"
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "0c548741-a3ee-464c-a896-8223154aa919"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "e37995f6-8a4f-4d2d-9848-c0a2b32cbe62",
+                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                        "__collapse": true
+                    },
+                    "id": "2efd0c0c-858d-4cd5-8353-eccbd0d30471"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Peixe: Graças a ti\nconseguimo livrar-\n-nos dos piratas..",
+                            "Peixe: Mas o\ncapitão está\nferido...",
+                            "Peixe: O leme\nprecisa de alguém\npara substitui-lo."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "e60ba544-6b4a-4584-80ca-532617656b4e"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "$self$",
+                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                        "__collapse": true
+                    },
+                    "id": "9ebd645e-9762-4b36-8aa2-ad40216bc5cb"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Eu posso fazer\nisso, já o fiz\nantes."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "d2913b33-da6a-4e5e-8c57-d8c56d62242f"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -1388,8 +2783,8 @@
             "autoFadeSpeed": 1,
             "id": "5e3eba6e-cf59-4c92-ad82-e21a834badfa",
             "symbol": "scene_14",
-            "x": 768,
-            "y": 728.3333129882812,
+            "x": 860,
+            "y": 729.3333129882812,
             "actors": [
                 {
                     "name": "Enemy1",
@@ -1661,7 +3056,7 @@
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "9d27785d-6db5-453e-8a4b-6107b8e3574a",
-                                            "x": 9,
+                                            "x": 4,
                                             "y": 9,
                                             "direction": "right",
                                             "fadeSpeed": "2"
@@ -2472,8 +3867,8 @@
             "autoFadeSpeed": 1,
             "id": "78183249-4add-4532-9717-e81430202a3b",
             "symbol": "scene_6",
-            "x": 474.3333282470703,
-            "y": 725.3333435058594,
+            "x": 584.3333282470703,
+            "y": 730.3333435058594,
             "actors": [
                 {
                     "name": "Enemy1",
@@ -2745,7 +4140,7 @@
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "9d27785d-6db5-453e-8a4b-6107b8e3574a",
-                                            "x": 9,
+                                            "x": 4,
                                             "y": 9,
                                             "direction": "right",
                                             "fadeSpeed": "2"
@@ -2871,7 +4266,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -2975,7 +4370,8 @@
             "height": 18,
             "imageWidth": 256,
             "imageHeight": 144,
-            "filename": "grassField.png"
+            "filename": "grassField.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -5691,8 +7087,8 @@
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
                                     "sceneId": "8b2399c8-6478-45c7-8fd7-41b705bfb835",
-                                    "x": 13,
-                                    "y": 14,
+                                    "x": 3,
+                                    "y": 10,
                                     "direction": "up",
                                     "fadeSpeed": "2",
                                     "__collapse": true
@@ -5805,14 +7201,19 @@
     ],
     "variables": [
         {
+            "id": "30",
+            "name": "PirateFightHealth",
+            "symbol": "var_piratefighthealth"
+        },
+        {
             "id": "31",
             "name": "PirateFightEnemiesKilled",
             "symbol": "var_piratefightenemieskille"
         },
         {
-            "id": "30",
-            "name": "PirateFightHealth",
-            "symbol": "var_piratefighthealth"
+            "id": "32",
+            "name": "PirateFightInteract",
+            "symbol": "var_piratefightinteract"
         }
     ],
     "engineFieldValues": [
@@ -5822,9 +7223,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
-        "startX": 9,
-        "startY": 9,
+        "startSceneId": "d83b8f0a-b021-473d-8431-d13a364b7dd1",
+        "startX": 10,
+        "startY": 12,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
@@ -5833,8 +7234,8 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
-        "worldScrollY": 144.6666717529297,
-        "zoom": 50,
+        "worldScrollY": 516,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
