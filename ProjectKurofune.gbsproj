@@ -159,7 +159,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Press A >> Game Start"
                     },
                     "children": {
@@ -186,7 +186,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "df2c6aa3-1454-4305-8457-d4cdcb9a0ebc",
+                                    "sceneId": "d83b8f0a-b021-473d-8431-d13a364b7dd1",
                                     "x": 0,
                                     "y": 0,
                                     "direction": "",
@@ -2198,6 +2198,17 @@
                         "__collapse": true
                     },
                     "id": "d2913b33-da6a-4e5e-8c57-d8c56d62242f"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "596cde84-dde3-49b4-a3ce-c95d623ca58f",
+                        "x": 2,
+                        "y": 9,
+                        "direction": "right",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "ed3f2aba-8b27-43bd-b3f9-2c82ea6865b7"
                 }
             ],
             "playerHit1Script": [],
@@ -7503,8 +7514,8 @@
             "autoFadeSpeed": 1,
             "id": "596cde84-dde3-49b4-a3ce-c95d623ca58f",
             "symbol": "scene_7",
-            "x": 64,
-            "y": 959.5,
+            "x": 62.66666666666666,
+            "y": 959.4999999999999,
             "actors": [
                 {
                     "name": "Hp_bar",
@@ -32622,6 +32633,26 @@
             "symbol": "var_player_given_translator"
         },
         {
+            "id": "110",
+            "name": "PlayerX",
+            "symbol": "var_playerx"
+        },
+        {
+            "id": "111",
+            "name": "PlayerY",
+            "symbol": "var_playery"
+        },
+        {
+            "id": "114",
+            "name": "Evento",
+            "symbol": "var_evento"
+        },
+        {
+            "id": "115",
+            "name": "Timer",
+            "symbol": "var_timer"
+        },
+        {
             "id": "21f07737-755d-4104-985c-f6aac7b14426__L0",
             "name": "IsHoldingItem1",
             "symbol": "var_isholdingitem1"
@@ -32972,16 +33003,6 @@
             "symbol": "var_has_interacted_8"
         },
         {
-            "id": "110",
-            "name": "PlayerX",
-            "symbol": "var_playerx"
-        },
-        {
-            "id": "111",
-            "name": "PlayerY",
-            "symbol": "var_playery"
-        },
-        {
             "id": "7cd718a1-753a-47ab-8b0d-172da88cf534__L0",
             "name": "ActorX",
             "symbol": "var_actorx"
@@ -32990,16 +33011,6 @@
             "id": "7cd718a1-753a-47ab-8b0d-172da88cf534__L1",
             "name": "ActorY",
             "symbol": "var_actory"
-        },
-        {
-            "id": "114",
-            "name": "Evento",
-            "symbol": "var_evento"
-        },
-        {
-            "id": "115",
-            "name": "Timer",
-            "symbol": "var_timer"
         }
     ],
     "engineFieldValues": [
@@ -33009,7 +33020,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "7fa8484f-03a6-4d74-8d36-f9f36e552327",
+        "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
         "startX": 6,
         "startY": 9,
         "startMoveSpeed": 1,
@@ -33019,9 +33030,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1066,
-        "worldScrollY": 1051,
-        "zoom": 125,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 75,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -33049,9 +33060,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            626,
-            185,
-            185
+            602,
+            177,
+            177
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
