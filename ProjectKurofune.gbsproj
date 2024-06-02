@@ -49,10 +49,10 @@
         },
         {
             "name": "Splash Screen",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "9ae79c05-a898-4b87-afb0-9476b794000f",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -19328,6 +19328,16 @@
             "tileColors": []
         },
         {
+            "id": "9ae79c05-a898-4b87-afb0-9476b794000f",
+            "name": "Title_Screen",
+            "symbol": "bg_title_screen",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Title_Screen.png"
+        },
+        {
             "id": "fd0d80e1-a735-49be-a632-a1bb5b50a6d2",
             "name": "beco",
             "symbol": "bg_beco",
@@ -33060,9 +33070,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            602,
+            205,
             177,
-            177
+            574
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
