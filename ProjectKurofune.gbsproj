@@ -12632,7 +12632,7 @@
                             "args": {
                                 "sceneId": "eb9d5ff1-2a3a-486e-b23f-b74ca8180516",
                                 "x": 12,
-                                "y": 1,
+                                "y": 2,
                                 "direction": "down",
                                 "fadeSpeed": "2"
                             },
@@ -16053,7 +16053,7 @@
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
                                                         "variable": "L3",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "526e5d6b-66c3-43dc-b0f7-eb485fa67a4b"
                                                 }
@@ -18242,8 +18242,8 @@
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "ce675bac-0750-4f27-bc91-e40c8549fcfd",
-                                            "x": 12,
-                                            "y": 18,
+                                            "x": 18,
+                                            "y": 17,
                                             "direction": "",
                                             "fadeSpeed": "2"
                                         },
@@ -38280,6 +38280,11 @@
             "symbol": "var_timer"
         },
         {
+            "id": "511",
+            "name": "YOU MAY LEAVE",
+            "symbol": "var_you_may_leave"
+        },
+        {
             "id": "21f07737-755d-4104-985c-f6aac7b14426__L0",
             "name": "IsHoldingItem1",
             "symbol": "var_isholdingitem1"
@@ -38638,11 +38643,6 @@
             "id": "7cd718a1-753a-47ab-8b0d-172da88cf534__L1",
             "name": "ActorY",
             "symbol": "var_actory"
-        },
-        {
-            "id": "511",
-            "name": "YOU MAY LEAVE",
-            "symbol": "var_you_may_leave"
         }
     ],
     "engineFieldValues": [
@@ -38652,19 +38652,19 @@
         }
     ],
     "settings": {
-        "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
-        "startX": 8,
-        "startY": 9,
+        "startSceneId": "5186238c-a216-4921-945b-bd00063d5d72",
+        "startX": 9,
+        "startY": 1,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
-        "startDirection": "left",
+        "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 409.3333435058594,
-        "worldScrollY": 172.6666717529297,
-        "zoom": 175,
+        "worldScrollX": 6586.66650390625,
+        "worldScrollY": 4884,
+        "zoom": 325,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
