@@ -59,11 +59,18 @@
             "autoFadeSpeed": 1,
             "id": "ece08425-cac6-4ece-a975-b4109afb9779",
             "symbol": "scene_2",
-            "x": 298,
+            "x": 297.6,
             "y": 299,
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "59454f02-4590-4cfd-83ae-1f3137a4a0b5"
+                    },
+                    "id": "19342f83-d901-4ae3-b616-a6a283e480ad"
+                },
                 {
                     "command": "EVENT_GROUP",
                     "args": {
@@ -164,6 +171,11 @@
                     },
                     "children": {
                         "true": [
+                            {
+                                "command": "EVENT_MUSIC_STOP",
+                                "args": {},
+                                "id": "ae48d0ce-91aa-4efa-83c5-c337dad07afe"
+                            },
                             {
                                 "command": "EVENT_SOUND_PLAY_EFFECT",
                                 "args": {
@@ -422,7 +434,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "429aeb1f-12a5-4b66-aa09-fbc7a8f5849b",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -432,20 +444,6 @@
                                                 "__collapse": true
                                             },
                                             "id": "0aee6ffa-04a7-4ac2-baf6-2a532e94398a"
-                                        },
-                                        {
-                                            "command": "EVENT_SOUND_PLAY_EFFECT",
-                                            "args": {
-                                                "type": "tone",
-                                                "priority": "medium",
-                                                "pitch": 1,
-                                                "frequency": 300,
-                                                "duration": 0.15,
-                                                "wait": true,
-                                                "effect": 0,
-                                                "__collapse": true
-                                            },
-                                            "id": "e7650b04-49da-4394-a24c-30fb9080c73e"
                                         },
                                         {
                                             "command": "EVENT_SCENE_POP_STATE",
@@ -648,6 +646,14 @@
             ],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "8e3c5495-7063-40e3-a62a-dbbffe01c3c1",
+                        "__collapse": true
+                    },
+                    "id": "48527e12-3a96-46cb-833b-1ac8bb2107f9"
+                },
                 {
                     "command": "EVENT_ACTOR_MOVE_TO",
                     "args": {
@@ -1431,7 +1437,7 @@
                                         "args": {
                                             "actorId": "player",
                                             "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "e1994743-0584-4be0-82a3-1b43d64a98f5"
                                     },
@@ -1779,7 +1785,7 @@
                                         "args": {
                                             "actorId": "$self$",
                                             "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "3a658bb1-1c8f-4a9b-8eef-06e8b9f46319"
                                     },
@@ -1790,7 +1796,7 @@
                                                 "Vela: Shut up!\nI don't want to\nthink about it. "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "a77bcefd-09a7-433c-8786-9e5e8cc4c5b6"
                                     },
@@ -1799,7 +1805,7 @@
                                         "args": {
                                             "actorId": "player",
                                             "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "bbdc3434-f0a1-4d40-b4d8-8fb8b5ba0a22"
                                     },
@@ -1819,7 +1825,7 @@
                                         "command": "EVENT_SET_TRUE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "01167788-01dc-497d-8b50-96aeac018489"
                                     },
@@ -1827,7 +1833,7 @@
                                         "command": "EVENT_INC_VALUE",
                                         "args": {
                                             "variable": "32",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "2f864371-64ce-453b-b47b-028c9a121759"
                                     }
@@ -1979,7 +1985,7 @@
                                         "args": {
                                             "actorId": "player",
                                             "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "aa414227-5af4-4df5-94a3-212076ee67b1"
                                     },
@@ -2006,7 +2012,7 @@
                                         "command": "EVENT_INC_VALUE",
                                         "args": {
                                             "variable": "32",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "5fb18be7-29db-41d5-9d8f-c4881b24d268"
                                     }
@@ -2063,7 +2069,7 @@
                                 "comparator": 4,
                                 "__collapseElse": true,
                                 "__disableElse": true,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -2077,11 +2083,16 @@
                                         "id": "c9ea033b-b88d-4e5c-a95f-31ace5c04528"
                                     },
                                     {
+                                        "command": "EVENT_MUSIC_STOP",
+                                        "args": {},
+                                        "id": "4a44daf4-0df4-4326-9ef5-0090695c9882"
+                                    },
+                                    {
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "player",
                                             "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "295c8b34-30cb-4e64-a480-f69fd56a4da8"
                                     },
@@ -2114,9 +2125,21 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {},
+                    "id": "589a1ba9-4d34-462b-82d6-d0843a618b6f"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "d0f9a549-8146-4083-897a-4de1b7ca9bad"
+                    },
+                    "id": "bcad2bca-cf99-4e9a-9dd7-8b9825db9823"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -2136,7 +2159,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -2227,7 +2250,7 @@
             "id": "9d27785d-6db5-453e-8a4b-6107b8e3574a",
             "symbol": "scene_13",
             "x": 1299.3333282470699,
-            "y": 729.499989827474,
+            "y": 728.699989827474,
             "actors": [
                 {
                     "name": "Peixe",
@@ -2255,6 +2278,13 @@
             ],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {
+                        "__collapse": true
+                    },
+                    "id": "adbace3b-62d1-4d84-8d18-8088e7e8e083"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -3356,7 +3386,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -3376,7 +3406,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -4448,6 +4478,13 @@
             ],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "141132f9-99bd-4aed-ad90-bd98a298be65"
+                    },
+                    "id": "461ce7d0-794a-46d5-8cba-f21bd72d19fc"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
                         "__collapse": false,
@@ -4470,7 +4507,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -4513,7 +4550,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -8154,7 +8191,7 @@
                 {
                     "name": "",
                     "id": "c09dd13e-1162-4211-ae8a-3abb8a237026",
-                    "x": 33,
+                    "x": 32,
                     "y": 1,
                     "symbol": "trigger_5",
                     "width": 6,
@@ -9680,13 +9717,44 @@
                         }
                     ],
                     "leaveScript": []
+                },
+                {
+                    "name": "Exit trigger",
+                    "id": "13fca413-a7ab-480f-9729-bf9039945aab",
+                    "x": 135,
+                    "y": 0,
+                    "symbol": "trigger_45",
+                    "width": 3,
+                    "height": 18,
+                    "script": [
+                        {
+                            "command": "EVENT_MUSIC_STOP",
+                            "args": {},
+                            "id": "b788e897-604c-4425-8d90-de85b438ac4c"
+                        },
+                        {
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "cc6ef03b-685e-4e8d-bdad-a2581655948e"
+                            },
+                            "id": "1ff3fb51-a493-448c-9e7d-12d2780c1783"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "e276aa64-7fff-455c-a9e8-3f5f03e2e455"
+                    },
+                    "id": "6ac4a94c-c637-4ed3-81db-232cd4ad2892"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -9706,7 +9774,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -9745,7 +9813,8 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "44eb913d-1d1f-4a99-8ad0-27ae83973f48"
+            "playerSpriteSheetId": "44eb913d-1d1f-4a99-8ad0-27ae83973f48",
+            "autoFadeEventCollapse": false
         },
         {
             "name": "Level 1 2/2 - Cutscene: Barco português a atracar em solo japonês. ",
@@ -10915,7 +10984,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -10935,7 +11004,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -10974,7 +11043,8 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "359b5577-b18f-4081-832e-300816d66369"
+            "playerSpriteSheetId": "359b5577-b18f-4081-832e-300816d66369",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Vila 1",
@@ -11930,7 +12000,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -11950,7 +12020,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -12565,7 +12635,7 @@
             "id": "7fa8484f-03a6-4d74-8d36-f9f36e552327",
             "symbol": "scene_18",
             "x": 1241.9333333333357,
-            "y": 1169.933333333334,
+            "y": 1170.6000000000008,
             "actors": [
                 {
                     "name": "",
@@ -12646,7 +12716,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -12666,7 +12736,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -13424,7 +13494,7 @@
             "autoFadeSpeed": 1,
             "id": "1096e891-df80-4521-b811-34e10771d731",
             "symbol": "scene_19",
-            "x": 1238.4999999999993,
+            "x": 1237.8333333333326,
             "y": 1670.5000000000007,
             "actors": [
                 {
@@ -15355,9 +15425,23 @@
             ],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {
+                        "__collapse": true
+                    },
+                    "id": "8e88efb3-479b-43cf-9836-48dc46e7589a"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "c52ef4db-962a-4ad9-859d-e34a76b0a767"
+                    },
+                    "id": "cb58fba9-f63e-4b20-9c0d-b7e41f8be543"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Pause Menu SCRIPT"
                     },
                     "children": {
@@ -15377,7 +15461,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -18386,6 +18470,18 @@
             ],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {},
+                    "id": "f280ae47-b63a-4ebd-af3f-53e584799e13"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "41f1269d-ad3d-4b12-a60c-aae43ab0697a"
+                    },
+                    "id": "ffa506df-290f-486b-95c8-2acdeb79a46b"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
                         "__collapse": true,
@@ -18408,7 +18504,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -18469,7 +18565,8 @@
             ],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "359b5577-b18f-4081-832e-300816d66369"
+            "playerSpriteSheetId": "359b5577-b18f-4081-832e-300816d66369",
+            "autoFadeEventCollapse": false
         },
         {
             "name": "Beco 3",
@@ -19045,7 +19142,7 @@
             "id": "ce675bac-0750-4f27-bc91-e40c8549fcfd",
             "symbol": "scene_25",
             "x": 1529.5999999999992,
-            "y": 1167.1999999999994,
+            "y": 1167.866666666666,
             "actors": [
                 {
                     "name": "",
@@ -19165,6 +19262,13 @@
                                 "fadeSpeed": "2"
                             },
                             "id": "b50e7f93-38e7-49f0-a6cb-8ea453fa7980"
+                        },
+                        {
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "d0f9a549-8146-4083-897a-4de1b7ca9bad"
+                            },
+                            "id": "a5217aef-bc77-402a-a7ae-fe8cf20d3326"
                         }
                     ],
                     "hit1Script": [],
@@ -19224,7 +19328,7 @@
                                         {
                                             "command": "EVENT_SOUND_PLAY_EFFECT",
                                             "args": {
-                                                "type": "tone",
+                                                "type": "b75e59c9-a42d-475c-a251-81f79313e55c",
                                                 "priority": "medium",
                                                 "pitch": 4,
                                                 "frequency": 400,
@@ -19262,9 +19366,17 @@
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": true
                     },
                     "id": "bde93d8e-c790-4655-b91b-8bf986355945"
+                },
+                {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {
+                        "__collapse": false
+                    },
+                    "id": "07996bed-aa48-4dec-bbf5-dacece3797ac"
                 }
             ],
             "playerHit1Script": [],
@@ -37620,7 +37732,7 @@
                         "comparator": 3,
                         "__collapseElse": true,
                         "__comment": false,
-                        "__collapse": true,
+                        "__collapse": false,
                         "__disableElse": true
                     },
                     "children": {
@@ -37886,6 +37998,19 @@
                     "id": "3cf5b2c0-de9f-4393-9920-c7027c0f2ff0"
                 },
                 {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "a5cb2f67-73bb-4507-b883-80b2a2aa11d9",
+                        "priority": "medium",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 0
+                    },
+                    "id": "21c157d6-19fc-4dfa-a4e1-32ffad8eb72d"
+                },
+                {
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 0.5,
@@ -37912,9 +38037,22 @@
                     "command": "EVENT_DEC_VALUE",
                     "args": {
                         "variable": "30",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "c64960b4-4451-4add-9d41-8ccb072430b9"
+                },
+                {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "9f44fb77-7f52-46fa-ae06-a175f8f8f19f",
+                        "priority": "medium",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 0
+                    },
+                    "id": "7756e837-f7f7-47c7-b593-4bdf0509d594"
                 },
                 {
                     "command": "EVENT_ACTOR_HIDE",
@@ -38083,7 +38221,7 @@
                                 "args": {
                                     "sceneId": "8b2399c8-6478-45c7-8fd7-41b705bfb835",
                                     "x": 3,
-                                    "y": 10,
+                                    "y": 9,
                                     "direction": "up",
                                     "fadeSpeed": "2",
                                     "__collapse": true
@@ -38100,15 +38238,174 @@
     ],
     "music": [
         {
-            "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
-            "name": "template",
-            "symbol": "song_template",
-            "filename": "template.mod",
+            "id": "e276aa64-7fff-455c-a9e8-3f5f03e2e455",
+            "name": "Berth in Politics",
+            "symbol": "song_navega_o",
+            "filename": "Berth in Politics.uge",
             "settings": {},
-            "type": "mod"
+            "type": "uge"
+        },
+        {
+            "id": "cc6ef03b-685e-4e8d-bdad-a2581655948e",
+            "name": "BerthInPolitics Transition",
+            "symbol": "song_song_template",
+            "filename": "BerthInPolitics Transition.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "8e3c5495-7063-40e3-a62a-dbbffe01c3c1",
+            "name": "Diálogo ou Neutralidade",
+            "symbol": "song_di_logo_ou_neutralidad",
+            "filename": "Diálogo ou Neutralidade.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "d0f9a549-8146-4083-897a-4de1b7ca9bad",
+            "name": "Explorar Vila",
+            "symbol": "song_explorar_vila",
+            "filename": "Explorar Vila.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "21c302f2-8348-4e96-a206-e47c0af5772a",
+            "name": "Final",
+            "symbol": "song_final",
+            "filename": "Final.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "41f1269d-ad3d-4b12-a60c-aae43ab0697a",
+            "name": "HeWillGetYou",
+            "symbol": "song_hewillgetyou",
+            "filename": "HeWillGetYou.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "a420a646-6ec7-4dc3-955e-17e4cb97d40b",
+            "name": "Luta no Beco",
+            "symbol": "song_luta_no_beco",
+            "filename": "Luta no Beco.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "59454f02-4590-4cfd-83ae-1f3137a4a0b5",
+            "name": "Main_menu",
+            "symbol": "song_main_menu",
+            "filename": "Main_menu.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "141132f9-99bd-4aed-ad90-bd98a298be65",
+            "name": "Música Tensa",
+            "symbol": "song_m_sica_tensa",
+            "filename": "Música Tensa.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "e7454e40-0d74-49d4-873f-6ed68f783f65",
+            "name": "Piratas do Caribe básico",
+            "symbol": "song_piratas_do_caribe_b_si",
+            "filename": "Piratas do Caribe básico.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "64b2f9d7-8467-4799-9d16-e1bd9f644c97",
+            "name": "Piratas do Caribe",
+            "symbol": "song_piratas_do_caribe",
+            "filename": "Piratas do Caribe.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "5217ff8e-0844-4dfc-bb0f-e7ffb34dfd85",
+            "name": "Piratas do caribe Rock",
+            "symbol": "song_piratas_do_caribe_rock",
+            "filename": "Piratas do caribe Rock.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "a85b2c4f-5176-42bc-a587-0e6535946c05",
+            "name": "Tenso 2",
+            "symbol": "song_tenso_2",
+            "filename": "Tenso 2.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "c52ef4db-962a-4ad9-859d-e34a76b0a767",
+            "name": "VillaginArroun",
+            "symbol": "song_villaginarroun",
+            "filename": "VillaginArroun.uge",
+            "settings": {},
+            "type": "uge"
         }
     ],
-    "sounds": [],
+    "sounds": [
+        {
+            "id": "550df8ca-98b9-454b-8954-4ddb56bafa30",
+            "name": "Explosion.vgm",
+            "symbol": "sound_explosion_vgm",
+            "filename": "Explosion.vgm",
+            "type": "vgm",
+            "inode": "7599824372267854",
+            "_v": 1717685958668
+        },
+        {
+            "id": "9f44fb77-7f52-46fa-ae06-a175f8f8f19f",
+            "name": "Hurt.vgm",
+            "symbol": "sound_hurt_vgm",
+            "filename": "Hurt.vgm",
+            "type": "vgm",
+            "inode": "62205969853230427",
+            "_v": 1717685958643
+        },
+        {
+            "id": "429aeb1f-12a5-4b66-aa09-fbc7a8f5849b",
+            "name": "Menu_Out.vgm",
+            "symbol": "sound_menu_out_vgm",
+            "filename": "Menu_Out.vgm",
+            "type": "vgm",
+            "inode": "6473924465420023",
+            "_v": 1717685962858
+        },
+        {
+            "id": "b75e59c9-a42d-475c-a251-81f79313e55c",
+            "name": "Pause.vgm",
+            "symbol": "sound_pause_vgm",
+            "filename": "Pause.vgm",
+            "type": "vgm",
+            "inode": "7881299348980230",
+            "_v": 1717685965317
+        },
+        {
+            "id": "240b79fb-4050-472b-b3f4-fa9438e42dd2",
+            "name": "Steps.vgm",
+            "symbol": "sound_steps_vgm",
+            "filename": "Steps.vgm",
+            "type": "vgm",
+            "inode": "5348024558574349",
+            "_v": 1717685973921
+        },
+        {
+            "id": "a5cb2f67-73bb-4507-b883-80b2a2aa11d9",
+            "name": "Sword_Slash.vgm",
+            "symbol": "sound_sword_slash_vgm",
+            "filename": "Sword_Slash.vgm",
+            "type": "vgm",
+            "inode": "9007199255344375",
+            "_v": 1717686231738
+        }
+    ],
     "fonts": [
         {
             "id": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
@@ -38654,7 +38951,7 @@
     ],
     "settings": {
         "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
-        "startX": 10,
+        "startX": 9,
         "startY": 8,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
@@ -38663,9 +38960,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 482,
-        "worldScrollY": 213.3333282470703,
-        "zoom": 250,
+        "worldScrollX": 63,
+        "worldScrollY": 253,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -38693,9 +38990,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            142,
-            118,
-            409
+            201,
+            167,
+            580
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
