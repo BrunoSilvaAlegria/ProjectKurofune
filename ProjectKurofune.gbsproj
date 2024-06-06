@@ -9879,7 +9879,7 @@
                         "y": 11,
                         "direction": "right",
                         "fadeSpeed": "2",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "244b92c3-d2e1-44e9-ae53-0f232da52112"
                 }
@@ -15919,13 +15919,6 @@
                     "id": "8e88efb3-479b-43cf-9836-48dc46e7589a"
                 },
                 {
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "c52ef4db-962a-4ad9-859d-e34a76b0a767"
-                    },
-                    "id": "cb58fba9-f63e-4b20-9c0d-b7e41f8be543"
-                },
-                {
                     "command": "EVENT_GROUP",
                     "args": {
                         "__collapse": false,
@@ -18992,18 +18985,6 @@
                 }
             ],
             "script": [
-                {
-                    "command": "EVENT_MUSIC_STOP",
-                    "args": {},
-                    "id": "f280ae47-b63a-4ebd-af3f-53e584799e13"
-                },
-                {
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "41f1269d-ad3d-4b12-a60c-aae43ab0697a"
-                    },
-                    "id": "ffa506df-290f-486b-95c8-2acdeb79a46b"
-                },
                 {
                     "command": "EVENT_GROUP",
                     "args": {
@@ -38894,7 +38875,7 @@
             "symbol": "sound_explosion_vgm",
             "filename": "Explosion.vgm",
             "type": "vgm",
-            "inode": "2533274790661293",
+            "inode": "7599824372267854",
             "_v": 1717685958668
         },
         {
@@ -38903,7 +38884,7 @@
             "symbol": "sound_hurt_vgm",
             "filename": "Hurt.vgm",
             "type": "vgm",
-            "inode": "5066549581057201",
+            "inode": "62205969853230427",
             "_v": 1717685958643
         },
         {
@@ -38912,7 +38893,7 @@
             "symbol": "sound_menu_out_vgm",
             "filename": "Menu_Out.vgm",
             "type": "vgm",
-            "inode": "6755399441321139",
+            "inode": "6473924465420023",
             "_v": 1717685962858
         },
         {
@@ -38921,7 +38902,7 @@
             "symbol": "sound_pause_vgm",
             "filename": "Pause.vgm",
             "type": "vgm",
-            "inode": "3377699720793273",
+            "inode": "7881299348980230",
             "_v": 1717685965317
         },
         {
@@ -38930,7 +38911,7 @@
             "symbol": "sound_steps_vgm",
             "filename": "Steps.vgm",
             "type": "vgm",
-            "inode": "11821949022112955",
+            "inode": "5348024558574349",
             "_v": 1717685973921
         },
         {
@@ -38939,7 +38920,7 @@
             "symbol": "sound_sword_slash_vgm",
             "filename": "Sword_Slash.vgm",
             "type": "vgm",
-            "inode": "4503599627635903",
+            "inode": "9007199255344375",
             "_v": 1717686231738
         }
     ],
@@ -39105,6 +39086,16 @@
             "symbol": "var_playery"
         },
         {
+            "id": "112",
+            "name": "Entered beco",
+            "symbol": "var_entered_beco"
+        },
+        {
+            "id": "113",
+            "name": "HasBeenSaved",
+            "symbol": "var_hasbeensaved"
+        },
+        {
             "id": "114",
             "name": "Evento",
             "symbol": "var_evento"
@@ -39113,6 +39104,21 @@
             "id": "115",
             "name": "Timer",
             "symbol": "var_timer"
+        },
+        {
+            "id": "116",
+            "name": "Died",
+            "symbol": "var_died"
+        },
+        {
+            "id": "117",
+            "name": "IsVisible",
+            "symbol": "var_isvisible"
+        },
+        {
+            "id": "118",
+            "name": "Done",
+            "symbol": "var_done"
         },
         {
             "id": "511",
@@ -39480,34 +39486,9 @@
             "symbol": "var_actory"
         },
         {
-            "id": "112",
-            "name": "Entered beco",
-            "symbol": "var_entered_beco"
-        },
-        {
             "id": "661e7979-0f50-4e32-8074-6593e6e8152c__L0",
             "name": "Local 0",
             "symbol": "var_local_0"
-        },
-        {
-            "id": "113",
-            "name": "HasBeenSaved",
-            "symbol": "var_hasbeensaved"
-        },
-        {
-            "id": "116",
-            "name": "Died",
-            "symbol": "var_died"
-        },
-        {
-            "id": "117",
-            "name": "IsVisible",
-            "symbol": "var_isvisible"
-        },
-        {
-            "id": "118",
-            "name": "Done",
-            "symbol": "var_done"
         }
     ],
     "engineFieldValues": [
@@ -39527,9 +39508,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 6191,
-        "worldScrollY": 6075,
-        "zoom": 375,
+        "worldScrollX": 1234,
+        "worldScrollY": 1408,
+        "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -39557,9 +39538,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            211,
-            175,
-            610
+            201,
+            166,
+            581
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
