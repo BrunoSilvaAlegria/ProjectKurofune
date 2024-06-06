@@ -12632,7 +12632,7 @@
                             "args": {
                                 "sceneId": "eb9d5ff1-2a3a-486e-b23f-b74ca8180516",
                                 "x": 12,
-                                "y": 1,
+                                "y": 2,
                                 "direction": "down",
                                 "fadeSpeed": "2"
                             },
@@ -15800,7 +15800,7 @@
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
                                                         "variable": "L3",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "747b6247-59af-4ddd-9823-6ea47e7ce1fc"
                                                 }
@@ -16053,7 +16053,7 @@
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
                                                         "variable": "L3",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "526e5d6b-66c3-43dc-b0f7-eb485fa67a4b"
                                                 }
@@ -16175,6 +16175,17 @@
                                                                 "id": "4b8d3c95-b6d1-40a9-b343-2d83cc37a13d"
                                                             },
                                                             {
+                                                                "command": "EVENT_SET_VALUE",
+                                                                "args": {
+                                                                    "variable": "100",
+                                                                    "value": {
+                                                                        "type": "number",
+                                                                        "value": 4
+                                                                    }
+                                                                },
+                                                                "id": "3fa092fa-fd8e-4d54-921b-9c69fe356501"
+                                                            },
+                                                            {
                                                                 "command": "EVENT_SWITCH_SCENE",
                                                                 "args": {
                                                                     "sceneId": "f972a32b-3e02-4084-9b55-91952ba7efc7",
@@ -16184,16 +16195,6 @@
                                                                     "fadeSpeed": 4
                                                                 },
                                                                 "id": "868a798f-27a5-4c3b-ae53-60f142ffb4f4"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_TEXT",
-                                                                "args": {
-                                                                    "text": [
-                                                                        "Aight G, you cool\naff fr fr"
-                                                                    ],
-                                                                    "avatarId": ""
-                                                                },
-                                                                "id": "c4d551a2-a0e1-4549-a9ed-7399d1abee03"
                                                             }
                                                         ],
                                                         "false": [
@@ -18242,8 +18243,8 @@
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "ce675bac-0750-4f27-bc91-e40c8549fcfd",
-                                            "x": 12,
-                                            "y": 18,
+                                            "x": 18,
+                                            "y": 17,
                                             "direction": "",
                                             "fadeSpeed": "2"
                                         },
@@ -25227,7 +25228,7 @@
                                         "args": {
                                             "variable": "100",
                                             "operator": "==",
-                                            "comparator": "0",
+                                            "comparator": 0,
                                             "__collapseElse": true
                                         },
                                         "children": {
@@ -38654,7 +38655,7 @@
     "settings": {
         "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
         "startX": 9,
-        "startY": 8,
+        "startY": 1,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
@@ -38662,9 +38663,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 330,
-        "worldScrollY": 93.33333587646484,
-        "zoom": 175,
+        "worldScrollX": 6603.33349609375,
+        "worldScrollY": 4974.66650390625,
+        "zoom": 325,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
