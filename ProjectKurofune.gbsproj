@@ -11171,7 +11171,7 @@
                             "args": {
                                 "variable": "85",
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -11183,7 +11183,7 @@
                                             "comparator": 4,
                                             "__collapseElse": true,
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -11282,7 +11282,7 @@
                             "args": {
                                 "variable": "85",
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -11294,7 +11294,7 @@
                                             "comparator": 4,
                                             "__collapseElse": true,
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -12445,9 +12445,7 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_56",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [
+                    "script": [
                         {
                             "command": "EVENT_IF_TRUE",
                             "args": {
@@ -12461,7 +12459,7 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "8aa27e71-acc0-4cb7-8cd6-8c1090316926"
+                                        "id": "0ab01c44-09a9-4ce0-a4ab-ff52e83aa6cc"
                                     }
                                 ],
                                 "false": [
@@ -12470,11 +12468,11 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "93b1f118-841e-4498-9bb2-a67de0f3873e"
+                                        "id": "271b85dd-e5ea-4bd9-ad72-fca9c49a126b"
                                     }
                                 ]
                             },
-                            "id": "b8d6aa04-9b26-4892-aaf1-712b9c495e92"
+                            "id": "60ed27ec-95db-41b6-b6a2-aa3d6fdc79d6"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
@@ -12491,7 +12489,7 @@
                                 "moveType": "horizontal",
                                 "useCollisions": false
                             },
-                            "id": "bcb59c12-cf8f-4a6b-97a0-bc45fa7d04b4"
+                            "id": "42a131a0-dca1-4198-813c-ced28a9487cf"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
@@ -12508,7 +12506,7 @@
                                 "moveType": "horizontal",
                                 "useCollisions": false
                             },
-                            "id": "34ffc080-66bb-4eac-ab5c-41e1be264c6d"
+                            "id": "96fbc865-47d7-4882-a326-8598355d5a42"
                         },
                         {
                             "command": "EVENT_SWITCH_SCENE",
@@ -12519,16 +12517,18 @@
                                 "direction": "right",
                                 "fadeSpeed": "2"
                             },
-                            "id": "bb46e3ff-6856-412f-889d-94770da82b6f"
+                            "id": "9482ea11-d39f-4c18-9039-06a4bcc14239"
                         },
                         {
                             "command": "EVENT_MUSIC_PLAY",
                             "args": {
                                 "musicId": "d0f9a549-8146-4083-897a-4de1b7ca9bad"
                             },
-                            "id": "1caf5846-10ab-42c5-b893-bd48e4037504"
+                            "id": "d9dd580f-1114-47f2-b6a0-5a9a7ed7620b"
                         }
                     ],
+                    "startScript": [],
+                    "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -12650,7 +12650,7 @@
                                             "variable": "90",
                                             "__collapseElse": false,
                                             "__disableElse": false,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -12712,7 +12712,7 @@
                                                         "y": 0,
                                                         "direction": "",
                                                         "fadeSpeed": "2",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "5c59ef0d-0c49-44e9-9cc4-583d367c31eb"
                                                 }
@@ -12750,7 +12750,7 @@
                                             "variable": "89",
                                             "__collapseElse": true,
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -12881,7 +12881,7 @@
                                             "variable": "90",
                                             "__collapseElse": false,
                                             "__disableElse": false,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -12981,7 +12981,7 @@
                                             "variable": "89",
                                             "__collapseElse": true,
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -25619,7 +25619,8 @@
                                                 "Chief: Show me \nyour goods...",
                                                 "Chief: As\nproof of your \ngood faith."
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": true
                                         },
                                         "id": "1648aea9-81c2-43b8-a34f-f68ff2e7cb8e"
                                     },
@@ -26400,132 +26401,83 @@
                     "symbol": "actor_47",
                     "script": [
                         {
-                            "command": "EVENT_IF_TRUE",
+                            "command": "EVENT_ACTOR_EMOTE",
                             "args": {
-                                "variable": "85",
+                                "actorId": "player",
+                                "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                "__collapse": true
+                            },
+                            "id": "2944ee35-b4ba-4da9-8e6d-5605025110a2"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "This is rather\nunique looking\narmour..."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            },
+                            "id": "c94ed1df-c876-40ca-89e5-9884894cb0c3"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "player",
+                                "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                "__collapse": true
+                            },
+                            "id": "a655bbd2-c1cb-465b-a5cd-f5de87773198"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Martim: This armor\nhas been passed\ndown..",
+                                    "Martim: From one\ngeneration to\nanother.",
+                                    "Martim: It belongs\nto the chief's\nfamily.",
+                                    "Martim: It can be\nused in battles\nor in a ceremony."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            },
+                            "id": "9b52536b-88d0-4ee3-9763-444208f4ef73"
+                        },
+                        {
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "33",
+                                "__collapse": true
+                            },
+                            "id": "801d80c1-3e61-4610-bded-e876f41413b8"
+                        },
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "33",
+                                "operator": "==",
+                                "comparator": 2,
                                 "__collapseElse": true,
-                                "__disableElse": true
+                                "__disableElse": true,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_IF_FALSE",
+                                        "command": "EVENT_TEXT",
                                         "args": {
-                                            "variable": "38",
-                                            "__collapseElse": false,
-                                            "__disableElse": false,
-                                            "__collapse": false
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "2944ee35-b4ba-4da9-8e6d-5605025110a2"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "This is rather\nunique looking\narmour..."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "c94ed1df-c876-40ca-89e5-9884894cb0c3"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "a655bbd2-c1cb-465b-a5cd-f5de87773198"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Martim: This armor\nhas been passed\ndown..",
-                                                            "Martim: From one\ngeneration to\nanother.",
-                                                            "Martim: It belongs\nto the chief's\nfamily.",
-                                                            "Martim: It can be\nused in battles\nor in a ceremony."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "9b52536b-88d0-4ee3-9763-444208f4ef73"
-                                                },
-                                                {
-                                                    "command": "EVENT_INC_VALUE",
-                                                    "args": {
-                                                        "variable": "33",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "801d80c1-3e61-4610-bded-e876f41413b8"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_TRUE",
-                                                    "args": {
-                                                        "variable": "38",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "5c6dcbef-7705-4b69-ac83-d2175a8c8a1f"
-                                                }
+                                            "text": [
+                                                "Servant: You may\nsee the chief now."
                                             ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "A Japanese Armor."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "df63a3b6-518f-4f00-a46e-4925f5e46b4d"
-                                                }
-                                            ]
-                                        },
-                                        "id": "6c8d42df-1b9a-4104-bad6-0d5d09531ec1"
-                                    },
-                                    {
-                                        "command": "EVENT_IF_VALUE",
-                                        "args": {
-                                            "variable": "33",
-                                            "operator": "==",
-                                            "comparator": 2,
-                                            "__collapseElse": true,
-                                            "__disableElse": true,
+                                            "avatarId": "",
                                             "__collapse": true
                                         },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Servant: You may\nsee the chief now."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "c0fd951d-c73b-4664-b252-8b09a89de6e4"
-                                                }
-                                            ],
-                                            "false": []
-                                        },
-                                        "id": "0d511646-085f-4539-be3e-82bca590fa1c"
+                                        "id": "c0fd951d-c73b-4664-b252-8b09a89de6e4"
                                     }
                                 ],
                                 "false": []
                             },
-                            "id": "0785fe3a-ecd1-4912-9e0a-ecc06b0ea56f"
+                            "id": "0d511646-085f-4539-be3e-82bca590fa1c"
                         }
                     ],
                     "startScript": [
@@ -26560,131 +26512,84 @@
                     "symbol": "actor_49",
                     "script": [
                         {
-                            "command": "EVENT_IF_TRUE",
+                            "command": "EVENT_ACTOR_EMOTE",
                             "args": {
-                                "variable": "85",
+                                "actorId": "player",
+                                "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                "__collapse": true
+                            },
+                            "id": "f8e7f9e6-c549-48ed-a927-cfb04eab07b5"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "What are those?"
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            },
+                            "id": "bc4299c3-239f-4ccc-b697-388cd7519926"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "player",
+                                "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                "__collapse": true
+                            },
+                            "id": "bd569d1b-bb44-42c3-9fed-de12d853f79e"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Martim: They are\nNoh masks.",
+                                    "Martim: Such\nartifacts could be\nused in theatre.",
+                                    "Martim: They would\nbe made by\ntalented people.\n",
+                                    "Martim: Who would\nuse traditional\ntechniques.",
+                                    "Martim: Passed\ndown from previous\ngenerations."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            },
+                            "id": "bf0640f8-602a-4b25-9ba9-7694f45f98d5"
+                        },
+                        {
+                            "command": "EVENT_INC_VALUE",
+                            "args": {
+                                "variable": "33",
+                                "__collapse": true
+                            },
+                            "id": "1b8a2cf0-1251-4af9-911c-918c136b2931"
+                        },
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "33",
+                                "operator": "==",
+                                "comparator": 2,
                                 "__collapseElse": true,
-                                "__disableElse": true
+                                "__disableElse": true,
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_IF_FALSE",
+                                        "command": "EVENT_TEXT",
                                         "args": {
-                                            "variable": "37",
-                                            "__collapseElse": false,
-                                            "__disableElse": false
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "f8e7f9e6-c549-48ed-a927-cfb04eab07b5"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "What are those?"
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "bc4299c3-239f-4ccc-b697-388cd7519926"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "bd569d1b-bb44-42c3-9fed-de12d853f79e"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Martim: They are\nNoh masks.",
-                                                            "Martim: Such\nartifacts could be\nused in theatre.",
-                                                            "Martim: They would\nbe made by\ntalented people.\n",
-                                                            "Martim: Who would\nuse traditional\ntechniques.",
-                                                            "Martim: Passed\ndown from previous\ngenerations."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "bf0640f8-602a-4b25-9ba9-7694f45f98d5"
-                                                },
-                                                {
-                                                    "command": "EVENT_INC_VALUE",
-                                                    "args": {
-                                                        "variable": "33",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "1b8a2cf0-1251-4af9-911c-918c136b2931"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_TRUE",
-                                                    "args": {
-                                                        "variable": "37",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "993b8263-815c-48bd-a577-881cfe5c5f94"
-                                                }
+                                            "text": [
+                                                "Servant: You may\nsee the chief now."
                                             ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "A Japanese\nNoh mask."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "04c5f86f-3c40-4993-ac77-e3b9a88505c4"
-                                                }
-                                            ]
+                                            "avatarId": "",
+                                            "__collapse": false
                                         },
-                                        "id": "ea6cea0c-f01d-4803-921b-96ee736a5bca"
-                                    },
-                                    {
-                                        "command": "EVENT_IF_VALUE",
-                                        "args": {
-                                            "variable": "33",
-                                            "operator": "==",
-                                            "comparator": 2,
-                                            "__collapseElse": true,
-                                            "__disableElse": true,
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Servant: You may\nsee the chief now."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "8e1b93ef-50fe-4f79-a656-7041e83d2805"
-                                                }
-                                            ],
-                                            "false": []
-                                        },
-                                        "id": "a45cbc5c-5309-41d6-b0f2-517b2b1eba40"
+                                        "id": "8e1b93ef-50fe-4f79-a656-7041e83d2805"
                                     }
                                 ],
                                 "false": []
                             },
-                            "id": "01af24ce-85ef-4854-8bbf-4a583d3b2510"
+                            "id": "a45cbc5c-5309-41d6-b0f2-517b2b1eba40"
                         }
                     ],
                     "startScript": [
@@ -26693,7 +26598,7 @@
                             "args": {
                                 "actorId": "$self$"
                             },
-                            "id": "15a998bd-da46-496b-accb-e6bcd3c6891d"
+                            "id": "7496d411-c6fb-4f2f-852e-ea6d6098d6fc"
                         }
                     ],
                     "updateScript": [],
@@ -39328,7 +39233,7 @@
             "symbol": "sound_explosion_vgm",
             "filename": "Explosion.vgm",
             "type": "vgm",
-            "inode": "30680772461965343",
+            "inode": "88946092640721377",
             "_v": 1717685958668
         },
         {
@@ -39337,7 +39242,7 @@
             "symbol": "sound_hurt_vgm",
             "filename": "Hurt.vgm",
             "type": "vgm",
-            "inode": "18014398509985886",
+            "inode": "102738366499543810",
             "_v": 1717685958643
         },
         {
@@ -39346,7 +39251,7 @@
             "symbol": "sound_menu_out_vgm",
             "filename": "Menu_Out.vgm",
             "type": "vgm",
-            "inode": "7881299348402311",
+            "inode": "116530640358366186",
             "_v": 1717685962858
         },
         {
@@ -39355,7 +39260,7 @@
             "symbol": "sound_pause_vgm",
             "filename": "Pause.vgm",
             "type": "vgm",
-            "inode": "28710447624990856",
+            "inode": "36591746972541218",
             "_v": 1717685965317
         },
         {
@@ -39364,7 +39269,7 @@
             "symbol": "sound_steps_vgm",
             "filename": "Steps.vgm",
             "type": "vgm",
-            "inode": "16325548649722020",
+            "inode": "58265320179262413",
             "_v": 1717685973921
         },
         {
@@ -39373,7 +39278,7 @@
             "symbol": "sound_sword_slash_vgm",
             "filename": "Sword_Slash.vgm",
             "type": "vgm",
-            "inode": "9007199255244965",
+            "inode": "43347146413597757",
             "_v": 1717686231738
         }
     ],
@@ -39987,6 +39892,11 @@
             "id": "661e7979-0f50-4e32-8074-6593e6e8152c__L0",
             "name": "Local 0",
             "symbol": "var_local_0"
+        },
+        {
+            "id": "0",
+            "name": "ItemToTrade",
+            "symbol": "var_itemtotrade"
         }
     ],
     "engineFieldValues": [
@@ -40006,9 +39916,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1092,
-        "worldScrollY": 1298,
-        "zoom": 100,
+        "worldScrollX": 2175,
+        "worldScrollY": 2501,
+        "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -40036,9 +39946,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            413,
-            127,
-            416
+            409,
+            126,
+            412
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
