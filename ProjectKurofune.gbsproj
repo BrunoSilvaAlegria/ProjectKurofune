@@ -25603,13 +25603,25 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "wasup bro. Listen,\nI can't let you in",
-                                                "Withou that good\nshit emkay?",
-                                                "Go get some good\nshit and come back"
+                                                "Good morning. \nLet me introduce \nmyself.",
+                                                "I'm Vasco, \na Portuguese\nmerchant.",
+                                                "I'm seeking \nbusiness \nopportunities.",
+                                                "Chief: Nice to \nmeet you Vasco!\n",
+                                                "Chief: I'm Nanushi\nthe chief of this \nvillage.",
+                                                "We're on a \ncommercial \njourney...\n",
+                                                "seeking to \nestablish \nconnections...",
+                                                "and exchange \ngoods with the...",
+                                                "inhabitants of \nthis beautiful \nvillage.",
+                                                "Chief: I see. ",
+                                                "Chief: Before \nallowing your \nentry...",
+                                                "Chief: I need to \nensure that you ..",
+                                                "Chief: are a \ntrustworthy trader",
+                                                "Chief: Show me \nyour goods...",
+                                                "Chief: As\nproof of your \ngood faith."
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "a7deb4a4-5bbd-45cb-b618-0e1c6dc46b80"
+                                        "id": "1648aea9-81c2-43b8-a34f-f68ff2e7cb8e"
                                     },
                                     {
                                         "command": "EVENT_INC_VALUE",
@@ -25624,8 +25636,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "I said come back\nwhen you got that",
-                                                "GOOOOD SHIT!!"
+                                                "Chief: Bring \nsomething good...",
+                                                "Chief: and then \nwe'll talk!"
                                             ],
                                             "avatarId": ""
                                         },
@@ -27164,7 +27176,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Pausa_fixed.png"
+            "filename": "Pausa_fixed.png",
+            "tileColors": []
         },
         {
             "id": "9ae79c05-a898-4b87-afb0-9476b794000f",
@@ -27185,7 +27198,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Titulo_fixed.png"
+            "filename": "Titulo_fixed.png",
+            "tileColors": []
         },
         {
             "id": "fd0d80e1-a735-49be-a632-a1bb5b50a6d2",
@@ -39314,7 +39328,7 @@
             "symbol": "sound_explosion_vgm",
             "filename": "Explosion.vgm",
             "type": "vgm",
-            "inode": "5629499535170778",
+            "inode": "30680772461965343",
             "_v": 1717685958668
         },
         {
@@ -39323,7 +39337,7 @@
             "symbol": "sound_hurt_vgm",
             "filename": "Hurt.vgm",
             "type": "vgm",
-            "inode": "3096224744774884",
+            "inode": "18014398509985886",
             "_v": 1717685958643
         },
         {
@@ -39332,7 +39346,7 @@
             "symbol": "sound_menu_out_vgm",
             "filename": "Menu_Out.vgm",
             "type": "vgm",
-            "inode": "3096224744774893",
+            "inode": "7881299348402311",
             "_v": 1717685962858
         },
         {
@@ -39341,7 +39355,7 @@
             "symbol": "sound_pause_vgm",
             "filename": "Pause.vgm",
             "type": "vgm",
-            "inode": "3096224744774919",
+            "inode": "28710447624990856",
             "_v": 1717685965317
         },
         {
@@ -39350,7 +39364,7 @@
             "symbol": "sound_steps_vgm",
             "filename": "Steps.vgm",
             "type": "vgm",
-            "inode": "8725724278988042",
+            "inode": "16325548649722020",
             "_v": 1717685973921
         },
         {
@@ -39359,7 +39373,7 @@
             "symbol": "sound_sword_slash_vgm",
             "filename": "Sword_Slash.vgm",
             "type": "vgm",
-            "inode": "2533274791353649",
+            "inode": "9007199255244965",
             "_v": 1717686231738
         }
     ],
@@ -39495,9 +39509,19 @@
             "symbol": "var_armorinteract"
         },
         {
+            "id": "39",
+            "name": "PauseArrow",
+            "symbol": "var_pausearrow"
+        },
+        {
             "id": "51",
             "name": "PlayerGetHit",
             "symbol": "var_playergethit"
+        },
+        {
+            "id": "81",
+            "name": "Holding Bad Item",
+            "symbol": "var_holding_bad_item"
         },
         {
             "id": "82",
@@ -39533,6 +39557,16 @@
             "id": "88",
             "name": "Player given translator tip",
             "symbol": "var_player_given_translator"
+        },
+        {
+            "id": "89",
+            "name": "BribedGuards",
+            "symbol": "var_bribedguards"
+        },
+        {
+            "id": "90",
+            "name": "InteractedGuards",
+            "symbol": "var_interactedguards"
         },
         {
             "id": "100",
@@ -39953,26 +39987,6 @@
             "id": "661e7979-0f50-4e32-8074-6593e6e8152c__L0",
             "name": "Local 0",
             "symbol": "var_local_0"
-        },
-        {
-            "id": "39",
-            "name": "PauseArrow",
-            "symbol": "var_pausearrow"
-        },
-        {
-            "id": "81",
-            "name": "Holding Bad Item",
-            "symbol": "var_holding_bad_item"
-        },
-        {
-            "id": "89",
-            "name": "BribedGuards",
-            "symbol": "var_bribedguards"
-        },
-        {
-            "id": "90",
-            "name": "InteractedGuards",
-            "symbol": "var_interactedguards"
         }
     ],
     "engineFieldValues": [
@@ -39992,8 +40006,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1496.6666259765625,
-        "worldScrollY": 1382,
+        "worldScrollX": 1092,
+        "worldScrollY": 1298,
         "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -40022,9 +40036,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            275,
-            85,
-            277
+            413,
+            127,
+            416
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
