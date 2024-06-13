@@ -23211,7 +23211,7 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "04d3b0c2-c4a6-44d3-93c7-da8fc31e60b6",
+                                "sceneId": "ece08425-cac6-4ece-a975-b4109afb9779",
                                 "x": 8,
                                 "y": 8,
                                 "direction": "right",
@@ -26826,45 +26826,6 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "359b5577-b18f-4081-832e-300816d66369"
-        },
-        {
-            "name": "Scene 30",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [],
-            "autoFadeSpeed": 1,
-            "id": "04d3b0c2-c4a6-44d3-93c7-da8fc31e60b6",
-            "symbol": "scene_30",
-            "x": 573.5237862723211,
-            "y": 2083.047665550596,
-            "actors": [],
-            "triggers": [],
-            "script": [
-                {
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "$self$"
-                    },
-                    "id": "d4a9e6c2-92d6-4d79-9cfd-69289b81d70c"
-                },
-                {
-                    "command": "EVENT_TEXT",
-                    "args": {
-                        "text": [
-                            "kill yourself"
-                        ],
-                        "avatarId": ""
-                    },
-                    "id": "6ae57012-7588-4803-9848-d8de94ed77fc"
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": []
         },
         {
             "name": "Entrance after",
@@ -43049,8 +43010,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1521,
-        "worldScrollY": 1880,
+        "worldScrollX": 864,
+        "worldScrollY": 1913,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
