@@ -65,9 +65,16 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "59454f02-4590-4cfd-83ae-1f3137a4a0b5"
+                    },
+                    "id": "385ab815-16d3-4165-a0b6-feb9e9a055ad"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Press any button SCRIPT"
                     },
                     "children": {
@@ -152,14 +159,6 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "59454f02-4590-4cfd-83ae-1f3137a4a0b5",
-                        "__collapse": true
-                    },
-                    "id": "88f6b52e-dcc3-4fb9-9aa6-69c886be7d3a"
-                },
-                {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -167,7 +166,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Press A >> Game Start"
                     },
                     "children": {
@@ -327,7 +326,8 @@
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": false
                     },
                     "id": "7dfdffa6-950b-4b09-8e23-15cf15c47efb"
                 },
@@ -335,7 +335,8 @@
                     "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
                     "args": {
                         "actorId": "$self$",
-                        "speed": 0.5
+                        "speed": 0.5,
+                        "__collapse": false
                     },
                     "id": "8c16266d-1b11-4ab1-a2d2-783b1bedd91e"
                 },
@@ -19786,6 +19787,20 @@
                         "__collapse": false
                     },
                     "id": "5cf93588-5268-4c38-9dd7-9cf69fee3ae1"
+                },
+                {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "crash",
+                        "priority": "low",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 3,
+                        "wait": false,
+                        "effect": 0,
+                        "__collapse": false
+                    },
+                    "id": "3174ee74-8b8c-4a85-8427-c50478ef7dd4"
                 },
                 {
                     "command": "EVENT_CAMERA_SHAKE",
@@ -42494,7 +42509,7 @@
             "symbol": "sound_explosion_vgm",
             "filename": "Explosion.vgm",
             "type": "vgm",
-            "inode": "3096224744728291",
+            "inode": "2814749768014862",
             "_v": 1717685958668
         },
         {
@@ -42503,7 +42518,7 @@
             "symbol": "sound_hurt_vgm",
             "filename": "Hurt.vgm",
             "type": "vgm",
-            "inode": "3096224744728292",
+            "inode": "2533274791304221",
             "_v": 1717685958643
         },
         {
@@ -42512,7 +42527,7 @@
             "symbol": "sound_menu_out_vgm",
             "filename": "Menu_Out.vgm",
             "type": "vgm",
-            "inode": "3096224744728293",
+            "inode": "9570149209071084",
             "_v": 1717685962858
         },
         {
@@ -42521,7 +42536,7 @@
             "symbol": "sound_pause_vgm",
             "filename": "Pause.vgm",
             "type": "vgm",
-            "inode": "3096224744728294",
+            "inode": "12103423999467353",
             "_v": 1717685965317
         },
         {
@@ -42530,7 +42545,7 @@
             "symbol": "sound_steps_vgm",
             "filename": "Steps.vgm",
             "type": "vgm",
-            "inode": "3096224744728295",
+            "inode": "3377699721437522",
             "_v": 1717685973921
         },
         {
@@ -42539,7 +42554,7 @@
             "symbol": "sound_sword_slash_vgm",
             "filename": "Sword_Slash.vgm",
             "type": "vgm",
-            "inode": "3096224744728296",
+            "inode": "25332747904868718",
             "_v": 1717686231738
         }
     ],
@@ -43167,9 +43182,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
-        "startX": 0,
-        "startY": 0,
+        "startSceneId": "5ee0a177-f427-403a-85aa-96f0e4780c66",
+        "startX": 7,
+        "startY": 3,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -43177,9 +43192,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1.3333333730697632,
-        "worldScrollY": 300.6666564941406,
-        "zoom": 109.48924926760992,
+        "worldScrollX": 108,
+        "worldScrollY": 588,
+        "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -43207,9 +43222,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            258,
-            79,
-            260
+            410,
+            125,
+            413
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
