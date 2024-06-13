@@ -12576,13 +12576,6 @@
                     "startScript": [],
                     "updateScript": [
                         {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "7245f8fc-9902-40ff-9e1f-c780d2f91a7e"
-                        },
-                        {
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "118",
@@ -12596,6 +12589,40 @@
                                             "actorId": "$self$"
                                         },
                                         "id": "e5ae1e2a-21b0-43e4-91b0-4188c89cefae"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 15
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 11
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "78f1685d-ad12-4714-b6e8-fd8e7a199cd1"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 30
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 11
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "2457599c-f5e6-45ef-b719-451a4d1784c0"
                                     }
                                 ],
                                 "false": [
@@ -12609,40 +12636,6 @@
                                 ]
                             },
                             "id": "e9a2b021-7f5c-4354-b4e8-2e8737eb0fa0"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_MOVE_TO",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 15
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 11
-                                },
-                                "moveType": "horizontal",
-                                "useCollisions": false
-                            },
-                            "id": "78f1685d-ad12-4714-b6e8-fd8e7a199cd1"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_MOVE_TO",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 30
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 11
-                                },
-                                "moveType": "horizontal",
-                                "useCollisions": false
-                            },
-                            "id": "2457599c-f5e6-45ef-b719-451a4d1784c0"
                         }
                     ],
                     "hit1Script": [],
@@ -12973,7 +12966,7 @@
                                                         "y": 0,
                                                         "direction": "",
                                                         "fadeSpeed": "2",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "6f776290-16c5-4b86-89d6-fcbee76dd836"
                                                 }
@@ -13143,7 +13136,22 @@
                             "id": "ea0cfbe4-1e83-481f-81c1-ee4a18dafa5a"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "39df3991-f53d-4ec6-a160-d80ba163f73a"
+                            },
+                            "id": "d612d133-5e49-49a6-8deb-547be94172f5"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "d74d1f06-992c-4066-bbb3-94d05cf09ea8"
+                            },
+                            "id": "01428d2d-a338-41ac-938e-574c99f7e012"
+                        }
+                    ]
                 },
                 {
                     "name": "",
@@ -26032,6 +26040,17 @@
                                 "fadeSpeed": "2"
                             },
                             "id": "e106e39c-f34a-4ca0-b9c2-6aeafee79ca3"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "33",
+                                "value": {
+                                    "type": "number",
+                                    "value": 3
+                                }
+                            },
+                            "id": "a27c8d9b-12ce-44e8-ad72-141720486cce"
                         }
                     ],
                     "leaveScript": []
@@ -26912,7 +26931,19 @@
                             "id": "26584025-268e-4407-a75c-7308f5ddae24"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "33",
+                                "value": {
+                                    "type": "number",
+                                    "value": 3
+                                }
+                            },
+                            "id": "f5c2b118-abc6-4d77-be4f-eeff285b7159"
+                        }
+                    ]
                 },
                 {
                     "name": "",
@@ -39949,8 +39980,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2381,
-        "worldScrollY": 2452,
+        "worldScrollX": 2622,
+        "worldScrollY": 2557,
         "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
