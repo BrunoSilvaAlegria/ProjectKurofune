@@ -277,9 +277,9 @@
         },
         {
             "name": "Credit Screen",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "66c6fc22-2530-4d05-bebd-1f4adbc6cb56",
             "width": 20,
-            "height": 18,
+            "height": 67,
             "type": "TOPDOWN",
             "paletteIds": [],
             "spritePaletteIds": [],
@@ -287,11 +287,59 @@
             "autoFadeSpeed": 1,
             "id": "335462e0-b16f-4798-b474-ac557ad7df3a",
             "symbol": "scene_4",
-            "x": 82,
-            "y": 501.6666679382324,
+            "x": 60.00000000000001,
+            "y": 116.14100543050706,
             "actors": [],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "79236334-21ca-4f57-8675-f5a0d43138f6",
+                    "x": 0,
+                    "y": 66,
+                    "symbol": "trigger_52",
+                    "width": 20,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "16ebc82a-9055-402b-ba86-d17b0190f48b",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "18b4578d-b6a5-4b6e-a0cf-913ca32ca039"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "7dfdffa6-950b-4b09-8e23-15cf15c47efb"
+                },
+                {
+                    "command": "EVENT_ACTOR_MOVE_TO",
+                    "args": {
+                        "actorId": "$self$",
+                        "x": {
+                            "type": "property",
+                            "value": "$self$:xpos"
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 66
+                        },
+                        "moveType": "vertical",
+                        "useCollisions": false
+                    },
+                    "id": "df7cf45f-4b56-4ad2-8438-58d82e4bbd94"
+                },
                 {
                     "command": "EVENT_GROUP",
                     "args": {
@@ -389,7 +437,7 @@
                     "name": "Arrow",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "spriteSheetId": "c2de3ad7-f847-4f2e-9a81-1eebf0c442f7",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -406,10 +454,22 @@
                     "hit3Script": [],
                     "id": "b7f154c4-61ff-4ffd-a4a1-cc4f96727664",
                     "x": 9,
-                    "y": 7
+                    "y": 8
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "53f63815-00f6-4901-9e2e-2659170049b1",
+                    "x": 10,
+                    "y": 7,
+                    "symbol": "trigger_53",
+                    "width": 1,
+                    "height": 1,
+                    "script": [],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "id": "acb859e3-873b-4397-8b37-d11b3e3bfd91",
@@ -444,7 +504,7 @@
                         ],
                         "override": false,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -458,11 +518,11 @@
                                     },
                                     "y": {
                                         "type": "number",
-                                        "value": 7
+                                        "value": 8
                                     },
                                     "moveType": "horizontal",
                                     "useCollisions": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "3aecc63b-0ddd-4ddd-bab3-2c3e539c32b3"
                             },
@@ -500,11 +560,11 @@
                                     },
                                     "y": {
                                         "type": "number",
-                                        "value": 9
+                                        "value": 10
                                     },
                                     "moveType": "horizontal",
                                     "useCollisions": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "8017f5f3-8ecb-4809-8fd6-be1c2dbf1e06"
                             },
@@ -28699,9 +28759,9 @@
             "name": "credits",
             "symbol": "bg_credits",
             "width": 20,
-            "height": 64,
+            "height": 67,
             "imageWidth": 160,
-            "imageHeight": 512,
+            "imageHeight": 536,
             "filename": "credits.png",
             "tileColors": []
         },
@@ -36050,6 +36110,134 @@
             "animSpeed": 15
         },
         {
+            "id": "c2de3ad7-f847-4f2e-9a81-1eebf0c442f7",
+            "name": "gunPointer",
+            "symbol": "sprite_gunpointer",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "gunPointer.png",
+            "checksum": "8c767dbd9f3578277f8b6e47c475130a81780385",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "18dc47b5-50f7-4671-80e2-d0c2cf041f37",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "81074663-2ab3-493b-91ce-4dd403452138",
+                            "frames": [
+                                {
+                                    "id": "df11313c-abb1-4322-a794-c223eb401526",
+                                    "tiles": [
+                                        {
+                                            "id": "6531299b-70d8-49e5-b4be-82ee881b6364",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "35494cd5-5696-4916-95ae-07d8f9b56c80",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a2083964-2201-45d3-bdb5-f94cdf8f98d6",
+                            "frames": [
+                                {
+                                    "id": "cd371b58-ed1f-4a7c-9948-f226785758e2",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e81df164-9e26-48e9-9e6c-2d210f9cd474",
+                            "frames": [
+                                {
+                                    "id": "949d9c41-f2af-4562-8b7c-d9dc3dc87ce0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ff4be8b1-d018-4589-b34a-be7722a3031f",
+                            "frames": [
+                                {
+                                    "id": "14fb2c88-d598-413b-ae05-f693c89fbd2e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d351b966-355b-4432-a572-e5f64402d2c6",
+                            "frames": [
+                                {
+                                    "id": "8d60c1ae-e39c-4f19-8e11-6fbb8a1c2edb",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "de9a66e5-7e61-4860-bfda-36a36a7d09c5",
+                            "frames": [
+                                {
+                                    "id": "dd06fedd-52a9-477b-9727-dd22a05b565a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e6116faa-f619-48e3-90a5-f51b387c5727",
+                            "frames": [
+                                {
+                                    "id": "ec9548cc-1b0b-48f3-9edd-f5b52873f752",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6bfcb6f5-118c-4db5-a9c6-8e9ca5d82d99",
+                            "frames": [
+                                {
+                                    "id": "3e4099e5-acf1-4943-a6a2-c349876ce422",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "23dfba7b-bf5b-46ea-a7f3-1fc8f740a36f",
             "name": "kunai",
             "symbol": "sprite_kunai",
@@ -42973,9 +43161,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 294.6666564941406,
-        "zoom": 63.549595740618315,
+        "worldScrollX": 926,
+        "worldScrollY": 939.3333129882812,
+        "zoom": 230.02158400136432,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
