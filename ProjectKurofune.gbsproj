@@ -279,7 +279,7 @@
             "name": "Credit Screen",
             "backgroundId": "66c6fc22-2530-4d05-bebd-1f4adbc6cb56",
             "width": 20,
-            "height": 67,
+            "height": 68,
             "type": "TOPDOWN",
             "paletteIds": [],
             "spritePaletteIds": [],
@@ -295,7 +295,7 @@
                     "name": "",
                     "id": "79236334-21ca-4f57-8675-f5a0d43138f6",
                     "x": 0,
-                    "y": 66,
+                    "y": 67,
                     "symbol": "trigger_52",
                     "width": 20,
                     "height": 1,
@@ -349,7 +349,7 @@
                         },
                         "y": {
                             "type": "number",
-                            "value": 66
+                            "value": 67
                         },
                         "moveType": "vertical",
                         "useCollisions": false
@@ -28775,9 +28775,9 @@
             "name": "credits",
             "symbol": "bg_credits",
             "width": 20,
-            "height": 67,
+            "height": 68,
             "imageWidth": 160,
-            "imageHeight": 536,
+            "imageHeight": 544,
             "filename": "credits.png",
             "tileColors": []
         },
@@ -43177,9 +43177,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 20,
-        "zoom": 46.102153887035456,
+        "worldScrollX": 1.3333333730697632,
+        "worldScrollY": 300.6666564941406,
+        "zoom": 109.48924926760992,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
