@@ -15634,10 +15634,10 @@
                                         "args": {
                                             "text": [
                                                 "Martim: Yes.\nBy the grace of\ngod.",
-                                                "Martim: , I have\nbeen learning it."
+                                                "Martim: I have\nbeen learning it."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "b10839f8-ee87-4410-a045-06b6a4c7683e"
                                     },
@@ -15650,7 +15650,7 @@
                                                 "Can you help me\ntalk to the\nlocals? "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "e9334950-1d04-4811-84a0-ae6ca870a176"
                                     },
@@ -25629,8 +25629,8 @@
                                 "value14": 15,
                                 "__collapseCase15": false,
                                 "value15": 16,
-                                "__collapseElse": false,
-                                "__collapse": true
+                                "__collapseElse": true,
+                                "__collapse": false
                             },
                             "children": {
                                 "true0": [
@@ -25670,7 +25670,19 @@
                                         "id": "dfb41021-51b8-4e12-9dcb-98fd70900e8d"
                                     }
                                 ],
-                                "true1": [],
+                                "true1": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Chief: Bring me \nsomething good.",
+                                                "Chief: And then \nwe'll talk!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "cbe1ee36-ec37-446f-b758-746712e42557"
+                                    }
+                                ],
                                 "true2": [],
                                 "true3": [
                                     {
@@ -40409,7 +40421,7 @@
             "symbol": "sound_explosion_vgm",
             "filename": "Explosion.vgm",
             "type": "vgm",
-            "inode": "281474977475893",
+            "inode": "8162774325138277",
             "_v": 1717685958668
         },
         {
@@ -40418,7 +40430,7 @@
             "symbol": "sound_hurt_vgm",
             "filename": "Hurt.vgm",
             "type": "vgm",
-            "inode": "281474977475894",
+            "inode": "7881299348427651",
             "_v": 1717685958643
         },
         {
@@ -40427,7 +40439,7 @@
             "symbol": "sound_menu_out_vgm",
             "filename": "Menu_Out.vgm",
             "type": "vgm",
-            "inode": "281474977475895",
+            "inode": "7881299348427653",
             "_v": 1717685962858
         },
         {
@@ -40436,7 +40448,7 @@
             "symbol": "sound_pause_vgm",
             "filename": "Pause.vgm",
             "type": "vgm",
-            "inode": "281474977475896",
+            "inode": "7881299348427659",
             "_v": 1717685965317
         },
         {
@@ -40445,7 +40457,7 @@
             "symbol": "sound_steps_vgm",
             "filename": "Steps.vgm",
             "type": "vgm",
-            "inode": "281474977475897",
+            "inode": "7881299348427689",
             "_v": 1717685973921
         },
         {
@@ -40454,7 +40466,7 @@
             "symbol": "sound_sword_slash_vgm",
             "filename": "Sword_Slash.vgm",
             "type": "vgm",
-            "inode": "281474977475898",
+            "inode": "11821949022376884",
             "_v": 1717686231738
         }
     ],
@@ -41092,8 +41104,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1206,
-        "worldScrollY": 1838,
+        "worldScrollX": 1111,
+        "worldScrollY": 1160,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -41122,9 +41134,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            399,
-            120,
-            401
+            413,
+            127,
+            416
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
