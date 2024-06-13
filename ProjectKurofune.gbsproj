@@ -11061,7 +11061,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "6448ce4a-ee00-464d-a7f9-89abe6c71135",
-                                "x": 3,
+                                "x": 2,
                                 "y": 9,
                                 "direction": "right",
                                 "fadeSpeed": "2"
@@ -13702,17 +13702,6 @@
                                 "avatarId": ""
                             },
                             "id": "1612c663-047e-44fc-bd33-e21b6749a28a"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Martim: Vasco, be \ncareful!",
-                                    "The assassin saw \nus!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "86c2a26f-de1f-436e-a7f3-eba4be9f0438"
                         },
                         {
                             "command": "EVENT_SET_TRUE",
@@ -19525,10 +19514,11 @@
                                     "Morita: Are you \nallright?",
                                     "Yes, thanks to you",
                                     "But why was Paulo\nkilled?",
-                                    "Morita: This ninja\nis part of a faction",
-                                    "that wants to cause\ntrouble between",
-                                    "our peoples. We\nneed to inform",
-                                    "the village chief\nimmediately"
+                                    "Morita: This ninja\nis part of a ",
+                                    "faction that wants\nto cause trouble",
+                                    "between our people\n",
+                                    "We need to inform\nthe village chief",
+                                    "immediately"
                                 ],
                                 "avatarId": ""
                             },
@@ -22949,7 +22939,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "f095bec4-496f-4fc5-aadf-a80354f9c52e",
-                    "x": 154,
+                    "x": 1,
                     "y": 1
                 },
                 {
@@ -23221,7 +23211,7 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "04d3b0c2-c4a6-44d3-93c7-da8fc31e60b6",
+                                "sceneId": "ece08425-cac6-4ece-a975-b4109afb9779",
                                 "x": 8,
                                 "y": 8,
                                 "direction": "right",
@@ -26838,45 +26828,6 @@
             "playerSpriteSheetId": "359b5577-b18f-4081-832e-300816d66369"
         },
         {
-            "name": "Scene 30",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [],
-            "autoFadeSpeed": 1,
-            "id": "04d3b0c2-c4a6-44d3-93c7-da8fc31e60b6",
-            "symbol": "scene_30",
-            "x": 573.5237862723211,
-            "y": 2083.047665550596,
-            "actors": [],
-            "triggers": [],
-            "script": [
-                {
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "$self$"
-                    },
-                    "id": "d4a9e6c2-92d6-4d79-9cfd-69289b81d70c"
-                },
-                {
-                    "command": "EVENT_TEXT",
-                    "args": {
-                        "text": [
-                            "kill yourself"
-                        ],
-                        "avatarId": ""
-                    },
-                    "id": "6ae57012-7588-4803-9848-d8de94ed77fc"
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": []
-        },
-        {
             "name": "Entrance after",
             "backgroundId": "752dbe86-4952-4e84-ae36-04182991d78d",
             "width": 20,
@@ -27305,7 +27256,7 @@
                                     "Martim: It can be\nused in battles\nor in a ceremony."
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "24b28cd9-f49a-49e1-b7d8-d73d71047cb3"
                         },
@@ -28248,92 +28199,6 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "359b5577-b18f-4081-832e-300816d66369",
-                    "direction": "right",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_57",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "118",
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_DEACTIVATE",
-                                        "args": {
-                                            "actorId": "$self$"
-                                        },
-                                        "id": "e5ae1e2a-21b0-43e4-91b0-4188c89cefae"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 15
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 11
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        },
-                                        "id": "78f1685d-ad12-4714-b6e8-fd8e7a199cd1"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_MOVE_TO",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 30
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 11
-                                            },
-                                            "moveType": "horizontal",
-                                            "useCollisions": false
-                                        },
-                                        "id": "2457599c-f5e6-45ef-b719-451a4d1784c0"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_ACTOR_ACTIVATE",
-                                        "args": {
-                                            "actorId": "$self$"
-                                        },
-                                        "id": "c05c6ce7-1313-4e2e-af79-a97079db591d"
-                                    }
-                                ]
-                            },
-                            "id": "e9a2b021-7f5c-4354-b4e8-2e8737eb0fa0"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "8612b4c8-e579-420f-8424-411a880d5ac9",
-                    "x": 2,
-                    "y": 9
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
                     "spriteSheetId": "06d81eba-c573-4065-b646-10a07e415a2c",
                     "direction": "right",
                     "moveSpeed": 1,
@@ -28352,11 +28217,11 @@
                                 "actorId": "$self$",
                                 "x": {
                                     "type": "number",
-                                    "value": 15
+                                    "value": 18
                                 },
                                 "y": {
                                     "type": "number",
-                                    "value": 11
+                                    "value": 9
                                 },
                                 "moveType": "horizontal",
                                 "useCollisions": false,
@@ -28365,32 +28230,11 @@
                             "id": "d79a995c-9cc7-4d06-abeb-0cbcbe3b7fa3"
                         },
                         {
-                            "command": "EVENT_ACTOR_MOVE_TO",
+                            "command": "EVENT_ACTOR_DEACTIVATE",
                             "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 30
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 11
-                                },
-                                "moveType": "horizontal",
-                                "useCollisions": false
+                                "actorId": "$self$"
                             },
-                            "id": "86a34897-ec35-4f2f-bf1b-63e3998d0290"
-                        },
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "2d7cdea3-9388-48f4-8589-3d1e6a7b57d0",
-                                "x": 1,
-                                "y": 8,
-                                "direction": "",
-                                "fadeSpeed": "2"
-                            },
-                            "id": "bd58854d-a1f8-4815-964d-eb2165094dbf"
+                            "id": "b042df37-02d1-4fbf-8a8c-9a948b6f3fc7"
                         }
                     ],
                     "hit1Script": [],
@@ -28505,6 +28349,13 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "9765993b-43af-496e-a7e3-273db5d41d05"
+                },
+                {
                     "command": "EVENT_WAIT",
                     "args": {
                         "time": 3,
@@ -28557,6 +28408,13 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "36cce9fa-c388-44a6-865a-b609ac49dd02"
+                },
                 {
                     "command": "EVENT_WAIT",
                     "args": {
@@ -43142,9 +43000,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "1096e891-df80-4521-b811-34e10771d731",
-        "startX": 15,
-        "startY": 10,
+        "startSceneId": "6448ce4a-ee00-464d-a7f9-89abe6c71135",
+        "startX": 2,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -43152,8 +43010,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1644,
-        "worldScrollY": 1917,
+        "worldScrollX": 864,
+        "worldScrollY": 1913,
         "zoom": 125,
         "customColorsEnabled": false,
         "sgbEnabled": false,
