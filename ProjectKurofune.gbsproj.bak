@@ -13866,14 +13866,14 @@
             "autoFadeSpeed": 1,
             "id": "7fa8484f-03a6-4d74-8d36-f9f36e552327",
             "symbol": "scene_18",
-            "x": 1241.9333333333357,
+            "x": 1251.6476190476214,
             "y": 1170.6000000000008,
             "actors": [
                 {
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "3660a90e-cf1e-4c0a-9f9f-74c3eec5f528",
+                    "spriteSheetId": "05d2958f-964c-493f-a803-94950735fe80",
                     "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -13883,6 +13883,27 @@
                     "collisionGroup": "",
                     "symbol": "actor_26",
                     "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Paulo! No!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "1612c663-047e-44fc-bd33-e21b6749a28a"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Martim: Vasco, be \ncareful!",
+                                    "The assassin saw \nus!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "86c2a26f-de1f-436e-a7f3-eba4be9f0438"
+                        },
                         {
                             "command": "EVENT_SET_TRUE",
                             "args": {
@@ -13915,8 +13936,124 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "3531f9e0-3f0e-4f73-8ddb-e636cb40a8f1",
+                    "x": 4,
+                    "y": 8
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5a2b0fae-192a-486c-bfba-ecae326459c9",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_27",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "711c8d30-8c75-4a95-a034-ab1f24635c25",
                     "x": 3,
+                    "y": 8
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "2",
+                    "symbol": "actor_52",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "9ce5f934-d33c-4386-9f82-2ddadd01bbe9"
+                        }
+                    ],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e9b45cba-2162-4c7b-9d52-9e5feea473a7",
+                    "x": 7,
+                    "y": 6
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "2",
+                    "symbol": "actor_61",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "1ce93e25-f975-41b1-90dd-696ed1a18aed"
+                        }
+                    ],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d26f6237-1197-423c-8b89-85623551740b",
+                    "x": 10,
                     "y": 9
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "2",
+                    "symbol": "actor_62",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "39ac890b-dce5-44ce-a48f-b506d1c710ac"
+                        }
+                    ],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d6c8af63-7ca7-4646-8d1c-33e2b855a03d",
+                    "x": 9,
+                    "y": 13
                 }
             ],
             "triggers": [
@@ -19785,7 +19922,7 @@
         },
         {
             "name": "Level 1/2 - Crow's Nest Cutscene",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "0707f977-ef4d-444c-a87b-5a3090906e0e",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -28010,6 +28147,26 @@
             "tileColors": []
         },
         {
+            "id": "66c6fc22-2530-4d05-bebd-1f4adbc6cb56",
+            "name": "credits",
+            "symbol": "bg_credits",
+            "width": 20,
+            "height": 64,
+            "imageWidth": 160,
+            "imageHeight": 512,
+            "filename": "credits.png"
+        },
+        {
+            "id": "0707f977-ef4d-444c-a87b-5a3090906e0e",
+            "name": "crows nest",
+            "symbol": "bg_crows_nest",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "crows nest.png"
+        },
+        {
             "id": "e5bb5900-c50c-472d-9d9c-bff22de9ca6d",
             "name": "grassField",
             "symbol": "bg_grassfield",
@@ -31343,6 +31500,262 @@
                 }
             ],
             "numTiles": 6,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "05d2958f-964c-493f-a803-94950735fe80",
+            "name": "Sprite_Level_23_CristaoCabeca",
+            "symbol": "sprite_sprite_level_23_cris",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Sprite_Level_23_CristaoCabeca.png",
+            "checksum": "edfb17c22aa9720b408b61423a766fa51c143a76",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "8549a9fc-7c50-4e63-8b74-0a1c7ce553d9",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "78165d22-4839-4ca5-a224-8ec88e52b0a3",
+                            "frames": [
+                                {
+                                    "id": "337db63e-7f43-4ade-bfe3-84dd20533201",
+                                    "tiles": [
+                                        {
+                                            "id": "d2074e5e-8dcd-4a74-bf8a-cabb73bb05ec",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "efd82e84-a463-46a3-9661-669d48cc34d1",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "053c5b9d-545f-428a-8007-224b3145147f",
+                            "frames": [
+                                {
+                                    "id": "5aeaffe4-87b9-4552-aff3-ab18137c8c92",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cc164dc9-5b09-4c0b-8d5e-4cff64301ea9",
+                            "frames": [
+                                {
+                                    "id": "bd1c51a9-d14c-4103-bcdd-2e95fb38d77f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "dff1f735-859e-442a-808c-2ae240d479c1",
+                            "frames": [
+                                {
+                                    "id": "d2709a82-3a08-4885-b7da-de45d23538f0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "05dc4349-285d-473b-95a3-4e30af4aefc6",
+                            "frames": [
+                                {
+                                    "id": "abdac908-e4fb-4176-8956-6626cc1dd145",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1a51c2e6-c1f7-42bc-9ae9-d1de72a7cf85",
+                            "frames": [
+                                {
+                                    "id": "64a75268-624d-4f90-986a-3a5808b6b673",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7111814d-8f86-42ad-b9ed-cd597821732f",
+                            "frames": [
+                                {
+                                    "id": "1158f46d-3fb7-429f-bb48-410b698e2b57",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a6405035-c6ad-4a0e-8cc1-58f410fa396c",
+                            "frames": [
+                                {
+                                    "id": "51aba75a-e3b8-4c7f-b2a4-eedafd1953ae",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "5a2b0fae-192a-486c-bfba-ecae326459c9",
+            "name": "Sprite_Level_23_CristaoCorpo",
+            "symbol": "sprite_sprite_level_cris_0",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Sprite_Level_23_CristaoCorpo.png",
+            "checksum": "288c189ddacd170e3418425d23a97b0dbf5afa5a",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "1a63d456-b6ed-4d3b-9281-b77890b47a8f",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "e461c8fb-d3f4-4498-aa18-aaebe54fc2e3",
+                            "frames": [
+                                {
+                                    "id": "472e6747-8030-4ee4-b785-519f0b60f501",
+                                    "tiles": [
+                                        {
+                                            "id": "2aa5d9c4-9809-4219-8512-dcd3d84e1137",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "f250a47a-8ecd-4627-a243-b6f44a2a9a61",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6bd5c61c-9708-417b-ad03-c5e78b55ac81",
+                            "frames": [
+                                {
+                                    "id": "03c703ca-6c95-49ab-9a21-791e32edbf4c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3fe2de45-0cab-4eab-8c0b-55ce927665e3",
+                            "frames": [
+                                {
+                                    "id": "97a27fdc-2977-4a80-a3de-9101b1b7e33f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3662a213-d722-4284-8ac3-6b2fc972e4a7",
+                            "frames": [
+                                {
+                                    "id": "53eeda69-fd75-463f-992d-148691f5829d",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f2ffbc31-4c8a-4bf3-86ec-259736c8e709",
+                            "frames": [
+                                {
+                                    "id": "daf63ce9-268c-4ded-977b-b6f989b7429b",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "af7aee28-bac4-4920-bfc6-9ebc31af2cac",
+                            "frames": [
+                                {
+                                    "id": "79d49062-2efa-4fb7-981b-2dcf5d4a40fd",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "86de566e-63a5-4270-8ee0-df6dbb0cf2c6",
+                            "frames": [
+                                {
+                                    "id": "73ecaa9f-3338-4c48-9a9a-886b6520119e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4b793541-5eeb-4e98-8e02-3e2752858b51",
+                            "frames": [
+                                {
+                                    "id": "5b2a4a4a-598b-46a4-8108-8c23fbd20d62",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -41872,9 +42285,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "1096e891-df80-4521-b811-34e10771d731",
-        "startX": 10,
-        "startY": 11,
+        "startSceneId": "7fa8484f-03a6-4d74-8d36-f9f36e552327",
+        "startX": 15,
+        "startY": 10,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -41882,9 +42295,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3102,
-        "worldScrollY": 3402,
-        "zoom": 225,
+        "worldScrollX": 1858,
+        "worldScrollY": 1784,
+        "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
