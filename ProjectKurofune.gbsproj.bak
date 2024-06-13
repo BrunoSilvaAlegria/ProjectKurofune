@@ -11373,6 +11373,29 @@
                     "id": "e73fd422-7fa2-430c-bc74-e1ddf31aaa4b",
                     "x": 14,
                     "y": 26
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "f1e5ebac-9404-4403-9318-d7fc925e7dea",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_27",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1f0163ed-71cb-425b-82e0-849b9bcbc902",
+                    "x": 13,
+                    "y": 4
                 }
             ],
             "triggers": [
@@ -12437,7 +12460,7 @@
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "06d81eba-c573-4065-b646-10a07e415a2c",
-                    "direction": "down",
+                    "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -12448,6 +12471,13 @@
                     "script": [],
                     "startScript": [],
                     "updateScript": [
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "60582fd4-2e67-4c84-85af-feccb8541bcc"
+                        },
                         {
                             "command": "EVENT_IF_TRUE",
                             "args": {
@@ -12461,7 +12491,7 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "8aa27e71-acc0-4cb7-8cd6-8c1090316926"
+                                        "id": "a4e13c59-5953-427e-9d47-57e329d485d1"
                                     }
                                 ],
                                 "false": [
@@ -12470,11 +12500,11 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "93b1f118-841e-4498-9bb2-a67de0f3873e"
+                                        "id": "1e7600c6-c57f-4ba0-8573-1c0ddfc7ebca"
                                     }
                                 ]
                             },
-                            "id": "b8d6aa04-9b26-4892-aaf1-712b9c495e92"
+                            "id": "4c34c0bc-7532-44e1-bb62-3e64172f09cb"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
@@ -12491,7 +12521,7 @@
                                 "moveType": "horizontal",
                                 "useCollisions": false
                             },
-                            "id": "bcb59c12-cf8f-4a6b-97a0-bc45fa7d04b4"
+                            "id": "d79a995c-9cc7-4d06-abeb-0cbcbe3b7fa3"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
@@ -12508,25 +12538,18 @@
                                 "moveType": "horizontal",
                                 "useCollisions": false
                             },
-                            "id": "34ffc080-66bb-4eac-ab5c-41e1be264c6d"
+                            "id": "86a34897-ec35-4f2f-bf1b-63e3998d0290"
                         },
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "2d7cdea3-9388-48f4-8589-3d1e6a7b57d0",
                                 "x": 1,
-                                "y": 9,
-                                "direction": "right",
+                                "y": 8,
+                                "direction": "",
                                 "fadeSpeed": "2"
                             },
-                            "id": "bb46e3ff-6856-412f-889d-94770da82b6f"
-                        },
-                        {
-                            "command": "EVENT_MUSIC_PLAY",
-                            "args": {
-                                "musicId": "d0f9a549-8146-4083-897a-4de1b7ca9bad"
-                            },
-                            "id": "1caf5846-10ab-42c5-b893-bd48e4037504"
+                            "id": "bd58854d-a1f8-4815-964d-eb2165094dbf"
                         }
                     ],
                     "hit1Script": [],
@@ -12553,6 +12576,13 @@
                     "startScript": [],
                     "updateScript": [
                         {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "7245f8fc-9902-40ff-9e1f-c780d2f91a7e"
+                        },
+                        {
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "118",
@@ -12565,7 +12595,7 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "d4f0b37e-a5e6-448a-bd57-be02926e938e"
+                                        "id": "e5ae1e2a-21b0-43e4-91b0-4188c89cefae"
                                     }
                                 ],
                                 "false": [
@@ -12574,11 +12604,11 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "458fded3-61c9-45ab-8e38-3eae1ff0d783"
+                                        "id": "c05c6ce7-1313-4e2e-af79-a97079db591d"
                                     }
                                 ]
                             },
-                            "id": "d7109b14-a4d9-4856-b4ac-12ca2bf56363"
+                            "id": "e9a2b021-7f5c-4354-b4e8-2e8737eb0fa0"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
@@ -12595,7 +12625,7 @@
                                 "moveType": "horizontal",
                                 "useCollisions": false
                             },
-                            "id": "a184f497-f9d3-4d0b-8d68-ec29cc32b9ef"
+                            "id": "78f1685d-ad12-4714-b6e8-fd8e7a199cd1"
                         },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
@@ -12612,7 +12642,7 @@
                                 "moveType": "horizontal",
                                 "useCollisions": false
                             },
-                            "id": "362c687a-357a-4469-8179-0bc005933165"
+                            "id": "2457599c-f5e6-45ef-b719-451a4d1784c0"
                         }
                     ],
                     "hit1Script": [],
@@ -12736,7 +12766,7 @@
                                                         "y": 0,
                                                         "direction": "",
                                                         "fadeSpeed": "2",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "cc7d01ff-e385-4d9e-ae47-cee86e46ffa1"
                                                 }
@@ -16391,7 +16421,7 @@
                                                     "command": "EVENT_SET_FALSE",
                                                     "args": {
                                                         "variable": "81",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "708109a4-2310-4c32-bc42-2adf29c52a38"
                                                 },
@@ -16470,7 +16500,7 @@
                                         "args": {
                                             "actorId": "$self$",
                                             "speed": 2,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "e62c37bf-3125-4a5f-9677-ea68951d8161"
                                     },
@@ -16486,7 +16516,7 @@
                                                 "type": "property",
                                                 "value": "player:ypos"
                                             },
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "358fb918-8241-4e6a-b1b1-1cb1e0930444"
                                     }
@@ -16504,7 +16534,7 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "L3",
-                                            "__collapseElse": true,
+                                            "__collapseElse": false,
                                             "__collapse": false
                                         },
                                         "children": {
@@ -16522,7 +16552,9 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "You falied the\nvibe check!"
+                                                                        "Chief: How dare \nyou bring such \na disrespectful ",
+                                                                        "Chief: item to our\nvillage? Execute\nhim!",
+                                                                        "...You Died..."
                                                                     ],
                                                                     "avatarId": ""
                                                                 },
@@ -16531,7 +16563,7 @@
                                                             {
                                                                 "command": "EVENT_SWITCH_SCENE",
                                                                 "args": {
-                                                                    "sceneId": "62cbab80-4b38-4684-b48f-1cf228ed3538",
+                                                                    "sceneId": "16ebc82a-9055-402b-ba86-d17b0190f48b",
                                                                     "x": 5,
                                                                     "y": 6,
                                                                     "direction": "down",
@@ -16554,7 +16586,7 @@
                                                                         "value": 6
                                                                     },
                                                                     "__label": "Resets item to default pos",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "02c1b721-015f-4f69-a5e3-dc2669eb9d01"
                                                             }
@@ -16820,7 +16852,9 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "This is hella Mid fam\nfk outa here"
+                                                                        "Chief: Hmm, a \ncommon sword.\nNothing noteworthy ",
+                                                                        "Chief: our katanas\nare much better.",
+                                                                        "I understand, i'll\ntry something \nmore suitable"
                                                                     ],
                                                                     "avatarId": ""
                                                                 },
@@ -17073,7 +17107,11 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "bussyn fr fr"
+                                                                        "Chief: Interesting\n... an arquebus. \nIts technology is ",
+                                                                        "Chief: unknown to \nus, but this shows\nthat you may be a ",
+                                                                        "Chief: valuable \nmerchant. I'll \nspeak with my ",
+                                                                        "Chief: Daikan \nabout you. Until \nthen, you may ",
+                                                                        "Chief: visit the \nvillage. "
                                                                     ],
                                                                     "avatarId": ""
                                                                 },
@@ -17401,7 +17439,7 @@
                                                     "command": "EVENT_COMMENT",
                                                     "args": {
                                                         "text": "Switching This to true is what triggers the other check",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "aefce26f-982a-4134-8d5f-c7fc1a20ba71"
                                                 },
@@ -17409,7 +17447,7 @@
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
                                                         "variable": "L3",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "ee71419f-c0f8-4054-be9f-786288bf37f7"
                                                 }
@@ -17524,7 +17562,7 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "bussyn fr fr"
+                                                                        "Guard: That's good\nenough. \nYou may pass."
                                                                     ],
                                                                     "avatarId": ""
                                                                 },
@@ -17533,10 +17571,10 @@
                                                             {
                                                                 "command": "EVENT_SWITCH_SCENE",
                                                                 "args": {
-                                                                    "sceneId": "5ed5d390-0c55-44f9-9902-d8023f08917c",
-                                                                    "x": 25,
-                                                                    "y": 11,
-                                                                    "direction": "down",
+                                                                    "sceneId": "2d7cdea3-9388-48f4-8589-3d1e6a7b57d0",
+                                                                    "x": 1,
+                                                                    "y": 9,
+                                                                    "direction": "right",
                                                                     "fadeSpeed": 4
                                                                 },
                                                                 "id": "4cb8e555-6a7b-4777-9db4-13a4688a9986"
@@ -25562,7 +25600,7 @@
                             "command": "EVENT_SWITCH",
                             "args": {
                                 "variable": "100",
-                                "choices": 4,
+                                "choices": 1,
                                 "__collapseCase0": false,
                                 "value0": 1,
                                 "__collapseCase1": false,
@@ -25595,7 +25633,8 @@
                                 "value14": 15,
                                 "__collapseCase15": false,
                                 "value15": 16,
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": true
                             },
                             "children": {
                                 "true0": [
@@ -25616,45 +25655,12 @@
                                                 "Chief: Before \nallowing your \nentry...",
                                                 "Chief: I need to \nensure that you ..",
                                                 "Chief: are a \ntrustworthy trader",
-                                                "Chief: Show me \nyour goods...",
-                                                "Chief: As\nproof of your \ngood faith."
+                                                "Chief: Show me \nyour goods..."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "1648aea9-81c2-43b8-a34f-f68ff2e7cb8e"
-                                    },
-                                    {
-                                        "command": "EVENT_INC_VALUE",
-                                        "args": {
-                                            "variable": "100"
-                                        },
-                                        "id": "944c7524-cdd4-460b-9430-f01de6d6a485"
-                                    }
-                                ],
-                                "true1": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Chief: Bring \nsomething good...",
-                                                "Chief: and then \nwe'll talk!"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "3320c16c-a6ab-4a0f-b059-176e51bc457e"
-                                    }
-                                ],
-                                "true2": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Ah yes now wee can\ndo busyness"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "b12aa946-868f-488d-b32c-30987193f1c0"
                                     },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
@@ -25668,6 +25674,8 @@
                                         "id": "dfb41021-51b8-4e12-9dcb-98fd70900e8d"
                                     }
                                 ],
+                                "true1": [],
+                                "true2": [],
                                 "true3": [
                                     {
                                         "command": "EVENT_TEXT",
@@ -25695,6 +25703,31 @@
                                 "false": []
                             },
                             "id": "6bba4cd8-8589-46d4-bccf-77be783061f5"
+                        },
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "100",
+                                "operator": "==",
+                                "comparator": 4,
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Chief: You may\nvisit the village"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c4934d8b-0edf-4f2c-b915-c37b2535989f"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "8b04750f-bd8b-49ff-b5df-b62e26ef0b81"
                         }
                     ],
                     "startScript": [
@@ -39233,7 +39266,7 @@
             "symbol": "sound_explosion_vgm",
             "filename": "Explosion.vgm",
             "type": "vgm",
-            "inode": "88946092640721377",
+            "inode": "1688849861045711",
             "_v": 1717685958668
         },
         {
@@ -39242,7 +39275,7 @@
             "symbol": "sound_hurt_vgm",
             "filename": "Hurt.vgm",
             "type": "vgm",
-            "inode": "102738366499543810",
+            "inode": "1688849861045712",
             "_v": 1717685958643
         },
         {
@@ -39251,7 +39284,7 @@
             "symbol": "sound_menu_out_vgm",
             "filename": "Menu_Out.vgm",
             "type": "vgm",
-            "inode": "116530640358366186",
+            "inode": "2814749767888337",
             "_v": 1717685962858
         },
         {
@@ -39260,7 +39293,7 @@
             "symbol": "sound_pause_vgm",
             "filename": "Pause.vgm",
             "type": "vgm",
-            "inode": "36591746972541218",
+            "inode": "2533274791177682",
             "_v": 1717685965317
         },
         {
@@ -39269,7 +39302,7 @@
             "symbol": "sound_steps_vgm",
             "filename": "Steps.vgm",
             "type": "vgm",
-            "inode": "58265320179262413",
+            "inode": "1688849861045716",
             "_v": 1717685973921
         },
         {
@@ -39278,7 +39311,7 @@
             "symbol": "sound_sword_slash_vgm",
             "filename": "Sword_Slash.vgm",
             "type": "vgm",
-            "inode": "43347146413597757",
+            "inode": "1688849861045717",
             "_v": 1717686231738
         }
     ],
@@ -39368,6 +39401,11 @@
         }
     ],
     "variables": [
+        {
+            "id": "0",
+            "name": "ItemToTrade",
+            "symbol": "var_itemtotrade"
+        },
         {
             "id": "30",
             "name": "PirateFightHealth",
@@ -39911,9 +39949,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3826,
-        "worldScrollY": 4421,
-        "zoom": 275,
+        "worldScrollX": 2381,
+        "worldScrollY": 2452,
+        "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
