@@ -17410,6 +17410,15 @@
                     "id": "8574ba3c-5b01-44c5-b5c2-be2978d5b35c"
                 },
                 {
+                    "command": "EVENT_CAMERA_SHAKE",
+                    "args": {
+                        "time": 0.5,
+                        "frames": 30,
+                        "shakeDirection": "horizontal"
+                    },
+                    "id": "7297e4ce-efde-4ded-aca9-ccbf19f2c715"
+                },
+                {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "f972a32b-3e02-4084-9b55-91952ba7efc7",
@@ -28889,6 +28898,15 @@
                     "id": "fb1506e5-acc8-49f6-8213-6a868e828c94"
                 },
                 {
+                    "command": "EVENT_CAMERA_SHAKE",
+                    "args": {
+                        "time": 0.5,
+                        "frames": 30,
+                        "shakeDirection": "horizontal"
+                    },
+                    "id": "acb1adb7-8bea-463c-bad7-2433560ce3de"
+                },
+                {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "78183249-4add-4532-9717-e81430202a3b",
@@ -28955,6 +28973,15 @@
                         "__collapse": true
                     },
                     "id": "aef4fd4b-ec0a-4e6b-ac25-7c37a774ebe7"
+                },
+                {
+                    "command": "EVENT_CAMERA_SHAKE",
+                    "args": {
+                        "time": 0.5,
+                        "frames": 30,
+                        "shakeDirection": "horizontal"
+                    },
+                    "id": "eccd8136-f640-442f-b452-fc13fdc0b918"
                 },
                 {
                     "command": "EVENT_SWITCH_SCENE",
@@ -29025,6 +29052,15 @@
                     "id": "e25c068c-ca3c-45f3-b292-0108467c2617"
                 },
                 {
+                    "command": "EVENT_CAMERA_SHAKE",
+                    "args": {
+                        "time": 0.5,
+                        "frames": 30,
+                        "shakeDirection": "horizontal"
+                    },
+                    "id": "4ff33cea-63e6-4621-973a-8e1176f30595"
+                },
+                {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "7fa8484f-03a6-4d74-8d36-f9f36e552327",
@@ -29091,6 +29127,15 @@
                         "__collapse": true
                     },
                     "id": "3e078b51-89f7-454d-8abf-9924f83001d8"
+                },
+                {
+                    "command": "EVENT_CAMERA_SHAKE",
+                    "args": {
+                        "time": 0.5,
+                        "frames": 30,
+                        "shakeDirection": "horizontal"
+                    },
+                    "id": "9b6d83e0-e3ee-46ad-95f6-12abf255de22"
                 },
                 {
                     "command": "EVENT_SWITCH_SCENE",
