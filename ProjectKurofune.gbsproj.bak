@@ -17262,6 +17262,72 @@
                             "id": "95c69677-788b-478b-bed6-1465e5c693cb"
                         }
                     ]
+                },
+                {
+                    "name": "buddatrig",
+                    "id": "b42a4a70-6d4f-4b13-9685-8f6a63761555",
+                    "x": 1,
+                    "y": 5,
+                    "symbol": "trigger_55",
+                    "width": 4,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "A Budda statue..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d8cc870a-d226-4d0b-9041-f39010a8d031"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "swordtrig",
+                    "id": "2272737a-30f0-4896-a1bd-977871d97447",
+                    "x": 1,
+                    "y": 8,
+                    "symbol": "trigger_56",
+                    "width": 4,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "A Sword..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "80aeb924-b36f-440d-8a37-94d7d4513837"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Arcabuztrig",
+                    "id": "56dc9577-ed80-438d-9843-de90571366bf",
+                    "x": 1,
+                    "y": 11,
+                    "symbol": "trigger_57",
+                    "width": 4,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "An Arcabuz..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "2858c3b3-385b-4f7c-8649-4ca7436a3749"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [
@@ -17390,7 +17456,7 @@
                     "y": 1
                 },
                 {
-                    "name": "Arcabuz (GOOD)",
+                    "name": "Box (GOOD)",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
@@ -17678,6 +17744,28 @@
                             "id": "727f1ce0-62e2-43cd-b3c1-7f01bc3ddeb8"
                         }
                     ]
+                },
+                {
+                    "name": "boxtrig",
+                    "id": "b05e5951-ae1f-4bc1-b1c7-7d20861e9954",
+                    "x": 1,
+                    "y": 8,
+                    "symbol": "trigger_54",
+                    "width": 4,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "A box of goods..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "4d1f8b59-9b00-44e0-af6f-e651845c9fff"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [
@@ -43890,9 +43978,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "1096e891-df80-4521-b811-34e10771d731",
-        "startX": 8,
-        "startY": 11,
+        "startSceneId": "f972a32b-3e02-4084-9b55-91952ba7efc7",
+        "startX": 4,
+        "startY": 10,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "left",
@@ -43900,8 +43988,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 474.6666564941406,
-        "worldScrollY": 496,
+        "worldScrollX": 0,
+        "worldScrollY": 4.666666507720947,
         "zoom": 50,
         "customColorsEnabled": false,
         "sgbEnabled": false,
