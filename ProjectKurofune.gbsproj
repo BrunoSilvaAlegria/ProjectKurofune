@@ -14229,6 +14229,7 @@
                                                     "args": {
                                                         "text": [
                                                             "Guard: Merchants?\nWhat kind of\nmerchants?...",
+                                                            "Guard: And you're \naccompanied by a \nJesuit, \nnonetheless.",
                                                             "Guard: Uhm..I need\nproof that you are\na decent merchant."
                                                         ],
                                                         "avatarId": ""
@@ -14249,11 +14250,24 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Guard:\nSurprise me."
+                                                            "Guard:\nSurprise me. \nBe back when you\nare ready."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "7525a80c-b6ab-4ddc-8b0b-e9c0330c1c5c"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Martim: \nDoesn't seem that \nthey're going to \nlet as pass this \neasily... ",
+                                                            "Martim: Maybe \nsomeone can help \nus... ",
+                                                            "Martim: Let's talk \nto the people!"
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "7525a80c-b6ab-4ddc-8b0b-e9c0330c1c5c"
+                                                    "id": "7dde4037-1094-44c4-b1e3-f4abf6158a24"
                                                 },
                                                 {
                                                     "command": "EVENT_SET_VALUE",
@@ -14447,7 +14461,7 @@
                     "y": 10
                 },
                 {
-                    "name": "Guard2",
+                    "name": "Guard1",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "99b99fca-c043-49f4-b012-412688a28b22",
@@ -14458,7 +14472,7 @@
                     "isPinned": false,
                     "persistent": false,
                     "collisionGroup": "",
-                    "symbol": "actor_58",
+                    "symbol": "actor_64",
                     "script": [
                         {
                             "command": "EVENT_IF",
@@ -14502,18 +14516,19 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "ee47496c-40e1-459a-97a1-a385bb86d3a9"
+                                                    "id": "3bfb762b-5ada-48fc-8044-6a6145ecfe13"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
                                                             "Guard: Merchants?\nWhat kind of\nmerchants?...",
+                                                            "Guard: And you're \naccompanied by a \nJesuit, \nnonetheless.",
                                                             "Guard: Uhm..I need\nproof that you are\na decent merchant."
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "823aea4e-a24e-40b7-a8db-1bc7ff63e6c9"
+                                                    "id": "74c38acc-70ed-4c50-8c3a-59727657f281"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
@@ -14523,17 +14538,51 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "0c410161-6ff5-4b9e-92e5-d2edb324f76f"
+                                                    "id": "b9f31888-33f9-4ed1-931d-969ffdba61e9"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Guard:\nSurprise me."
+                                                            "Guard:\nSurprise me. \nBe back when you\nare ready."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "c1350b99-3dbf-430f-8785-5e5545676ee0"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Martim: \nDoesn't seem that \nthey're going to \nlet as pass this \neasily... ",
+                                                            "Martim: Maybe \nsomeone can help \nus... ",
+                                                            "Martim: Let's talk \nto the people!"
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "df3e9026-93e9-453f-ac4b-b257e4b669e8"
+                                                    "id": "566c75ff-b208-4961-9c7a-7da50a324760"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "5",
+                                                        "value": {
+                                                            "type": "false"
+                                                        }
+                                                    },
+                                                    "id": "24d8f01b-0dc5-4b13-8a09-d466992646db"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Guard:\nI am waiting...",
+                                                            "Martim: \nWe should ask\nfor information..."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "2add7068-6fba-4ee0-b023-52d024e0cf23"
                                                 },
                                                 {
                                                     "command": "EVENT_SET_VALUE",
@@ -14543,7 +14592,28 @@
                                                             "type": "true"
                                                         }
                                                     },
-                                                    "id": "5e7accc3-d578-4b52-9315-1e1a2180491b"
+                                                    "id": "8ac35de7-78c4-4776-ad48-a008e7d35527"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "5",
+                                                        "value": {
+                                                            "type": "true"
+                                                        },
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "52148aac-af53-4f02-8c8c-41038f718533"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Guard: \nLet's see what\nyou brought..."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "7fd8de3c-0373-42a4-8656-e16ed83a6134"
                                                 },
                                                 {
                                                     "command": "EVENT_SWITCH_SCENE",
@@ -14561,7 +14631,7 @@
                                                         "fadeSpeed": "2",
                                                         "__collapse": false
                                                     },
-                                                    "id": "6f776290-16c5-4b86-89d6-fcbee76dd836"
+                                                    "id": "e6a6c1ab-df36-49f5-9cd0-3cb81d4ddd38"
                                                 }
                                             ],
                                             "false": [
@@ -14573,7 +14643,7 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "c293ada1-0fb5-49ab-8a5c-4810841b3ae8"
+                                                    "id": "d0867316-1fc0-4548-902b-14c8ac246823"
                                                 },
                                                 {
                                                     "command": "EVENT_SWITCH_SCENE",
@@ -14589,13 +14659,13 @@
                                                         },
                                                         "direction": "",
                                                         "fadeSpeed": "2",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
-                                                    "id": "269ed0d7-e760-433c-9dba-1a2b4691165d"
+                                                    "id": "8da82885-0ed3-4219-89ae-6ad4c79a82ec"
                                                 }
                                             ]
                                         },
-                                        "id": "390c79e7-a940-4b81-8186-735aaf4ed43a"
+                                        "id": "989586e2-9d7c-429f-af15-2f49de7d0e9b"
                                     },
                                     {
                                         "command": "EVENT_IF",
@@ -14619,7 +14689,7 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "c8b7a119-9905-479e-b9b4-02a9f78e3f15"
+                                                    "id": "e03fbaa5-f4c4-4704-948a-cac491e34c96"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -14636,10 +14706,10 @@
                                                         "moveType": "horizontal",
                                                         "useCollisions": false
                                                     },
-                                                    "id": "a38a025c-ad46-4adf-bae8-b30b76802d44"
+                                                    "id": "3b6a3431-88c8-432e-bb56-eb862feb4a13"
                                                 },
                                                 {
-                                                    "command": "EVENT_ACTOR_MOVE_TO",
+                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
                                                     "args": {
                                                         "actorId": "d74d1f06-992c-4066-bbb3-94d05cf09ea8",
                                                         "x": {
@@ -14653,26 +14723,26 @@
                                                         "moveType": "horizontal",
                                                         "useCollisions": false
                                                     },
-                                                    "id": "dd7d1876-056b-4a65-b441-2b3253dabcf6"
+                                                    "id": "9028f524-d1cd-4632-a229-3f225b566960"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_DEACTIVATE",
                                                     "args": {
                                                         "actorId": "39df3991-f53d-4ec6-a160-d80ba163f73a"
                                                     },
-                                                    "id": "ac38f565-8c77-4e96-bb24-940bb92c65ff"
+                                                    "id": "b1cc4a55-a1cd-4dc2-852d-7c9cbf91f968"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_DEACTIVATE",
                                                     "args": {
                                                         "actorId": "$self$"
                                                     },
-                                                    "id": "12e16b64-a38b-4f75-879d-4d1224dbbf6e"
+                                                    "id": "a8ffd90d-2d39-41d6-a365-75a3b12767e9"
                                                 }
                                             ],
                                             "false": []
                                         },
-                                        "id": "49bfefd0-f860-423d-bc7e-bbbf4a1f5924"
+                                        "id": "c2ccd39e-aea8-4c2e-839c-5176e48aa8ca"
                                     }
                                 ],
                                 "false": [
@@ -14684,11 +14754,11 @@
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "92adfb63-14c9-4c5d-bba3-e4a1c281acbd"
+                                        "id": "7b95ee7f-c8e0-4c29-ac83-e6b4800ff4d5"
                                     }
                                 ]
                             },
-                            "id": "90e87925-e265-4246-ba62-35a097e9639f"
+                            "id": "955b2469-60d7-44d7-af59-041e43c5befc"
                         }
                     ],
                     "startScript": [
@@ -14710,19 +14780,19 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "7205991f-7c36-4133-9d44-7bf681b50592"
+                                        "id": "aaa84c3f-0b31-4332-a10c-0c5022976cbb"
                                     }
                                 ],
                                 "false": []
                             },
-                            "id": "2e7b880a-5b61-4ee5-af6f-934dcf517ad3"
+                            "id": "cf259d6b-a7fe-436c-aff3-c13e34c42fb4"
                         }
                     ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "d74d1f06-992c-4066-bbb3-94d05cf09ea8",
+                    "id": "de79db13-7792-437c-b6e9-f9cc3a84d2c5",
                     "x": 29,
                     "y": 12
                 }
@@ -17622,10 +17692,11 @@
                                             "text": [
                                                 "Martim: It is my\nduty as a man of\ngod..",
                                                 "Martim: ..To help\nthose in need.",
-                                                "Martim: I will\ngrant you my\nassistance."
+                                                "Martim: I will\ngrant you my\nassistance.",
+                                                "Martim: But I must warn you..."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "3ea8a338-4ed8-4531-b151-65252b7e1c66"
                                     },
@@ -17843,7 +17914,7 @@
                         {
                             "command": "EVENT_SET_VALUE",
                             "args": {
-                                "variable": "L0",
+                                "variable": "5",
                                 "value": {
                                     "type": "true"
                                 }
@@ -18022,7 +18093,7 @@
                                     "This might be\nuseful for trade."
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "7946bfb6-c088-4431-9288-60632d205bac"
                         },
@@ -18175,7 +18246,7 @@
                                     "You should try\nanother crate."
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "093e6106-7181-4f90-b5c4-23ba549100d9"
                         },
@@ -48697,6 +48768,11 @@
             "id": "0c883013-94c2-44f3-9131-146af5c793be__L0",
             "name": "Talked to Ramirez",
             "symbol": "var_talked_to_ramirez_0"
+        },
+        {
+            "id": "5",
+            "name": "TalkedToRamirez",
+            "symbol": "var_talkedtoramirez"
         }
     ],
     "engineFieldValues": [
@@ -48707,7 +48783,7 @@
     ],
     "settings": {
         "startSceneId": "1096e891-df80-4521-b811-34e10771d731",
-        "startX": 6,
+        "startX": 7,
         "startY": 11,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
@@ -48716,9 +48792,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 528,
-        "worldScrollY": 866,
-        "zoom": 75,
+        "worldScrollX": 7989,
+        "worldScrollY": 8932,
+        "zoom": 525,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
