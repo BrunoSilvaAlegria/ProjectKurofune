@@ -26907,8 +26907,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "72daf1fb-1894-4e44-a87a-991e51c870d6",
-                    "x": 171,
-                    "y": 17
+                    "x": 169,
+                    "y": 11
                 }
             ],
             "triggers": [
@@ -33002,13 +33002,13 @@
                         "sceneId": "139c0505-be29-4b7a-a385-e9609cebd3f5",
                         "x": {
                             "type": "number",
-                            "value": 170
+                            "value": 166
                         },
                         "y": {
                             "type": "number",
-                            "value": 10
+                            "value": 11
                         },
-                        "direction": "right",
+                        "direction": "left",
                         "fadeSpeed": "2",
                         "__collapse": false
                     },
@@ -49445,9 +49445,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "eb9d5ff1-2a3a-486e-b23f-b74ca8180516",
-        "startX": 19,
-        "startY": 12,
+        "startSceneId": "9fffc1a5-cb56-42e0-bfc5-c5c5ade5f0fd",
+        "startX": 3,
+        "startY": 2,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "left",
@@ -49455,9 +49455,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 5443,
-        "worldScrollY": 5945,
-        "zoom": 325,
+        "worldScrollX": 1897,
+        "worldScrollY": 2264,
+        "zoom": 125,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
