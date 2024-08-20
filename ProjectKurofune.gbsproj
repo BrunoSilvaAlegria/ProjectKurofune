@@ -23324,12 +23324,13 @@
                             "args": {
                                 "text": [
                                     "Morita: Are you \nallright?",
-                                    "Yes, thanks to you",
+                                    "Yes, thanks \nto you.",
                                     "But why was \nRamirez killed?",
                                     "Morita: This ninja\nis part of a...",
                                     "Morita:...faction \nthat wants to \ncause trouble...",
                                     "Morita:...between \nour people.",
-                                    "Morita: We need to\ninform the village\nchief immediately!"
+                                    "Morita: We need to\ninform...",
+                                    "Morita: ...the\nvillage chief \nimmediately!"
                                 ],
                                 "avatarId": ""
                             },
@@ -32786,17 +32787,6 @@
                     "id": "7b090cfa-329b-43fd-b128-bc5b3671f3af"
                 },
                 {
-                    "command": "EVENT_TEXT",
-                    "args": {
-                        "text": [
-                            "...to better\nunderstand their \nculture...",
-                            "...and all of a\nsudden..."
-                        ],
-                        "avatarId": ""
-                    },
-                    "id": "33d2f482-85a1-4d62-9954-0772a3be31a9"
-                },
-                {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "a4187ba7-64b6-4a33-9f7b-178b6782b993",
@@ -32863,7 +32853,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "I decided to\nexplore Japan..."
+                            "I decided to\nexplore Japan...",
+                            "...to better\nunderstand their \nculture..."
                         ],
                         "avatarId": ""
                     },
@@ -32929,6 +32920,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
+                            "...and all of a\nsudden...",
                             "...it was\ntime to return\nhome, to Portugal."
                         ],
                         "avatarId": ""
@@ -33929,15 +33921,20 @@
                                 "text": [
                                     "Chief: \nI heard about \nwhat happened...",
                                     "Chief:\nPeople like the \none that attacked \nyou...",
-                                    "Chief: ...have \nbeen trying to \ncause chaos any \nway they can.",
+                                    "Chief: ...have \nbeen trying to \ncause chaos...",
+                                    "Chief: ...any \nway they can.",
                                     "Chief: \nFortunately, you \nseem to be fine.\nThat's good.",
-                                    "Chief: \nRest assured that \nfurther attempts \nlike this one...",
-                                    "Chief: ...will no\nlonger pose a\nthreat to your \nlife, and... ",
-                                    "Chief: ...all the\nculprits will \nbe brought to \njustice!",
+                                    "Chief: \nRest assured that\nmore attempts...",
+                                    "Chief: ...like \nthis one will no\nlonger...",
+                                    "Chief: ... pose a\nthreat to your \nlife, and... ",
+                                    "Chief: ...all the\nculprits will...",
+                                    "Chief: ...be\nbrought to \njustice!",
                                     "Chief: \nYou have my word.",
-                                    "I'm grateful for\nyour kindness my \nlord, but... ",
-                                    "...I'm afraid \nstaying here isn't\nan option for me\nand my crew.",
-                                    "However, there are\nstill a few places\nI wish to visit...",
+                                    "I'm grateful for\nyour kindness my \nLord, but...",
+                                    "...I'm afraid \nstaying here isn't\nan option...",
+                                    "...for me\nand my crew.It's\ntoo dangerous.",
+                                    "However...",
+                                    "...there are still a\nfew places I wish\nto visit...",
                                     "...before \nreturning to \nPortugal.",
                                     "Chief: I see...\nVery well, that\ncan be arranged."
                                 ],
@@ -49445,9 +49442,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "9fffc1a5-cb56-42e0-bfc5-c5c5ade5f0fd",
-        "startX": 3,
-        "startY": 2,
+        "startSceneId": "ce675bac-0750-4f27-bc91-e40c8549fcfd",
+        "startX": 8,
+        "startY": 10,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "left",
@@ -49455,8 +49452,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1897,
-        "worldScrollY": 2264,
+        "worldScrollX": 1667,
+        "worldScrollY": 1632,
         "zoom": 125,
         "sgbEnabled": false,
         "customHead": "",
