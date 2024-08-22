@@ -18000,7 +18000,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "We follow our teacher"
+                                    "Franciscan: \nWe live the true\nway, Jesus way."
                                 ],
                                 "avatarId": ""
                             },
@@ -18029,7 +18029,18 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_65",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Franciscan: \nThis is the way."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "7f6562ff-d86f-4d28-a4dc-607a37b848a0"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -18052,7 +18063,18 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_66",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Franciscan: \nWe follow our \nteacher and \nbrother."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "80c2a8d5-60b6-4449-bb81-f3de02e0bda9"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -55653,8 +55675,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2760,
-        "worldScrollY": 3616,
+        "worldScrollX": 2671,
+        "worldScrollY": 3342,
         "zoom": 225,
         "sgbEnabled": false,
         "customHead": "",
