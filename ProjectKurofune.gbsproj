@@ -14229,8 +14229,10 @@
                                                     "args": {
                                                         "text": [
                                                             "Guard: Merchants?\nWhat kind of\nmerchants?...",
-                                                            "Guard: And you're \naccompanied by a \nJesuit, \nnonetheless.",
-                                                            "Guard: Uhm..I need\nproof that you are\na decent merchant."
+                                                            "Guard: And you're \naccompanied by...",
+                                                            "Guard: ...a \nJesuit, of all \npeople...",
+                                                            "Guard: Uhm..I need\nproof that you are...",
+                                                            "Guard: ...a decent\nand trustworthy\nmerchant."
                                                         ],
                                                         "avatarId": ""
                                                     },
@@ -14250,10 +14252,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Guard:\nSurprise me. \nBe back when you\nare ready."
+                                                            "Guard:\nSurprise me."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "7525a80c-b6ab-4ddc-8b0b-e9c0330c1c5c"
                                                 },
@@ -14265,7 +14267,8 @@
                                                             "Martim: Maybe \nsomeone can help \nus... ",
                                                             "Martim: Let's talk \nto the people!"
                                                         ],
-                                                        "avatarId": ""
+                                                        "avatarId": "",
+                                                        "__comment": true
                                                     },
                                                     "id": "7dde4037-1094-44c4-b1e3-f4abf6158a24"
                                                 },
@@ -17936,11 +17939,12 @@
                                     "Ramirez: \nHowever, I'm not \na Jesuit...",
                                     "Ramirez: \nI'm a Franciscan, \nwhich means that I\nlive...",
                                     "Ramirez: ...the\nsame way Jesus \nChirst did.",
-                                    "Ramirez: \nMe and my brothers\nlive in poverty by\nchoice...",
-                                    "Ramirez: ...which\nmakes us see...",
+                                    "Ramirez: \nMe and my brothers\nlive in poverty...",
+                                    "Ramirez: ... by\nchoice,which makes\nus see...",
                                     "Ramirez: ...the \ntrue power of \nfaith.",
                                     "Ramirez: \nWe do not allow\nluxury to cloud \nour minds...",
-                                    "Ramirez: ...unlike\nthose Jesuits, who\nonly seek wealth \nand power.",
+                                    "Ramirez: ...unlike\nthose Jesuits...",
+                                    "Ramirez: ...who\nonly seek wealth \nand power.",
                                     "Ramirez:\nBut I'll let you\nbe the judge of \nthat.",
                                     "Ramirez:\nAny help you need,\njust ask me.\nFarewell!"
                                 ],
@@ -18047,7 +18051,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "c7c917e8-f9fe-4229-994a-fce58b49d322",
-                    "x": 24,
+                    "x": 28,
                     "y": 19
                 },
                 {
@@ -18081,7 +18085,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "237b9064-283d-463e-96b6-3b8cd4c0e636",
-                    "x": 28,
+                    "x": 24,
                     "y": 19
                 },
                 {
@@ -36039,7 +36043,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "dfbee0b9-9fd9-4f68-b3c2-b030f101b3c4",
+                    "spriteSheetId": "2fd440cc-d84d-470b-baca-bef610316ed2",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -36053,7 +36057,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Have you seen \nour teacher?"
+                                    "Have you seen \nour brother?"
                                 ],
                                 "avatarId": ""
                             },
@@ -36073,7 +36077,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "dfbee0b9-9fd9-4f68-b3c2-b030f101b3c4",
+                    "spriteSheetId": "2fd440cc-d84d-470b-baca-bef610316ed2",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -36107,7 +36111,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "dfbee0b9-9fd9-4f68-b3c2-b030f101b3c4",
+                    "spriteSheetId": "2fd440cc-d84d-470b-baca-bef610316ed2",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -36136,6 +36140,98 @@
                     "id": "f9bd3030-45d1-419f-b4a0-1ce08317027d",
                     "x": 26,
                     "y": 19
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_86",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "792625fe-4776-41b0-a966-e12fc8c55c35",
+                    "x": 1,
+                    "y": 21
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_87",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4e163b8c-ab72-4b7e-bbdb-36848b9e69fb",
+                    "x": 3,
+                    "y": 21
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_88",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b051dbb1-c8db-4a36-aabb-49bcbc61e0cd",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_89",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "565bafca-2478-46cc-b69e-588972e68623",
+                    "x": 1,
+                    "y": 17
                 }
             ],
             "triggers": [
@@ -55675,8 +55771,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2671,
-        "worldScrollY": 3342,
+        "worldScrollX": 3044,
+        "worldScrollY": 3518,
         "zoom": 225,
         "sgbEnabled": false,
         "customHead": "",
@@ -55762,7 +55858,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": true,
+        "debuggerEnabled": false,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
