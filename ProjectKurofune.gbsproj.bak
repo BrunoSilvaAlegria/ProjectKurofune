@@ -29688,9 +29688,9 @@
                                 "choices": 4,
                                 "__collapseCase0": false,
                                 "value0": 1,
-                                "__collapseCase1": true,
+                                "__collapseCase1": false,
                                 "value1": 2,
-                                "__collapseCase2": true,
+                                "__collapseCase2": false,
                                 "value2": 3,
                                 "__collapseCase3": false,
                                 "value3": 4,
@@ -30037,7 +30037,7 @@
                                 },
                                 "__collapseElse": true,
                                 "__disableElse": true,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -30045,11 +30045,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Chief: Alright.\n",
-                                                "Chief: Show me\nsome of your goods"
+                                                "Chief: Alright.",
+                                                "Chief: Show me\nsome of your \ngoods."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "30c0748c-449c-466b-b133-0293ecf6056c"
                                     },
@@ -55771,9 +55771,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3044,
-        "worldScrollY": 3518,
-        "zoom": 225,
+        "worldScrollX": 2069,
+        "worldScrollY": 1963,
+        "zoom": 128.37553119286895,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
