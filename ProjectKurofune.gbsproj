@@ -155,7 +155,7 @@
         },
         {
             "name": "Main Menu",
-            "backgroundId": "754b7cc8-723c-45db-a86f-47689023db6f",
+            "backgroundId": "5b2da9ec-ed45-4a96-a8e4-667f9875e85f",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -14230,9 +14230,9 @@
                                                         "text": [
                                                             "Guard: Merchants?\nWhat kind of\nmerchants?...",
                                                             "Guard: And you're \naccompanied by...",
-                                                            "Guard: ...a \nJesuit, of all \npeople...",
-                                                            "Guard: Uhm..I need\nproof that you are...",
-                                                            "Guard: ...a decent\nand trustworthy\nmerchant."
+                                                            "Guard: ...A\nJesuit, of all \npeople...",
+                                                            "Guard: Uhm..I need\nproof that you \nare...",
+                                                            "Guard: ...A decent\nand trustworthy\nmerchant."
                                                         ],
                                                         "avatarId": ""
                                                     },
@@ -14519,19 +14519,21 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "3bfb762b-5ada-48fc-8044-6a6145ecfe13"
+                                                    "id": "d9571c58-7dee-40dc-9ef0-8286453abda1"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
                                                             "Guard: Merchants?\nWhat kind of\nmerchants?...",
-                                                            "Guard: And you're \naccompanied by a \nJesuit, \nnonetheless.",
-                                                            "Guard: Uhm..I need\nproof that you are\na decent merchant."
+                                                            "Guard: And you're \naccompanied by...",
+                                                            "Guard: ...A\nJesuit, of all \npeople...",
+                                                            "Guard: Uhm..I need\nproof that you \nare...",
+                                                            "Guard: ...A decent\nand trustworthy\nmerchant."
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "74c38acc-70ed-4c50-8c3a-59727657f281"
+                                                    "id": "fc721ff3-01fb-4fa4-be13-e27816b9ad8c"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
@@ -14541,18 +14543,18 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "b9f31888-33f9-4ed1-931d-969ffdba61e9"
+                                                    "id": "8d2cd331-54e7-4def-a452-9dd8b41e8ff8"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Guard:\nSurprise me. \nBe back when you\nare ready."
+                                                            "Guard:\nSurprise me."
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": false
                                                     },
-                                                    "id": "c1350b99-3dbf-430f-8785-5e5545676ee0"
+                                                    "id": "b73b5429-f0bd-49ee-90d5-a98d265cb580"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
@@ -14562,30 +14564,10 @@
                                                             "Martim: Maybe \nsomeone can help \nus... ",
                                                             "Martim: Let's talk \nto the people!"
                                                         ],
-                                                        "avatarId": ""
+                                                        "avatarId": "",
+                                                        "__comment": true
                                                     },
-                                                    "id": "566c75ff-b208-4961-9c7a-7da50a324760"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_VALUE",
-                                                    "args": {
-                                                        "variable": "5",
-                                                        "value": {
-                                                            "type": "false"
-                                                        }
-                                                    },
-                                                    "id": "24d8f01b-0dc5-4b13-8a09-d466992646db"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Guard:\nI am waiting...",
-                                                            "Martim: \nWe should ask\nfor information..."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "2add7068-6fba-4ee0-b023-52d024e0cf23"
+                                                    "id": "dba980c2-c56f-4f9e-a3de-2f86bdfa7fba"
                                                 },
                                                 {
                                                     "command": "EVENT_SET_VALUE",
@@ -14595,28 +14577,7 @@
                                                             "type": "true"
                                                         }
                                                     },
-                                                    "id": "8ac35de7-78c4-4776-ad48-a008e7d35527"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_VALUE",
-                                                    "args": {
-                                                        "variable": "5",
-                                                        "value": {
-                                                            "type": "true"
-                                                        },
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "52148aac-af53-4f02-8c8c-41038f718533"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Guard: \nLet's see what\nyou brought..."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "7fd8de3c-0373-42a4-8656-e16ed83a6134"
+                                                    "id": "68aff9ff-6297-4ea0-98f1-6b6e4b2d7109"
                                                 },
                                                 {
                                                     "command": "EVENT_SWITCH_SCENE",
@@ -14634,7 +14595,7 @@
                                                         "fadeSpeed": "2",
                                                         "__collapse": false
                                                     },
-                                                    "id": "e6a6c1ab-df36-49f5-9cd0-3cb81d4ddd38"
+                                                    "id": "1e549e04-1113-4de8-862e-d8cf5806c970"
                                                 }
                                             ],
                                             "false": [
@@ -14646,7 +14607,7 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "d0867316-1fc0-4548-902b-14c8ac246823"
+                                                    "id": "efd64dea-e64b-462e-bc50-987913b7a286"
                                                 },
                                                 {
                                                     "command": "EVENT_SWITCH_SCENE",
@@ -14664,11 +14625,11 @@
                                                         "fadeSpeed": "2",
                                                         "__collapse": false
                                                     },
-                                                    "id": "8da82885-0ed3-4219-89ae-6ad4c79a82ec"
+                                                    "id": "da0d8ffb-6ade-49f9-b2d0-de201822126f"
                                                 }
                                             ]
                                         },
-                                        "id": "989586e2-9d7c-429f-af15-2f49de7d0e9b"
+                                        "id": "a8791aed-c31f-4ef6-8aef-98efcc03f9b8"
                                     },
                                     {
                                         "command": "EVENT_IF",
@@ -14692,7 +14653,7 @@
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "e03fbaa5-f4c4-4704-948a-cac491e34c96"
+                                                    "id": "86dc3fbf-49f2-438e-8dfe-b9ee1b31fe91"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -14709,7 +14670,7 @@
                                                         "moveType": "horizontal",
                                                         "useCollisions": false
                                                     },
-                                                    "id": "3b6a3431-88c8-432e-bb56-eb862feb4a13"
+                                                    "id": "18317be4-2b95-46a5-8a3c-ee8e994579dc"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_MOVE_RELATIVE",
@@ -14726,26 +14687,26 @@
                                                         "moveType": "horizontal",
                                                         "useCollisions": false
                                                     },
-                                                    "id": "9028f524-d1cd-4632-a229-3f225b566960"
+                                                    "id": "1e73b542-4a62-4601-b3ba-3414cd5b3a50"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_DEACTIVATE",
                                                     "args": {
                                                         "actorId": "39df3991-f53d-4ec6-a160-d80ba163f73a"
                                                     },
-                                                    "id": "b1cc4a55-a1cd-4dc2-852d-7c9cbf91f968"
+                                                    "id": "e29f1a56-a862-469d-82cd-ee7c6a012f7d"
                                                 },
                                                 {
                                                     "command": "EVENT_ACTOR_DEACTIVATE",
                                                     "args": {
                                                         "actorId": "$self$"
                                                     },
-                                                    "id": "a8ffd90d-2d39-41d6-a365-75a3b12767e9"
+                                                    "id": "777c9fb5-cc5b-4982-9077-819de6cc1efd"
                                                 }
                                             ],
                                             "false": []
                                         },
-                                        "id": "c2ccd39e-aea8-4c2e-839c-5176e48aa8ca"
+                                        "id": "7dd5dc62-742a-4475-847c-c5fbe48ed1ef"
                                     }
                                 ],
                                 "false": [
@@ -14757,11 +14718,11 @@
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "7b95ee7f-c8e0-4c29-ac83-e6b4800ff4d5"
+                                        "id": "d706b585-5a4d-4d27-8b48-de2c1c77255f"
                                     }
                                 ]
                             },
-                            "id": "955b2469-60d7-44d7-af59-041e43c5befc"
+                            "id": "bc604314-037a-4478-8a03-0ce6590ae0e6"
                         }
                     ],
                     "startScript": [
@@ -14783,19 +14744,19 @@
                                         "args": {
                                             "actorId": "$self$"
                                         },
-                                        "id": "aaa84c3f-0b31-4332-a10c-0c5022976cbb"
+                                        "id": "4a0ab27d-cbb9-46ea-96d6-3b2a5de24100"
                                     }
                                 ],
                                 "false": []
                             },
-                            "id": "cf259d6b-a7fe-436c-aff3-c13e34c42fb4"
+                            "id": "e1f11d53-06a6-4d77-9f2a-3bc93fab17ba"
                         }
                     ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "de79db13-7792-437c-b6e9-f9cc3a84d2c5",
+                    "id": "e5eb3d9f-efd0-4983-b96a-5dd737fe5fcc",
                     "x": 29,
                     "y": 12
                 }
@@ -17669,9 +17630,9 @@
                                         "args": {
                                             "text": [
                                                 "Martim: \nYes. By the grace\nof God.",
-                                                "Martim: \nAs a Jesuit,I have \nbeen learning it...",
-                                                "Martim: ...to \nspread God's reach\nand...",
-                                                "Martim: ... give \nthe people true\nbelief."
+                                                "Martim: \nAs a Jesuit,I have \nbeen learning it.",
+                                                "Martim: I have the\nduty to spread \nGod's reach and...",
+                                                "Martim: ...Give \nthe people true\nbelief."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -17695,8 +17656,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Martim: \nIt is my duty as a \nman of God..",
-                                                "Martim: ..to help\nthose in need.",
+                                                "Martim: \nIt is my duty as a \nman of God...",
+                                                "Martim: ...To help\nthose in need.",
                                                 "Martim: \nI will grant you \nmy assistance.",
                                                 "Martim: \nBut I must \nwarn you...",
                                                 "Martim: \nThere may be fake\nfollowers of God\naround...",
@@ -18008,611 +17969,10 @@
                     "y": 19
                 },
                 {
-                    "name": "Doca Box",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_70",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "One of the crates\nyour crew brought\nfor business."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "73fab141-3eab-4745-a68e-c12e8bad8a3a"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
-                                "$actor[0]$": "player",
-                                "__collapse": true
-                            },
-                            "id": "ec62d3b8-e104-4dcd-a15a-89a7e388bbde"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "b04f6b73-f3f6-44b9-97fd-c2e2ccc7643c"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "fa176cd4-25b2-48ef-8e1d-cf97d27695a9"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SHOW",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "2c8da159-8ca5-4442-a105-a6793e68c028"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "2e13b750-6276-4a6b-93c0-e341d8881281"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "f905e25e-d538-45e8-8137-d180e59c210a"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Inside you find...\nA Sword!",
-                                    "This might be\nuseful for trade."
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            },
-                            "id": "7946bfb6-c088-4431-9288-60632d205bac"
-                        },
-                        {
-                            "command": "EVENT_SET_VALUE",
-                            "args": {
-                                "variable": "2",
-                                "value": {
-                                    "type": "true"
-                                },
-                                "__collapse": false
-                            },
-                            "id": "3f9073d9-55f3-46d0-af38-e625c2b8226d"
-                        },
-                        {
-                            "command": "EVENT_SET_VALUE",
-                            "args": {
-                                "variable": "L0",
-                                "value": {
-                                    "type": "true"
-                                },
-                                "__collapse": true
-                            },
-                            "id": "7ed9bc93-d2b0-41b5-89d3-9d971ab9003a"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "5a5a4e5d-1b10-479e-ae17-72b2d61863d7"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_IF",
-                            "args": {
-                                "condition": {
-                                    "type": "variable",
-                                    "value": "L0"
-                                },
-                                "__collapseElse": true,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_DEACTIVATE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
-                                        },
-                                        "id": "2f7236d9-d789-4db4-b963-9df64821d136"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "2565f238-da88-4278-967e-881c97e4bf00"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "14615449-6bbb-4971-b7be-542348467415",
-                    "x": 2,
-                    "y": 3
-                },
-                {
-                    "name": "Doca Box",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_71",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "One of the crates\nyour crew brought\nfor business."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "fc764d5e-df16-419e-9c0e-a328bb43e0e2"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
-                                "$actor[0]$": "player",
-                                "__collapse": true
-                            },
-                            "id": "9bc55fa7-24ba-40c8-8365-d1d68330436c"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "d79c2c33-ab96-4534-8b6b-367b35a49d95"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "8b0a1fcf-9c46-4b14-8dc6-aa14e946c91d"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SHOW",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "46c1f5ba-956c-43be-aad8-3fc509b8d278"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "685209aa-47d1-406f-b460-22cd386e1db4"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "24b58b11-70b7-402b-a6fb-882aaadd6485"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Inside you find...\nNothing.",
-                                    "You should try\nanother crate."
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            },
-                            "id": "093e6106-7181-4f90-b5c4-23ba549100d9"
-                        },
-                        {
-                            "command": "EVENT_SET_VALUE",
-                            "args": {
-                                "variable": "L0",
-                                "value": {
-                                    "type": "true"
-                                },
-                                "__collapse": true
-                            },
-                            "id": "0f7dca57-0529-4fae-a55f-fbd679a39ece"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "677e0006-0e41-46f7-b921-66c1b63aa090"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_IF",
-                            "args": {
-                                "condition": {
-                                    "type": "variable",
-                                    "value": "L0"
-                                },
-                                "__collapseElse": true,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_DEACTIVATE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
-                                        },
-                                        "id": "7db0c759-048e-4c74-a66b-10d9ef3ccce8"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "7b3fa133-d7af-4c3d-b67e-3797709835a3"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "94522fd6-bf13-4e6c-a25d-f6245f643170",
-                    "x": 1,
-                    "y": 17
-                },
-                {
-                    "name": "Doca Box",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_67",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "One of the crates\nyour crew brought\nfor business."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "49d90271-29ec-4133-801e-ea2f2a249bcc"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
-                                "$actor[0]$": "player",
-                                "__collapse": true
-                            },
-                            "id": "78aefc2b-ed78-49eb-b9b7-5ff885876fd3"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "569db23c-b486-42c5-ad6c-053d61da311f"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "95c37cf1-cb35-4142-87ad-a66f2a9e6fce"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SHOW",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "cf125781-b1e3-4792-84a5-0e0a134bcdd1"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "323b64b1-0072-4752-af01-bf70795a1004"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "8e10d411-a892-4249-81c8-8f4b1567d942"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Inside you find...\nAn Arcabuz!",
-                                    "This might be\nuseful for trade."
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            },
-                            "id": "1e07ec67-e996-41c7-a8d1-40942ef422b9"
-                        },
-                        {
-                            "command": "EVENT_SET_VALUE",
-                            "args": {
-                                "variable": "3",
-                                "value": {
-                                    "type": "true"
-                                },
-                                "__collapse": false
-                            },
-                            "id": "52dd9554-8af6-409a-a73a-cba83befc520"
-                        },
-                        {
-                            "command": "EVENT_SET_VALUE",
-                            "args": {
-                                "variable": "L0",
-                                "value": {
-                                    "type": "true"
-                                },
-                                "__collapse": true
-                            },
-                            "id": "74052dea-d71d-4c42-8433-d9dcb53ffc75"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "8e226721-b040-408e-a879-0945a1151f15"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_IF",
-                            "args": {
-                                "condition": {
-                                    "type": "variable",
-                                    "value": "L0"
-                                },
-                                "__collapseElse": true,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_DEACTIVATE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
-                                        },
-                                        "id": "c8670d32-ef7c-4de4-86cb-3588009e6558"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "07505ab0-3e66-4d37-9251-841354a0fe9b"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "8de8dc4b-5803-4cd8-ac42-22fa14eae6f6",
-                    "x": 1,
-                    "y": 21
-                },
-                {
-                    "name": "Doca Box",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_68",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "One of the crates\nyour crew brought\nfor business."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "c027cf3f-9504-4056-95e0-67d912358bfe"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
-                                "$actor[0]$": "player",
-                                "__collapse": true
-                            },
-                            "id": "4c9c0429-4b0a-4b2c-9a15-bd2f8b729818"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "b50cc65f-a8b9-481e-aa58-f6627f29e921"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "2a88ee12-f94d-4862-851c-e7f2e4a99571"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SHOW",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "c1daefce-53c8-450f-afb8-b9228d12142e"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 0.1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "5b17a40c-4e70-4701-a4fc-0fc9a19b442f"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "5123d6f0-5fec-4819-b013-aabfd080dfa0"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Inside you find...\nA Buddha Statue!",
-                                    "This might be\nuseful for trade."
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            },
-                            "id": "44d1df75-a233-4128-b637-e00b3732bf13"
-                        },
-                        {
-                            "command": "EVENT_SET_VALUE",
-                            "args": {
-                                "variable": "1",
-                                "value": {
-                                    "type": "true"
-                                },
-                                "__collapse": false
-                            },
-                            "id": "11cc5160-1a1b-4fae-bcfb-f42e57d242df"
-                        },
-                        {
-                            "command": "EVENT_SET_VALUE",
-                            "args": {
-                                "variable": "L0",
-                                "value": {
-                                    "type": "true"
-                                },
-                                "__collapse": true
-                            },
-                            "id": "8c14c973-9ae6-4341-bef8-a6ecd4249b33"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "693d6c9b-de2c-4e95-9d60-11e64c4019b7"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_IF",
-                            "args": {
-                                "condition": {
-                                    "type": "variable",
-                                    "value": "L0"
-                                },
-                                "__collapseElse": true,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_DEACTIVATE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
-                                        },
-                                        "id": "a8837803-5d1f-4c15-b6d0-00d6d34ceb6e"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "10d1c16f-7a0e-4dd1-84c9-f2e32c84e16d"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "862a4f19-fcc9-425f-be42-3b13df80394f",
-                    "x": 3,
-                    "y": 21
-                },
-                {
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "61e9b255-edc9-4d53-adfc-04672299e4e3",
+                    "spriteSheetId": "117a57a8-c777-4a3b-849f-795c9d9518eb",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -18642,18 +18002,18 @@
                                     "Ramirez: \nI am Ramirez, a\nfellow Chirstian.",
                                     "Ramirez: \nHowever, I'm not \na Jesuit...",
                                     "Ramirez: \nI'm a Franciscan, \nwhich means that I\nlive...",
-                                    "Ramirez: ...the\nsame way Jesus \nChirst did.",
+                                    "Ramirez: ...The\nsame way Jesus \nChirst did.",
                                     "Ramirez: \nMe and my brothers\nlive in poverty...",
-                                    "Ramirez: ... by\nchoice,which makes\nus see...",
-                                    "Ramirez: ...the \ntrue power of \nfaith.",
+                                    "Ramirez: ... By\nchoice,which makes\nus see...",
+                                    "Ramirez: ...The \ntrue power of \nfaith.",
                                     "Ramirez: \nWe do not allow\nluxury to cloud \nour minds...",
-                                    "Ramirez: ...unlike\nthose Jesuits...",
-                                    "Ramirez: ...who\nonly seek wealth \nand power.",
+                                    "Ramirez: ...Unlike\nthose Jesuits...",
+                                    "Ramirez: ...Who\nonly seek wealth \nand power.",
                                     "Ramirez:\nBut I'll let you\nbe the judge of \nthat.",
                                     "Ramirez:\nAny help you need,\njust ask me.\nFarewell!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "6b385aa6-915d-4522-b5db-193f8a873088"
                         }
@@ -18690,6 +18050,142 @@
                     "id": "33477e13-1c2a-4ae6-8ae5-e6bc0e3d73e1",
                     "x": 23,
                     "y": 15
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_70",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Just a box of your\nmerchandise..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "52ea76cb-1ba6-4f92-b38e-b0f2b9a01b16"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "540e0508-6790-4c04-b7c2-19ae54f64165",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_87",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Just a box of your\nmerchandise..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "3874bfa6-1c88-4dd2-8e84-a725767b28b5"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3120265b-66c0-44d4-9064-05cf37538a9a",
+                    "x": 1,
+                    "y": 17
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_67",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Just a box of your\nmerchandise..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "3c08fd06-e75f-436b-8ab4-423a2f4a8d76"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "563be418-1295-4717-8422-d3c3af7e49db",
+                    "x": 1,
+                    "y": 21
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_71",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Just a box of your\nmerchandise..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "5c61a9f3-40e8-4f24-87e7-34829ffb9884"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "63da62b2-24a8-4c2b-8560-a3c3c5a1c1cc",
+                    "x": 3,
+                    "y": 21
                 }
             ],
             "triggers": [
@@ -29762,7 +29258,7 @@
                                                 "This beautiful \nvillage."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "307641bf-5ee0-4e31-b7a3-be0748aa4c67"
                                     },
@@ -29901,7 +29397,7 @@
                                         "command": "EVENT_INC_VALUE",
                                         "args": {
                                             "variable": "100",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "4a4af30a-ea8a-4d86-b57f-0a263205b036"
                                     }
@@ -32941,7 +32437,7 @@
                     "args": {
                         "text": [
                             "I decided to\nexplore Japan...",
-                            "...to better\nunderstand their \nculture..."
+                            "...To better\nunderstand their \nculture..."
                         ],
                         "avatarId": ""
                     },
@@ -33007,8 +32503,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "...and all of a\nsudden...",
-                            "...it was\ntime to return\nhome, to Portugal."
+                            "...And all of a\nsudden...",
+                            "...It was\ntime to return\nhome, to Portugal."
                         ],
                         "avatarId": ""
                     },
@@ -34008,21 +33504,21 @@
                                 "text": [
                                     "Chief: \nI heard about \nwhat happened...",
                                     "Chief:\nPeople like the \none that attacked \nyou...",
-                                    "Chief: ...have \nbeen trying to \ncause chaos...",
-                                    "Chief: ...any \nway they can.",
+                                    "Chief: ...Have \nbeen trying to \ncause chaos...",
+                                    "Chief: ...Any \nway they can.",
                                     "Chief: \nFortunately, you \nseem to be fine.\nThat's good.",
                                     "Chief: \nRest assured that\nmore attempts...",
-                                    "Chief: ...like \nthis one will no\nlonger...",
-                                    "Chief: ... pose a\nthreat to your \nlife, and... ",
-                                    "Chief: ...all the\nculprits will...",
-                                    "Chief: ...be\nbrought to \njustice!",
+                                    "Chief: ...Like \nthis one will no\nlonger...",
+                                    "Chief: ... Pose a\nthreat to your \nlife, and... ",
+                                    "Chief: ...All the\nculprits will...",
+                                    "Chief: ...Be\nbrought to \njustice!",
                                     "Chief: \nYou have my word.",
                                     "I'm grateful for\nyour kindness my \nLord, but...",
                                     "...I'm afraid \nstaying here isn't\nan option...",
-                                    "...for me\nand my crew.It's\ntoo dangerous.",
+                                    "...For me\nand my crew.It's\ntoo dangerous.",
                                     "However...",
-                                    "...there are still a\nfew places I wish\nto visit...",
-                                    "...before \nreturning to \nPortugal.",
+                                    "...There are still\na few places I\nwish to visit...",
+                                    "...Before \nreturning to \nPortugal.",
                                     "Chief: I see...\nVery well, that\ncan be arranged."
                                 ],
                                 "avatarId": ""
@@ -36144,76 +35640,7 @@
                     "y": 19
                 },
                 {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_86",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "792625fe-4776-41b0-a966-e12fc8c55c35",
-                    "x": 1,
-                    "y": 21
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_87",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "4e163b8c-ab72-4b7e-bbdb-36848b9e69fb",
-                    "x": 3,
-                    "y": 21
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_88",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "b051dbb1-c8db-4a36-aabb-49bcbc61e0cd",
-                    "x": 2,
-                    "y": 3
-                },
-                {
-                    "name": "",
+                    "name": "Doca Box",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
@@ -36225,15 +35652,593 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_89",
-                    "script": [],
-                    "startScript": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "One of the crates\nyour crew brought\nfor business."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "43d74708-50b3-4bb8-9ca6-163204e7cc91"
+                        },
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
+                                "$actor[0]$": "player",
+                                "__collapse": true
+                            },
+                            "id": "6c611623-62ef-4be7-abea-2db9c0207f8d"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "48ed6628-8f26-40b1-a8dc-16227939112b"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "4aedbb89-2b70-4e5d-b216-b145a357ec7e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "e1c05072-c477-4b6b-8838-9e93d85ca90c"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "37f6de60-f456-424b-a247-f68c11416c07"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "09619d16-3b50-4ea1-9f86-8195776f354c"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Inside you find...\nNothing.",
+                                    "You should try\nanother crate."
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                            },
+                            "id": "6323a779-b5ac-45d0-b6bb-c6b6f6e4cfcd"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "L0",
+                                "value": {
+                                    "type": "true"
+                                },
+                                "__collapse": true
+                            },
+                            "id": "499b5f91-55b7-49be-aec5-1018d931a295"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "1092e947-17e4-4210-a4aa-902d03cea6c3"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF",
+                            "args": {
+                                "condition": {
+                                    "type": "variable",
+                                    "value": "L0"
+                                },
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "__collapse": true
+                                        },
+                                        "id": "0345bd14-919c-4592-af78-06cd937799b1"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "02afcdb5-3dac-48bd-8056-82865fafe292"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "565bafca-2478-46cc-b69e-588972e68623",
+                    "id": "eaeaa66b-a566-4512-beb0-4e29566f85d2",
                     "x": 1,
                     "y": 17
+                },
+                {
+                    "name": "Doca Box",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_88",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "One of the crates\nyour crew brought\nfor business."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "722d72f1-0650-4a80-bc18-66a2ca6d81d2"
+                        },
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
+                                "$actor[0]$": "player",
+                                "__collapse": true
+                            },
+                            "id": "f23d69a9-01d5-4dd0-89b9-19ddd7b539db"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "e029e194-d9c3-4237-a3b3-4b6d0e5afe5f"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "d01147db-df2a-45d9-b0da-f9a0db957acb"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "9d1c333f-b59e-414b-8edf-3f0a8c07ce72"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "13b8fad9-4b6c-44a3-b12e-4846e506613f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "fd5d132e-b2b1-4152-958a-8e376a0ce33d"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Inside you find...\nA Sword!",
+                                    "This might be\nuseful for trade."
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                            },
+                            "id": "2a1f82c2-a2cc-498e-9381-a5b9004952a6"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "2",
+                                "value": {
+                                    "type": "true"
+                                },
+                                "__collapse": false
+                            },
+                            "id": "7c3939b1-42a6-46ea-8b92-d2529acd1e3a"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "L0",
+                                "value": {
+                                    "type": "true"
+                                },
+                                "__collapse": true
+                            },
+                            "id": "bc16ded4-da76-48ef-8679-432cc9883b6e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "71b39c23-4bd3-402b-8e59-21d5fa0869d6"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF",
+                            "args": {
+                                "condition": {
+                                    "type": "variable",
+                                    "value": "L0"
+                                },
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "__collapse": true
+                                        },
+                                        "id": "2f2f16fa-a38f-445a-a831-9ccbe75d5af2"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "a38a96b6-5068-4808-b15a-ebc4cd399f47"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "452f710a-0066-4a83-b759-087ace634d45",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "name": "Doca Box",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_86",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "One of the crates\nyour crew brought\nfor business."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "8a5426a2-0e41-4b51-b931-087284c985d7"
+                        },
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
+                                "$actor[0]$": "player",
+                                "__collapse": true
+                            },
+                            "id": "4246efbb-8113-4f24-a3c8-f72e9ede9884"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "1fa89573-92dd-4f90-840c-5697e41434ed"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "f2e1b82d-c0d5-4839-ad87-45d92547d2ee"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "f820bb7c-0535-4b57-8c71-b21da89d0dc1"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "5d6f55b7-38e9-40e4-afb5-30ea2c3648cb"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "edffa1f8-c874-450f-b88a-ae8046bf2ac0"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Inside you find...\nAn Arcabuz!",
+                                    "This might be\nuseful for trade."
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                            },
+                            "id": "d7fd909d-4e25-4ec8-ac95-d5de1442b403"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "3",
+                                "value": {
+                                    "type": "true"
+                                },
+                                "__collapse": false
+                            },
+                            "id": "322a008e-a778-4fd5-aec5-7d9f56672074"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "L0",
+                                "value": {
+                                    "type": "true"
+                                },
+                                "__collapse": true
+                            },
+                            "id": "e1991ca9-027d-48ee-baad-7e0cedfa6020"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "03a60743-ddff-4d58-9365-4a8dc233de86"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF",
+                            "args": {
+                                "condition": {
+                                    "type": "variable",
+                                    "value": "L0"
+                                },
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "__collapse": true
+                                        },
+                                        "id": "081b0e72-7f81-4936-8c16-9b80e894294d"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "2051af0f-0286-4a79-86a4-72f192e34c48"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4db0317c-a256-4f57-bfd2-cc8eff24decc",
+                    "x": 1,
+                    "y": 21
+                },
+                {
+                    "name": "Doca Box",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "eafac598-e0f5-4221-b12f-e091f0312f85",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_68",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "One of the crates\nyour crew brought\nfor business."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "1c52cec8-0b92-4213-8d23-fd4339e3c19d"
+                        },
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "bcef0d18-5e7a-4a2f-b038-d9813c865f4c",
+                                "$actor[0]$": "player",
+                                "__collapse": true
+                            },
+                            "id": "fec4a9f4-eacc-4010-b59a-74667421202f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "a2f7ab4f-3acf-46b7-8852-337feb31f374"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "733172de-703b-447b-a452-762145c89e8d"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SHOW",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "4e006d95-68f3-4437-966b-52b93e880b14"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "8ce433f7-162d-4d71-afd4-f3845e82808d"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "f6d6de26-c30f-42c3-959c-5fe433cbd769"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Inside you find...\nA Buddha Statue!",
+                                    "This might be\nuseful for trade."
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                            },
+                            "id": "14cb20de-bd17-40f6-b2be-6c4ed9332327"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "1",
+                                "value": {
+                                    "type": "true"
+                                },
+                                "__collapse": false
+                            },
+                            "id": "fea16717-b13c-4d8c-8f50-99ac0345def6"
+                        },
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "L0",
+                                "value": {
+                                    "type": "true"
+                                },
+                                "__collapse": true
+                            },
+                            "id": "6e4a1e5f-e72b-4a17-adb3-67866d252746"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "10b0c277-2eca-47a0-9763-510b5e605338"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF",
+                            "args": {
+                                "condition": {
+                                    "type": "variable",
+                                    "value": "L0"
+                                },
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "__collapse": true
+                                        },
+                                        "id": "c15e8c0f-1e3f-4441-b2c3-f4efce012d28"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "3a6a6891-82a4-4514-a4c3-23e6768b6e12"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "5a1ee93a-7db8-41ff-99f6-e95b9e844216",
+                    "x": 3,
+                    "y": 21
                 }
             ],
             "triggers": [
@@ -36272,7 +36277,7 @@
                                 "sceneId": "7d294616-daaf-4825-97ea-0f289db804ed",
                                 "x": {
                                     "type": "number",
-                                    "value": 0
+                                    "value": 1
                                 },
                                 "y": {
                                     "type": "number",
@@ -36344,383 +36349,6 @@
                                 "false": []
                             },
                             "id": "9f0d786b-3ef9-468b-ab90-f6fe082d5e17"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Ceramica",
-                    "id": "b1a90baf-61f9-40c3-81dd-e5315e9e8e37",
-                    "x": 14,
-                    "y": 13,
-                    "symbol": "trigger_60",
-                    "width": 8,
-                    "height": 7,
-                    "script": [
-                        {
-                            "command": "EVENT_IF",
-                            "args": {
-                                "variable": "85",
-                                "__collapseElse": true,
-                                "__disableElse": true,
-                                "condition": {
-                                    "type": "variable",
-                                    "value": "85"
-                                }
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_IF",
-                                        "args": {
-                                            "variable": "36",
-                                            "__collapseElse": false,
-                                            "__disableElse": true,
-                                            "condition": {
-                                                "type": "eq",
-                                                "valueA": {
-                                                    "type": "variable",
-                                                    "value": "36"
-                                                },
-                                                "valueB": {
-                                                    "type": "false"
-                                                }
-                                            }
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "These ceramic\npieces are\nwonderful."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "207ec6a5-df86-4277-99d8-bd72061bee31"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "760812eb-4847-4186-9681-86886e959d43"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Can you tell me\nmore about them?"
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "f41d9b94-17dc-44b0-a34d-05d6202562b7"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Martim: Of course,\nJapanese ceramics\nare known for..",
-                                                            "Martim: Their\nelegance and\ndurability.",
-                                                            "Martim: Each piece\nis handmade with\ntechniques..",
-                                                            "Martim: Passed\ndown through\ngenerations."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "eeefb34d-07f5-4071-9675-1556f65bde8d"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "The craftsmanship\ninvolved is truly\nimpressive."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "3d5e1857-6835-434a-a3bd-8904581e44a7"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_VALUE",
-                                                    "args": {
-                                                        "variable": "36",
-                                                        "__collapse": true,
-                                                        "value": {
-                                                            "type": "true"
-                                                        }
-                                                    },
-                                                    "id": "5f45a0f5-5780-4cde-aa31-9bdbbdea8a85"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "A Japanese kimono."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "45de14c5-d1a8-435a-a9e0-0f4a3b3a77ef"
-                                                }
-                                            ]
-                                        },
-                                        "id": "d526270a-4d0f-46d0-950d-2ab40ded2eb7"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "95af7524-fde9-46b1-9b50-b4d3185d8e6e"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Kimono",
-                    "id": "5cc473c7-cde0-4295-acb2-92556656126d",
-                    "x": 9,
-                    "y": 1,
-                    "symbol": "trigger_61",
-                    "width": 8,
-                    "height": 8,
-                    "script": [
-                        {
-                            "command": "EVENT_IF",
-                            "args": {
-                                "variable": "85",
-                                "__collapseElse": true,
-                                "__disableElse": true,
-                                "condition": {
-                                    "type": "variable",
-                                    "value": "85"
-                                }
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_IF",
-                                        "args": {
-                                            "variable": "34",
-                                            "__collapseElse": false,
-                                            "__disableElse": true,
-                                            "condition": {
-                                                "type": "eq",
-                                                "valueA": {
-                                                    "type": "variable",
-                                                    "value": "34"
-                                                },
-                                                "valueB": {
-                                                    "type": "false"
-                                                }
-                                            }
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "b0b3fab9-9622-4894-bfeb-67c9f2f235a9"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "These fabrics are\nmagnificent.\nWhat are they?"
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "13a73365-5b73-47b3-a610-431e258c1308"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Martim: These are\nkimonos,\nJapanese garments.",
-                                                            "Martim: Each one\nis made with great\ncare...",
-                                                            "Martim: And holds\ndeep cultural\nsignificance..",
-                                                            "Martim: Depending\non the patterns\nand colors."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "2ccb4dae-6f8a-4f78-96a0-8d4b995838c9"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "The quality of the\nwork is\nexceptional.",
-                                                            "I should take some\nas gifts."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "2f2ccd82-dab4-461b-addc-25a1572ead81"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_VALUE",
-                                                    "args": {
-                                                        "variable": "34",
-                                                        "__collapse": true,
-                                                        "value": {
-                                                            "type": "true"
-                                                        }
-                                                    },
-                                                    "id": "77ba4665-0851-418b-9041-6f42ca996f1d"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "A Japanese kimono."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "7cf1286f-c618-4662-8870-7f9c2fdb3958"
-                                                }
-                                            ]
-                                        },
-                                        "id": "8a7d2f6a-d7aa-4298-a355-9e37edac3c1f"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "7606d087-a889-439e-b81a-2b615c4d234d"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Ukiyo",
-                    "id": "3c9745ab-a353-4ef8-9d2c-5a4057c3e7fe",
-                    "x": 22,
-                    "y": 1,
-                    "symbol": "trigger_62",
-                    "width": 8,
-                    "height": 8,
-                    "script": [
-                        {
-                            "command": "EVENT_IF",
-                            "args": {
-                                "variable": "85",
-                                "__collapseElse": true,
-                                "__disableElse": true,
-                                "condition": {
-                                    "type": "variable",
-                                    "value": "85"
-                                }
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_IF",
-                                        "args": {
-                                            "variable": "35",
-                                            "__collapseElse": false,
-                                            "__collapse": false,
-                                            "__disableElse": true,
-                                            "condition": {
-                                                "type": "eq",
-                                                "valueA": {
-                                                    "type": "variable",
-                                                    "value": "35"
-                                                },
-                                                "valueB": {
-                                                    "type": "false"
-                                                }
-                                            }
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "player",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "366c782c-7f5c-4768-9d61-98e5fa8e50e9"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "What is this\nbeautiful art?"
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "32c6d1f8-261b-4a81-a576-0cbe1d554c53"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Martim: This is\nUkiyo-e, a form of\nwoodblock art.",
-                                                            "Martim: Depicts\nscenes of everyday\nlife, landscapes..",
-                                                            "Martim: And Kabuki\ntheater actors.",
-                                                            "Martim: It is\nhighly appreciated\nhere in Japan. "
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "0a656823-798c-4167-a797-c7b98bbb25ee"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Impressive!",
-                                                            "The attention to\ndetail is\nincredible."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "f68a9abd-7eed-46c0-bd54-7edc6c5ce20b"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_VALUE",
-                                                    "args": {
-                                                        "variable": "35",
-                                                        "__collapse": true,
-                                                        "value": {
-                                                            "type": "true"
-                                                        }
-                                                    },
-                                                    "id": "4a4ffe2d-9af1-46a1-8be9-28116427a4f5"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "A Japanese\nUkiyo-e."
-                                                        ],
-                                                        "avatarId": ""
-                                                    },
-                                                    "id": "1d44119c-7d93-4516-b5dc-5b57c43a7d33"
-                                                }
-                                            ]
-                                        },
-                                        "id": "3ff57c3d-b37b-4adb-ac2a-f227cd99c6bb"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "159ba284-bf08-485c-912d-620c18461900"
                         }
                     ],
                     "leaveScript": []
@@ -39926,6 +39554,18 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Logo.png",
+            "tileColors": [],
+            "autoColor": false
+        },
+        {
+            "id": "5b2da9ec-ed45-4a96-a8e4-667f9875e85f",
+            "name": "Main_Menu",
+            "symbol": "bg_main_menu",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Main_Menu.png",
             "tileColors": [],
             "autoColor": false
         },
@@ -56123,9 +55763,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "1096e891-df80-4521-b811-34e10771d731",
-        "startX": 2,
-        "startY": 11,
+        "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
+        "startX": 10,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -56133,9 +55773,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2621,
-        "worldScrollY": 3634,
-        "zoom": 228.37553119286895,
+        "worldScrollX": 4599,
+        "worldScrollY": 4344,
+        "zoom": 227.85446503966477,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -56220,7 +55860,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": false,
+        "debuggerEnabled": true,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
