@@ -18845,7 +18845,7 @@
                                                     "command": "EVENT_COMMENT",
                                                     "args": {
                                                         "text": "Switching This to true is what triggers the other check",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "ec65162e-68ac-4f97-a343-35775e0b8a96"
                                                 },
@@ -19281,7 +19281,7 @@
                             "command": "EVENT_COMMENT",
                             "args": {
                                 "text": "Switches Holding bool value OnInteract",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "d0b7586a-dd85-47ff-ae3d-3f940712707f"
                         },
@@ -19344,7 +19344,7 @@
                                                     "command": "EVENT_COMMENT",
                                                     "args": {
                                                         "text": "Switching This to true is what triggers the other check",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "2e4d966e-742f-443f-a2d2-768e0aaac46c"
                                                 },
@@ -19378,7 +19378,7 @@
                                     "type": "number",
                                     "value": 2
                                 },
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "bb363dac-98ea-4d03-b98c-d7a89e996452"
                         },
@@ -19390,7 +19390,7 @@
                                     "type": "number",
                                     "value": 9
                                 },
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "1a8e0413-9344-4d66-b007-26601f40153c"
                         },
@@ -20154,7 +20154,7 @@
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "a85b2c4f-5176-42bc-a587-0e6535946c05",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "b0d6f4db-8a38-4d93-8e2f-18c2c6a1ba6b"
                 },
@@ -20162,7 +20162,7 @@
                     "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                     "args": {
                         "actorId": "ca21ffac-6b3b-4833-bdcf-8fc829aa2171",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "15d7eb0d-3190-48bf-98f5-4bd2ecf17cb5"
                 },
@@ -20170,7 +20170,7 @@
                     "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                     "args": {
                         "actorId": "10ce7284-775c-4791-8786-adf2262dd593",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "6b49f858-d1c4-4854-a77e-2495d663ebb9"
                 },
@@ -20178,7 +20178,7 @@
                     "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                     "args": {
                         "actorId": "9842b2cf-93bc-4089-aac4-805898d7b113",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "a8671dc1-0eea-49f3-9941-66175cb37970"
                 },
@@ -20186,7 +20186,7 @@
                     "command": "EVENT_RESET_VARIABLES",
                     "args": {
                         "__comment": true,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "67a3ef0e-1d17-4cd1-9803-fb6b5557ccb4"
                 },
@@ -20198,7 +20198,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -20251,7 +20251,7 @@
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "7463eb26-b6a1-42da-adcb-5113c21dd152"
                 },
@@ -29278,7 +29278,7 @@
                                                 "value": "3"
                                             },
                                             "__collapseElse": false,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -29291,7 +29291,7 @@
                                                             "Chief: Shall I\nhave a look\nat them?"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "819ffb7b-0328-4193-823d-c9c9662ecac2"
                                                 },
@@ -29299,7 +29299,7 @@
                                                     "command": "EVENT_INC_VALUE",
                                                     "args": {
                                                         "variable": "100",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "0c2c490f-ab75-4d52-a087-f00de732d42d"
                                                 }
@@ -29325,7 +29325,7 @@
                                                                         "Chief: Shall I\nhave a look\nat them?"
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "fa5fcdb7-2334-479e-a121-9e4450b72fe8"
                                                             },
@@ -29333,7 +29333,7 @@
                                                                 "command": "EVENT_INC_VALUE",
                                                                 "args": {
                                                                     "variable": "100",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "6e3da199-e2b3-42d9-b526-a966c2790a60"
                                                             }
@@ -29359,7 +29359,7 @@
                                                                                     "Chief: Shall I\nhave a look\nat them?"
                                                                                 ],
                                                                                 "avatarId": "",
-                                                                                "__collapse": true
+                                                                                "__collapse": false
                                                                             },
                                                                             "id": "c53270d5-cd23-45f1-bc83-b35eaf9c29a5"
                                                                         },
@@ -29367,7 +29367,7 @@
                                                                             "command": "EVENT_INC_VALUE",
                                                                             "args": {
                                                                                 "variable": "100",
-                                                                                "__collapse": true
+                                                                                "__collapse": false
                                                                             },
                                                                             "id": "f4e59eb1-09ab-4b2a-b767-7f0b61980790"
                                                                         }
@@ -29385,7 +29385,7 @@
                                                                                     "Chief: Maybe the\nboxes you brought\non your boat."
                                                                                 ],
                                                                                 "avatarId": "",
-                                                                                "__collapse": true
+                                                                                "__collapse": false
                                                                             },
                                                                             "id": "d5c3cbbc-84c7-45e2-b065-0befe34750a2"
                                                                         }
@@ -29460,14 +29460,16 @@
                                                                         "type": "variable",
                                                                         "value": "1"
                                                                     },
-                                                                    "__collapseElse": false
+                                                                    "__collapseElse": false,
+                                                                    "__collapse": false
                                                                 },
                                                                 "children": {
                                                                     "true": [
                                                                         {
                                                                             "command": "EVENT_INC_VALUE",
                                                                             "args": {
-                                                                                "variable": "100"
+                                                                                "variable": "100",
+                                                                                "__collapse": false
                                                                             },
                                                                             "id": "2771d4d5-6a9c-45b7-85f8-7a14df79148d"
                                                                         }
@@ -29562,7 +29564,7 @@
                                     {
                                         "command": "EVENT_MUSIC_STOP",
                                         "args": {
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "6c8cf77b-f304-40bc-9e24-6adc1d213425"
                                     },
@@ -29594,7 +29596,8 @@
                         {
                             "command": "EVENT_GROUP",
                             "args": {
-                                "__label": "Init Variables"
+                                "__label": "Init Variables",
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -35726,7 +35729,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Inside you find...\nNothing.",
+                                    "Inside you find...\nOld rugs...\n",
+                                    "This wont be \nusefull for\ntrade...",
                                     "You should try\nanother crate."
                                 ],
                                 "avatarId": "",
@@ -60727,9 +60731,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 5849,
-        "worldScrollY": 3938,
-        "zoom": 275,
+        "worldScrollX": 848,
+        "worldScrollY": 2482,
+        "zoom": 125,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -60756,9 +60760,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            30,
-            30,
-            730
+            205,
+            205,
+            539
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
