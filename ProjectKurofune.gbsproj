@@ -32448,7 +32448,10 @@
                     "args": {
                         "text": [
                             "I decided to\nexplore Japan...",
-                            "...To better\nunderstand their \nculture..."
+                            "...To better\nunderstand their \nculture...",
+                            "Saw these gate\nlike structures\na lot...",
+                            "Martim said they\nwere called \n\"Torii\"",
+                            "They were mostly\nclose to Shrines"
                         ],
                         "avatarId": ""
                     },
@@ -32514,8 +32517,18 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "...And all of a\nsudden...",
-                            "...It was\ntime to return\nhome, to Portugal."
+                            "Saw some of their \nceremonies...",
+                            "Like the \n\"Toro nagashi\"",
+                            "The locals would\nwatch...",
+                            "as these\nwater lamps\ncrossed the river",
+                            "The locals seem\nto enjoy all these\nsacred ",
+                            "customs and\ntraditions...",
+                            "I guess it really\nisnt that \ndifferent...",
+                            "Still...",
+                            "I do miss home...",
+                            "Maybe its time...",
+                            "to return home...",
+                            "..."
                         ],
                         "avatarId": ""
                     },
@@ -60721,9 +60734,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "2d7cdea3-9388-48f4-8589-3d1e6a7b57d0",
-        "startX": 6,
-        "startY": 9,
+        "startSceneId": "bf2b59d5-6410-4c45-8bd3-b059f61737ba",
+        "startX": 1,
+        "startY": 10,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "left",
@@ -60731,9 +60744,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2956,
-        "worldScrollY": 3371,
-        "zoom": 225,
+        "worldScrollX": 773,
+        "worldScrollY": 1397,
+        "zoom": 75,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
