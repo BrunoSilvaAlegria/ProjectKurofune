@@ -20185,7 +20185,8 @@
                 {
                     "command": "EVENT_RESET_VARIABLES",
                     "args": {
-                        "__comment": true
+                        "__comment": true,
+                        "__collapse": true
                     },
                     "id": "67a3ef0e-1d17-4cd1-9803-fb6b5557ccb4"
                 },
@@ -20197,7 +20198,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -20226,7 +20227,8 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "f4df908b-1aa7-4487-87d4-2794c55d927d"
+            "playerSpriteSheetId": "f4df908b-1aa7-4487-87d4-2794c55d927d",
+            "autoFadeEventCollapse": false
         },
         {
             "name": "CheckPoint Trade",
@@ -22895,14 +22897,20 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Morita: Are you \nallright?",
+                                    "Morita: \nAre you alright?",
                                     "Yes, thanks \nto you.",
-                                    "But why was \nRamirez killed?",
-                                    "Morita: This ninja\nis part of a...",
-                                    "Morita:...faction \nthat wants to \ncause trouble...",
-                                    "Morita:...between \nour people.",
-                                    "Morita: We need to\ninform...",
-                                    "Morita: ...the\nvillage chief \nimmediately!"
+                                    "Who are you?",
+                                    "Morita: \nI'm Morita, a \nsamurai that...",
+                                    "Morita: \n...Protects this \nvillage and...",
+                                    "Morita: ...Anyone \nin it.",
+                                    "I see. But why was\nRamirez killed?",
+                                    "Morita:\nTo disrupt the \ntrust...",
+                                    "Morita: ...Between\nus, of course.",
+                                    "Morita: \nYou see, this \nninja is part...",
+                                    "Morita: ...Of a\nfaction that wants\nto cause...",
+                                    "Morita:...Trouble\nbetween our \npeople.",
+                                    "Morita: \nWe need to \ninform...",
+                                    "Morita: ...The\nvillage chief \nimmediately!"
                                 ],
                                 "avatarId": ""
                             },
@@ -29231,7 +29239,7 @@
                                                 "I'm seeking \nbusiness \nopportunities."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "1648aea9-81c2-43b8-a34f-f68ff2e7cb8e"
                                     },
@@ -29239,12 +29247,12 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Chief: Nice to \nmeet you Vasco!",
-                                                "Chief: I'm Nanushi",
-                                                "Chief: The chief\nof this village."
+                                                "Chief: \nNice to meet you \nVasco!",
+                                                "Chief: \nI'm Nanushi,the...",
+                                                "Chief: ...Chief\nof this village."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "ae7a40d6-4c51-45b5-a221-1f3a47f9823b"
                                     },
@@ -29253,9 +29261,9 @@
                                         "args": {
                                             "text": [
                                                 "We're on a \ncommercial \njourney...",
-                                                "Seeking to \nestablish \nconnections...",
-                                                "And exchange \ngoods with the\ninhabitants of..",
-                                                "This beautiful \nvillage."
+                                                "...Seeking to \nestablish \nconnections...",
+                                                "...And exchange \ngoods with the\ninhabitants of..",
+                                                "...This beautiful \nvillage."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -29469,8 +29477,8 @@
                                                                             "command": "EVENT_TEXT",
                                                                             "args": {
                                                                                 "text": [
-                                                                                    "Chief: Bring me\nsomething worth\nmy time.",
-                                                                                    "Chief: And then \nwe'll talk!"
+                                                                                    "Chief:\nBring me something\nworth my time....",
+                                                                                    "Chief: ...And then\nwe'll talk!"
                                                                                 ],
                                                                                 "avatarId": "",
                                                                                 "__collapse": false
@@ -29637,7 +29645,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "283374a0-4ada-4fba-949a-185ed3019761",
-                    "x": 13,
+                    "x": 14,
                     "y": 9
                 },
                 {
@@ -39946,7 +39954,19 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_92",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Morita:\nThe chief wants to\ntalk with you.",
+                                    "Morita:\nDon't keep him \nwaiting."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "28622966-c00d-48e1-ae8e-c972c85b1c07"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -60707,9 +60727,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2559,
-        "worldScrollY": 3323,
-        "zoom": 225,
+        "worldScrollX": 5849,
+        "worldScrollY": 3938,
+        "zoom": 275,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
