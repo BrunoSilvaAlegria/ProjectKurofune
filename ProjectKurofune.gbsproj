@@ -20637,7 +20637,7 @@
                                                                     "sceneId": "2d7cdea3-9388-48f4-8589-3d1e6a7b57d0",
                                                                     "x": {
                                                                         "type": "number",
-                                                                        "value": 1
+                                                                        "value": 3
                                                                     },
                                                                     "y": {
                                                                         "type": "number",
@@ -30629,8 +30629,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "86d7a456-1877-4667-88fc-6c40f46fecca",
-                    "x": 17,
-                    "y": 2
+                    "x": 9,
+                    "y": 7
                 },
                 {
                     "name": "Servant",
@@ -30791,7 +30791,7 @@
                 {
                     "name": "",
                     "id": "4ba29356-c6b1-461f-a3ea-e12b50138416",
-                    "x": 0,
+                    "x": 1,
                     "y": 8,
                     "symbol": "trigger_43",
                     "width": 1,
@@ -60721,9 +60721,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "1096e891-df80-4521-b811-34e10771d731",
-        "startX": 11,
-        "startY": 11,
+        "startSceneId": "2d7cdea3-9388-48f4-8589-3d1e6a7b57d0",
+        "startX": 6,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "left",
@@ -60731,9 +60731,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 848,
-        "worldScrollY": 2482,
-        "zoom": 125,
+        "worldScrollX": 2956,
+        "worldScrollY": 3371,
+        "zoom": 225,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -60818,7 +60818,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": false,
+        "debuggerEnabled": true,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
