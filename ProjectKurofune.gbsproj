@@ -555,7 +555,7 @@
                         ],
                         "override": false,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -20271,18 +20271,19 @@
                 {
                     "command": "EVENT_ACTOR_ACTIVATE",
                     "args": {
-                        "actorId": "player"
+                        "actorId": "player",
+                        "__comment": false
                     },
                     "id": "96681091-ac7b-413f-8d70-1ff4eaffd972"
                 },
                 {
-                    "command": "EVENT_IF_INPUT",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
                             "a"
                         ],
-                        "__collapseElse": true,
-                        "__collapse": false
+                        "override": true,
+                        "__scriptTabs": "press"
                     },
                     "children": {
                         "true": [
@@ -20298,7 +20299,7 @@
                                     "effect": 0,
                                     "__collapse": true
                                 },
-                                "id": "8574ba3c-5b01-44c5-b5c2-be2978d5b35c"
+                                "id": "b9649565-06a9-4925-8de9-f9b7a8b6a25d"
                             },
                             {
                                 "command": "EVENT_CAMERA_SHAKE",
@@ -20332,10 +20333,9 @@
                                 },
                                 "id": "46f9118e-25a0-4927-a009-7b29b124247b"
                             }
-                        ],
-                        "false": []
+                        ]
                     },
-                    "id": "3d48cfb9-29b3-45ff-9f02-1eaf91964e72"
+                    "id": "724e71e5-f2cc-4e21-bb75-581614d965a9"
                 }
             ],
             "playerHit1Script": [],
@@ -60770,9 +60770,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 5934,
-        "worldScrollY": 4048,
-        "zoom": 275,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 25,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -60857,7 +60857,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": true,
+        "debuggerEnabled": false,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
