@@ -32486,10 +32486,10 @@
                     "args": {
                         "text": [
                             "I decided to\nexplore Japan...",
-                            "...To better\nunderstand their \nculture...",
+                            "...To better\nunderstand their \nculture..",
                             "Saw these gate\nlike structures\na lot...",
-                            "Martim said they\nwere called \n\"Torii\"",
-                            "They were mostly\nclose to Shrines"
+                            "Martim said \nthey were called \n\"Torii\"...",
+                            "They were mostly\nclose to Shrines."
                         ],
                         "avatarId": ""
                     },
@@ -32556,16 +32556,16 @@
                     "args": {
                         "text": [
                             "Saw some of their \nceremonies...",
-                            "Like the \n\"Toro nagashi\"",
+                            "Like the \n\"Toro nagashi\".",
                             "The locals would\nwatch...",
-                            "as these\nwater lamps\ncrossed the river",
-                            "The locals seem\nto enjoy all these\nsacred ",
-                            "customs and\ntraditions...",
-                            "I guess it really\nisnt that \ndifferent...",
+                            "as these\nwater lamps\ncrossed the river.",
+                            "They seem to enjoy\nall these \nsacred...",
+                            "...Customs and\ntraditions...",
+                            "I guess it really\nisn't that \ndifferent...",
                             "Still...",
                             "I do miss home...",
-                            "Maybe its time...",
-                            "to return home...",
+                            "Maybe it's time...",
+                            "to return to\nPortugal...",
                             "..."
                         ],
                         "avatarId": ""
@@ -32842,7 +32842,7 @@
         },
         {
             "name": "CheckPoint Beco",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "68c3c8e6-d711-46fd-b5ed-92ac9a46e823",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -44381,6 +44381,16 @@
             "autoColor": false
         },
         {
+            "id": "68c3c8e6-d711-46fd-b5ed-92ac9a46e823",
+            "name": "BecoDeath",
+            "symbol": "bg_becodeath",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "BecoDeath.png"
+        },
+        {
             "id": "2592d15b-624b-44b2-bbe0-1607fd7578ad",
             "name": "BoatDeath",
             "symbol": "bg_boatdeath",
@@ -44388,7 +44398,9 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "BoatDeath.png"
+            "filename": "BoatDeath.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "752dbe86-4952-4e84-ae36-04182991d78d",
@@ -44626,7 +44638,9 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "PirateDeath.png"
+            "filename": "PirateDeath.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -60813,9 +60827,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "96ff6145-0d29-4ecb-ade6-c507abe3d51f",
-        "startX": 6,
-        "startY": 4,
+        "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
+        "startX": 9,
+        "startY": 1,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "up",
@@ -60823,9 +60837,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2222,
-        "worldScrollY": 832,
-        "zoom": 125,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 75,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
