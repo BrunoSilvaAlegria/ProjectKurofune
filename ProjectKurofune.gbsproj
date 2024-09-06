@@ -3708,7 +3708,7 @@
                         "text": [
                             "Peixe: Thanks to\nyou...",
                             "Peixe: We managed\nto get rid of the\npirates...",
-                            "Peixe: But the\ncaptain is\ninjured.",
+                            "Peixe: But the\nPilot is\ninjured.",
                             "Peixe: Someone\nneeds to take over\nthe helm."
                         ],
                         "avatarId": "",
@@ -4768,7 +4768,7 @@
                                 },
                                 "y": {
                                     "type": "number",
-                                    "value": 1
+                                    "value": 2
                                 },
                                 "direction": "down",
                                 "fadeSpeed": 1
@@ -6006,7 +6006,7 @@
                             "type": "number",
                             "value": 3
                         },
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "37fb0d7a-461c-419d-a6a1-11866c6d47d5"
                 }
@@ -9273,7 +9273,7 @@
                                             },
                                             "y": {
                                                 "type": "number",
-                                                "value": 0
+                                                "value": 6
                                             },
                                             "direction": "right",
                                             "fadeSpeed": 3,
@@ -11450,6 +11450,17 @@
                         ]
                     },
                     "id": "28e38f17-86d2-44b9-920d-03c0eed53cd3"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "51",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "5530e0e6-af1e-42ae-a816-31df61e2dee6"
                 }
             ],
             "playerHit1Script": [],
@@ -32634,6 +32645,17 @@
                     "id": "75b15432-9128-4484-9ff8-fbc4acf97ef6"
                 },
                 {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "51",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "379fba38-dfb0-4504-8f0a-c65fc334ed82"
+                },
+                {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "139c0505-be29-4b7a-a385-e9609cebd3f5",
@@ -32833,6 +32855,17 @@
                         ]
                     },
                     "id": "30ed1b1e-b241-4f04-b4e9-bacd6cee960d"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "51",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "2486a2ae-7a05-4e6e-9d7b-8da22f1b2bb0"
                 }
             ],
             "playerHit1Script": [],
@@ -40035,8 +40068,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Morita:\nThe chief wants to\ntalk with you.",
-                                    "Morita:\nDon't keep him \nwaiting."
+                                    "Morita:\nGood luck \nout there!"
                                 ],
                                 "avatarId": ""
                             },
@@ -42410,7 +42442,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "How could this happen..."
+                                    "How could this \nhappen..."
                                 ],
                                 "avatarId": ""
                             },
@@ -42444,7 +42476,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "I feel betrayed by God..."
+                                    "I feel betrayed\n by God..."
                                 ],
                                 "avatarId": ""
                             },
@@ -42478,7 +42510,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "May he rest in peace..."
+                                    "May he rest in \npeace..."
                                 ],
                                 "avatarId": ""
                             },
@@ -44640,7 +44672,9 @@
             "height": 18,
             "imageWidth": 256,
             "imageHeight": 144,
-            "filename": "PirateBoat3.png"
+            "filename": "PirateBoat3.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "e137a6d8-e733-418c-975d-2086931669c6",
@@ -44710,7 +44744,9 @@
             "height": 18,
             "imageWidth": 256,
             "imageHeight": 144,
-            "filename": "PortugueseBoat2.png"
+            "filename": "PortugueseBoat2.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "f2050511-3074-4a1b-8fca-90363605449a",
@@ -60849,19 +60885,19 @@
         }
     ],
     "settings": {
-        "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
-        "startX": 9,
-        "startY": 15,
+        "startSceneId": "e2171d09-5170-44d3-9ffb-50fa5843d046",
+        "startX": 16,
+        "startY": 10,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
-        "startDirection": "up",
+        "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 345,
-        "zoom": 175,
+        "worldScrollX": 1489,
+        "worldScrollY": 3252,
+        "zoom": 125,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
