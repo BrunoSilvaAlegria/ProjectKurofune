@@ -3706,10 +3706,12 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Peixe: Thanks to\nyou...",
-                            "Peixe: We managed\nto get rid of the\npirates...",
-                            "Peixe: But the\nPilot is\ninjured.",
-                            "Peixe: Someone\nneeds to take over\nthe helm."
+                            "Peixe: \nThanks to you...",
+                            "Peixe: \nWe managed to get\nrid of...",
+                            "Peixe: ...the\npirates, but...",
+                            "Peixe: ...The\nPilot, he's in bad\nshape...",
+                            "Peixe: \nSomeone needs to \ntake over...",
+                            "Peixe: ...The helm\nif we want to\ncontinue."
                         ],
                         "avatarId": "",
                         "__collapse": false
@@ -3729,7 +3731,12 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "I can do that,\nI've done it\nbefore."
+                            "I can do that,\nI've done it\nbefore.",
+                            "Peixe: \nVery well. Oh, and\none more thing...",
+                            "What is it, Peixe?",
+                            "Don't kill us all,\nwould you?",
+                            "I'll try my best, \nno promises.",
+                            "Peixe:\nJeez...Good luck."
                         ],
                         "avatarId": "",
                         "__collapse": false
@@ -16740,7 +16747,7 @@
                                         "args": {
                                             "text": [
                                                 "Local:\nWhite devils.",
-                                                "Local: Coming here\nto screw my\nbusiness."
+                                                "Local: \nComing here to \nscrew my business."
                                             ],
                                             "avatarId": ""
                                         },
@@ -16760,8 +16767,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Local: I've heard\nthat before.",
-                                                "Local: Let's see\nif you're\ndifferent."
+                                                "Local: \nI've heard that\nbefore.",
+                                                "Local: \nLet's see if\nyou're different."
                                             ],
                                             "avatarId": ""
                                         },
@@ -17074,7 +17081,7 @@
                                                 "Local: Hello!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "c4c0b251-1e57-4ec0-a766-69d67d9255f6"
                                     }
@@ -17371,7 +17378,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Local: A fine day\nto be japanese and\nchristian."
+                                                "Local: \nA fine day to be\njapanese and\nchristian."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -32499,8 +32506,8 @@
                             "I decided to\nexplore Japan...",
                             "...To better\nunderstand their \nculture..",
                             "Saw these gate\nlike structures\na lot...",
-                            "Martim said \nthey were called \n\"Torii\"...",
-                            "They were mostly\nclose to Shrines."
+                            "Martim said \nthey are called \n\"Torii\"...",
+                            "They are mostly\nclose to Shrines."
                         ],
                         "avatarId": ""
                     },
@@ -32569,7 +32576,7 @@
                             "Saw some of their \nceremonies...",
                             "Like the \n\"Toro nagashi\".",
                             "The locals would\nwatch...",
-                            "as these\nwater lamps\ncrossed the river.",
+                            "...As these\nwater lamps\ncrossed the river.",
                             "They seem to enjoy\nall these \nsacred...",
                             "...Customs and\ntraditions...",
                             "I guess it really\nisn't that \ndifferent...",
@@ -33618,7 +33625,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Chief: \nI heard about \nwhat happened...",
+                                    "Chief: \nMorita told me\nwhat happened...",
                                     "Chief:\nPeople like the \none that attacked \nyou...",
                                     "Chief: ...Have \nbeen trying to \ncause chaos...",
                                     "Chief: ...Any \nway they can.",
@@ -33681,7 +33688,18 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_72",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Morita:\nDon't keep the\nchief waiting..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "7fa70520-999e-45b4-8161-6c1b8e450276"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -40016,7 +40034,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Chief: \nGet home safe!"
+                                    "Chief: \nYour desires were\nfulfilled.",
+                                    "Chief:\nGood luck out \nthere!"
                                 ],
                                 "avatarId": ""
                             },
@@ -40068,7 +40087,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Morita:\nGood luck \nout there!"
+                                    "Morita:\nBe careful now!"
                                 ],
                                 "avatarId": ""
                             },
@@ -41556,19 +41575,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Hi there."
-                                            ],
-                                            "avatarId": "",
-                                            "__collapse": false
-                                        },
-                                        "id": "2d600a45-fe88-40a4-9699-7ca834b8a607"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Local:\nWhite devils.",
-                                                "Local: Coming here\nto screw my\nbusiness."
+                                                "Local: \nI have nothing to\nsay to you.",
+                                                "Local: \nGo away now! Back\nto your land!"
                                             ],
                                             "avatarId": ""
                                         },
@@ -41578,22 +41586,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "We mean no harm."
+                                                "Why are you so\nrude..."
                                             ],
                                             "avatarId": ""
                                         },
                                         "id": "664b893a-32a6-4ad4-9438-f8385445b666"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Local: I've heard\nthat before.",
-                                                "Local: Let's see\nif you're\ndifferent."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "9d9bc156-8211-40f9-824a-ebfd4e714b0d"
                                     }
                                 ],
                                 "false": [
@@ -41888,21 +41885,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Hi there!"
+                                                "Local:\nGood luck out \nthere.",
+                                                "Thanks! Good luck\nwith your sales."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
-                                        },
-                                        "id": "2ea384fc-3ce3-4d7e-b454-58c902fa8570"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Local: Hello!"
-                                            ],
-                                            "avatarId": "",
-                                            "__collapse": true
                                         },
                                         "id": "81f90760-61f0-41b0-8543-8ce6fa8705df"
                                     }
@@ -42199,7 +42186,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Local: A fine day\nto be japanese and\nchristian."
+                                                "Local: \nHave a nice trip\nback home!",
+                                                "Thank you!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -42476,7 +42464,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "I feel betrayed\n by God..."
+                                    "I feel betrayed\nby God..."
                                 ],
                                 "avatarId": ""
                             },
@@ -43167,12 +43155,12 @@
                                 "text": [
                                     "Thank you Martim.",
                                     "For everything...",
-                                    "Martim: Like i \nsaid...",
-                                    "Martim: It was my\nduty as a",
-                                    "Martim: man of God",
-                                    "Martim: Be safe\nout there",
-                                    "Martim: my good \nfriend!",
-                                    "I will!"
+                                    "Martim: \nLike I said...",
+                                    "Martim: \nIt was my duty as\na man of God.",
+                                    "Martim: \nBe safe out there,\nfriend.",
+                                    "Martim: \nMay God be with\nyou!",
+                                    "I will! Thank you\nfor your blessing!",
+                                    "Farewell."
                                 ],
                                 "avatarId": ""
                             },
@@ -60895,8 +60883,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1489,
-        "worldScrollY": 3252,
+        "worldScrollX": 2437,
+        "worldScrollY": 2350,
         "zoom": 125,
         "sgbEnabled": false,
         "customHead": "",
