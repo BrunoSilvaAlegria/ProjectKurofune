@@ -2405,11 +2405,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Robalo! Do you\nthink it will\ntake..",
-                                                "..Much longer to\nreach Nagasaki? "
+                                                "Robalo! Do you\nthink it will\ntake...",
+                                                "...Much longer to\nreach Nagasaki? "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "9239054b-e416-43cd-8e9f-e00866961deb"
                                     },
@@ -17695,7 +17695,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Martim: \nIt is my duty as a \nman of God...",
+                                                "Martim: \nIt is my duty as a\nman of God...",
                                                 "Martim: ...To help\nthose in need.",
                                                 "Martim: \nI will grant you \nmy assistance.",
                                                 "Martim: \nBut I must \nwarn you...",
@@ -20669,7 +20669,8 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Guard: That's good\nenough. \nYou may pass."
+                                                                        "Guard: \nThat's good\nenough.",
+                                                                        "Guard;\nYou may pass."
                                                                     ],
                                                                     "avatarId": ""
                                                                 },
@@ -30867,7 +30868,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "I can't leave yet"
+                                    "I can't leave yet."
                                 ],
                                 "avatarId": ""
                             },
@@ -61257,7 +61258,7 @@
     "settings": {
         "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
         "startX": 9,
-        "startY": 14,
+        "startY": 3,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -61265,9 +61266,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 1800,
-        "zoom": 275,
+        "worldScrollX": 2421,
+        "worldScrollY": 2820,
+        "zoom": 175,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
