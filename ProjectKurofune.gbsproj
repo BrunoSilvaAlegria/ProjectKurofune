@@ -2405,11 +2405,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Robalo! Do you\nthink it will\ntake..",
-                                                "..Much longer to\nreach Nagasaki? "
+                                                "Robalo! Do you\nthink it will\ntake...",
+                                                "...Much longer to\nreach Nagasaki? "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "9239054b-e416-43cd-8e9f-e00866961deb"
                                     },
@@ -2598,7 +2598,7 @@
                                                 "Cruz: I hope they\ndon't find us... "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "744e6574-e94f-4f63-87ab-5cb4cff66f3b"
                                     },
@@ -2610,7 +2610,7 @@
                                                 "They told you that\njust to scare you."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "a54c153d-d060-4d2f-acd6-8c53943067c4"
                                     },
@@ -2750,10 +2750,10 @@
                                         "args": {
                                             "text": [
                                                 "Hey Vela, I heard\nthat there are\ncruel pirates...",
-                                                "In these waters\nwho loot ships\ncoming from Macau."
+                                                "...In these waters\nwho loot ships\ncoming from Macau."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "40395ec6-acb5-4bf6-b851-f171cba27480"
                                     },
@@ -2773,7 +2773,7 @@
                                                 "Vela: Shut up!\nI don't want to\nthink about it. "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "a77bcefd-09a7-433c-8786-9e5e8cc4c5b6"
                                     },
@@ -2785,7 +2785,7 @@
                                                 "Nothing will\nhappen to us."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "d61eefd5-609f-403e-8af1-93b9296f9945"
                                     },
@@ -2948,7 +2948,7 @@
                                                 "Figo, what are you\nthinking about\nthis time?"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "3dd5d661-b1bf-4ffd-abfe-2043b8be3759"
                                     },
@@ -2969,7 +2969,7 @@
                                                 "Figo: Now, if\nyou'll excuse me.."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "87949e78-31df-4f01-9445-944d25adac57"
                                     },
@@ -3740,9 +3740,10 @@
                     "args": {
                         "text": [
                             "I can do that,\nI've done it\nbefore.",
-                            "Peixe: \nVery well. Oh, and\none more thing...",
+                            "Peixe: \nVery well.",
+                            "Peixe:\nOh, and one more\nthing...",
                             "What is it, Peixe?",
-                            "Don't kill us all,\nwould you?",
+                            "Peixe:\nDon't kill us all,\nwould you?",
                             "I'll try my best, \nno promises.",
                             "Peixe:\nJeez...Good luck."
                         ],
@@ -17668,7 +17669,7 @@
                                         "args": {
                                             "text": [
                                                 "Martim: \nYes. By the grace\nof God.",
-                                                "Martim: \nAs a Jesuit,I have \nbeen learning it.",
+                                                "Martim: \nAs a Jesuit,I have\nbeen learning it.",
                                                 "Martim: I have the\nduty to spread \nGod's reach and...",
                                                 "Martim: ...Give \nthe people true\nbelief."
                                             ],
@@ -19059,8 +19060,9 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Chief: How dare \nyou bring such \na disrespectful ",
-                                                                        "Chief: item to our\nvillage? Execute\nhim!",
+                                                                        "Chief: \nHow dare \nyou bring such...",
+                                                                        "Chief: ...A \ndisrespectful item\nto our village?!",
+                                                                        "Chief:  \nGuards!Execute \nhim!Now!",
                                                                         "...You Died..."
                                                                     ],
                                                                     "avatarId": ""
@@ -20064,8 +20066,8 @@
                 {
                     "name": "buddatrig",
                     "id": "b42a4a70-6d4f-4b13-9685-8f6a63761555",
-                    "x": 1,
-                    "y": 5,
+                    "x": 2,
+                    "y": 6,
                     "symbol": "trigger_55",
                     "width": 4,
                     "height": 3,
@@ -35861,7 +35863,7 @@
                             "args": {
                                 "text": [
                                     "Inside you find...\nOld rugs...\n",
-                                    "This wont be \nusefull for\ntrade...",
+                                    "This won't be \nuseful for\ntrading...",
                                     "You should try\nanother crate."
                                 ],
                                 "avatarId": "",
@@ -61263,9 +61265,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 25,
+        "worldScrollX": 299,
+        "worldScrollY": 1800,
+        "zoom": 275,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [

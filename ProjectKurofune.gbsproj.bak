@@ -31,28 +31,42 @@
                     "id": "49d540c2-13cb-45cc-9e46-a5c61e4d0644"
                 },
                 {
-                    "command": "EVENT_SWITCH_SCENE",
+                    "command": "EVENT_SET_TIMER_SCRIPT",
                     "args": {
-                        "sceneId": "ece08425-cac6-4ece-a975-b4109afb9779",
-                        "x": {
-                            "type": "number",
-                            "value": 0
-                        },
-                        "y": {
-                            "type": "number",
-                            "value": 0
-                        },
-                        "direction": "",
-                        "fadeSpeed": 4,
-                        "__collapse": true
+                        "timer": 1,
+                        "duration": 2,
+                        "frames": 30,
+                        "__scriptTabs": "end"
                     },
-                    "id": "eb3f07b5-2c82-422b-9c7c-2a86c31b0b4a"
+                    "children": {
+                        "script": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "ece08425-cac6-4ece-a975-b4109afb9779",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "direction": "",
+                                    "fadeSpeed": 4,
+                                    "__collapse": false
+                                },
+                                "id": "eb3f07b5-2c82-422b-9c7c-2a86c31b0b4a"
+                            }
+                        ]
+                    },
+                    "id": "42071b2a-2c8c-4af9-9578-fa39257cd83e"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": false
         },
         {
             "name": "Splash Screen",
@@ -281,7 +295,7 @@
                                                     "type": "number",
                                                     "value": 0
                                                 },
-                                                "direction": "down",
+                                                "direction": "right",
                                                 "fadeSpeed": 4
                                             },
                                             "id": "fd5c75ab-b21a-4eac-ba08-41b3a9edc2cf"
@@ -336,7 +350,7 @@
                                     "type": "number",
                                     "value": 0
                                 },
-                                "direction": "down",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             },
                             "id": "a48d8c6f-c2db-4955-b2ad-2d78d8b2cee0"
@@ -351,7 +365,7 @@
                     "args": {
                         "actorId": "$self$",
                         "__collapse": false,
-                        "__comment": true
+                        "__comment": false
                     },
                     "id": "7dfdffa6-950b-4b09-8e23-15cf15c47efb"
                 },
@@ -456,21 +470,7 @@
                     "id": "df7cf45f-4b56-4ad2-8438-58d82e4bbd94"
                 }
             ],
-            "playerHit1Script": [
-                {
-                    "command": "EVENT_SET_TIMER_SCRIPT",
-                    "args": {
-                        "timer": 1,
-                        "duration": 0.5,
-                        "frames": 30,
-                        "__scriptTabs": "end"
-                    },
-                    "children": {
-                        "script": []
-                    },
-                    "id": "9c3cf48f-9e62-4fe8-9d5b-e28e7857ddeb"
-                }
-            ],
+            "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
@@ -2598,7 +2598,7 @@
                                                 "Cruz: I hope they\ndon't find us... "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "744e6574-e94f-4f63-87ab-5cb4cff66f3b"
                                     },
@@ -2610,7 +2610,7 @@
                                                 "They told you that\njust to scare you."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "a54c153d-d060-4d2f-acd6-8c53943067c4"
                                     },
@@ -2750,10 +2750,10 @@
                                         "args": {
                                             "text": [
                                                 "Hey Vela, I heard\nthat there are\ncruel pirates...",
-                                                "In these waters\nwho loot ships\ncoming from Macau."
+                                                "...In these waters\nwho loot ships\ncoming from Macau."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "40395ec6-acb5-4bf6-b851-f171cba27480"
                                     },
@@ -2773,7 +2773,7 @@
                                                 "Vela: Shut up!\nI don't want to\nthink about it. "
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "a77bcefd-09a7-433c-8786-9e5e8cc4c5b6"
                                     },
@@ -2785,7 +2785,7 @@
                                                 "Nothing will\nhappen to us."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "d61eefd5-609f-403e-8af1-93b9296f9945"
                                     },
@@ -2948,7 +2948,7 @@
                                                 "Figo, what are you\nthinking about\nthis time?"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "3dd5d661-b1bf-4ffd-abfe-2043b8be3759"
                                     },
@@ -2969,7 +2969,7 @@
                                                 "Figo: Now, if\nyou'll excuse me.."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "87949e78-31df-4f01-9445-944d25adac57"
                                     },
@@ -3740,9 +3740,10 @@
                     "args": {
                         "text": [
                             "I can do that,\nI've done it\nbefore.",
-                            "Peixe: \nVery well. Oh, and\none more thing...",
+                            "Peixe: \nVery well.",
+                            "Peixe:\nOh, and one more\nthing...",
                             "What is it, Peixe?",
-                            "Don't kill us all,\nwould you?",
+                            "Peixe:\nDon't kill us all,\nwould you?",
                             "I'll try my best, \nno promises.",
                             "Peixe:\nJeez...Good luck."
                         ],
@@ -17668,7 +17669,7 @@
                                         "args": {
                                             "text": [
                                                 "Martim: \nYes. By the grace\nof God.",
-                                                "Martim: \nAs a Jesuit,I have \nbeen learning it.",
+                                                "Martim: \nAs a Jesuit,I have\nbeen learning it.",
                                                 "Martim: I have the\nduty to spread \nGod's reach and...",
                                                 "Martim: ...Give \nthe people true\nbelief."
                                             ],
@@ -19059,8 +19060,9 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Chief: How dare \nyou bring such \na disrespectful ",
-                                                                        "Chief: item to our\nvillage? Execute\nhim!",
+                                                                        "Chief: \nHow dare \nyou bring such...",
+                                                                        "Chief: ...A \ndisrespectful item\nto our village?!",
+                                                                        "Chief:  \nGuards!Execute \nhim!Now!",
                                                                         "...You Died..."
                                                                     ],
                                                                     "avatarId": ""
@@ -20064,8 +20066,8 @@
                 {
                     "name": "buddatrig",
                     "id": "b42a4a70-6d4f-4b13-9685-8f6a63761555",
-                    "x": 1,
-                    "y": 5,
+                    "x": 2,
+                    "y": 6,
                     "symbol": "trigger_55",
                     "width": 4,
                     "height": 3,
@@ -26746,7 +26748,7 @@
                                     "type": "number",
                                     "value": 0
                                 },
-                                "direction": "down",
+                                "direction": "right",
                                 "fadeSpeed": 3
                             },
                             "id": "99ae18b7-c06d-487d-b84c-7a6fc1dde749"
@@ -35861,7 +35863,7 @@
                             "args": {
                                 "text": [
                                     "Inside you find...\nOld rugs...\n",
-                                    "This wont be \nusefull for\ntrade...",
+                                    "This won't be \nuseful for\ntrading...",
                                     "You should try\nanother crate."
                                 ],
                                 "avatarId": "",
@@ -44420,7 +44422,7 @@
                                     "type": "number",
                                     "value": 0
                                 },
-                                "direction": "",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             },
                             "id": "eb7087ef-4668-40ee-bfc9-85fbca2489df"
@@ -44435,7 +44437,7 @@
                     "args": {
                         "actorId": "$self$",
                         "__collapse": false,
-                        "__comment": true
+                        "__comment": false
                     },
                     "id": "2d8b4c6c-b752-4b9d-9804-a214c3882a32"
                 },
@@ -44540,21 +44542,7 @@
                     "id": "2397b55a-8dbe-4593-9a0b-e3172ad87903"
                 }
             ],
-            "playerHit1Script": [
-                {
-                    "command": "EVENT_SET_TIMER_SCRIPT",
-                    "args": {
-                        "timer": 1,
-                        "duration": 0.5,
-                        "frames": 30,
-                        "__scriptTabs": "end"
-                    },
-                    "children": {
-                        "script": []
-                    },
-                    "id": "cedbb057-1cb3-4041-914e-b92b142af07a"
-                }
-            ],
+            "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
@@ -44596,7 +44584,7 @@
                                     "type": "number",
                                     "value": 0
                                 },
-                                "direction": "down",
+                                "direction": "right",
                                 "fadeSpeed": "2"
                             },
                             "id": "9afc4a96-8323-40a3-bd81-c3b335a7ca86"
@@ -44611,7 +44599,7 @@
                     "args": {
                         "actorId": "$self$",
                         "__collapse": false,
-                        "__comment": true
+                        "__comment": false
                     },
                     "id": "c0fa4f7b-bd13-428b-8710-99e04ffc41d7"
                 },
@@ -44716,21 +44704,7 @@
                     "id": "605e8ede-c15b-4368-8eef-d9d3bf86e1d3"
                 }
             ],
-            "playerHit1Script": [
-                {
-                    "command": "EVENT_SET_TIMER_SCRIPT",
-                    "args": {
-                        "timer": 1,
-                        "duration": 0.5,
-                        "frames": 30,
-                        "__scriptTabs": "end"
-                    },
-                    "children": {
-                        "script": []
-                    },
-                    "id": "09e9aec9-4f14-4669-8d3e-223a59e87aae"
-                }
-            ],
+            "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         }
@@ -44828,7 +44802,9 @@
             "height": 110,
             "imageWidth": 160,
             "imageHeight": 880,
-            "filename": "credits3.png"
+            "filename": "credits3.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "16527d32-f8bf-4b66-908b-ac06ce5c05ec",
@@ -44838,7 +44814,9 @@
             "height": 37,
             "imageWidth": 160,
             "imageHeight": 296,
-            "filename": "creditsp1.png"
+            "filename": "creditsp1.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "e17536ee-e3dd-4848-a0a0-0bc058453d5a",
@@ -44848,7 +44826,9 @@
             "height": 37,
             "imageWidth": 160,
             "imageHeight": 296,
-            "filename": "creditsp2.png"
+            "filename": "creditsp2.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "e6841588-0b2c-4e1f-bdb1-727dc13b4642",
@@ -44858,7 +44838,9 @@
             "height": 45,
             "imageWidth": 160,
             "imageHeight": 360,
-            "filename": "creditsp3.png"
+            "filename": "creditsp3.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "0707f977-ef4d-444c-a87b-5a3090906e0e",
@@ -61274,8 +61256,8 @@
     ],
     "settings": {
         "startSceneId": "00484ec8-049d-4141-bf28-ae830728c43e",
-        "startX": 10,
-        "startY": 13,
+        "startX": 9,
+        "startY": 14,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "right",
@@ -61284,8 +61266,8 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 0,
-        "worldScrollY": 259,
-        "zoom": 75,
+        "worldScrollY": 1800,
+        "zoom": 275,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
